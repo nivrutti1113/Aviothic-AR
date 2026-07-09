@@ -1,0 +1,20 @@
+{
+  "case_id": "9bc1e170",
+  "patient_id": "ANON-ST-001",
+  "patient_name": "Anonymized^Patient",
+  "patient_birth_date": "",
+  "patient_sex": "O",
+  "modality": "MR",
+  "study_uid": "1.2.826.0.1.3680043.8.498.22818520400824489054454039465909157909",
+  "series_uid": "1.2.826.0.1.3680043.8.498.32078874122029030984445750282221038608",
+  "width": 128,
+  "height": 128,
+  "depth": 48,
+  "dx": 1.5,
+  "dy": 1.5,
+  "dz": 2.0,
+  "window_center": 400.0,
+  "window_width": 600.0,
+  "min_intensity": 0.0,
+  "max_intensity": 850.0
+}

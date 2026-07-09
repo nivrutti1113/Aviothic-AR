@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  # Redis task broker
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    restart: always
+
+  # FastAPI web API service
+  web:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///data/metadata.db
+      - STORAGE_BACKEND=local
+      - USE_CELERY=True
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+    volumes:
+      - case_data:/app/data
+    depends_on:
+      - redis
+    restart: always
+
+  # Celery worker service
+  celery_worker:
+    build: ./backend
+    command: celery -A celery_app.celery_app worker --loglevel=info
+    environment:
+      - DATABASE_URL=sqlite:///data/metadata.db
+      - STORAGE_BACKEND=local
+      - USE_CELERY=True
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+    volumes:
+      - case_data:/app/data
+    depends_on:
+      - redis
+    restart: always
+
+  # Nginx Frontend service
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - web
+    restart: always
+
+volumes:
+  case_data:
