@@ -61,7 +61,7 @@ import '@kitware/vtk.js/Rendering/Profiles/All';
 
 const { SlicingMode } = ImageConstants;
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api";
 
 function computePercentiles(data: Int16Array) {
   const sampleSize = Math.min(data.length, 100000);
