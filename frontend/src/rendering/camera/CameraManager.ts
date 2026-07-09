@@ -118,7 +118,7 @@ export class CameraManager {
     renderer: vtkRenderer,
     dx: number,
     dy: number,
-    viewportWidth: number,
+    _viewportWidth: number,
     viewportHeight: number
   ) {
     const camera = renderer.getActiveCamera();

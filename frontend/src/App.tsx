@@ -48,9 +48,7 @@ import vtkInteractorStyleTrackballCamera from '@kitware/vtk.js/Interaction/Style
 import { useRenderingStore } from './rendering/renderingStore';
 import { VolumeViewer } from './rendering/VolumeViewer';
 import { VolumeManager } from './rendering/volume/VolumeManager';
-import { volumeCache } from './rendering/cache/VolumeCache';
 import { MeshExporter } from './rendering/volume/Exporter';
-import vtkLookupTable from '@kitware/vtk.js/Common/Core/LookupTable';
 // @ts-ignore
 import vtkImageMarchingCubes from '@kitware/vtk.js/Filters/General/ImageMarchingCubes';
 import vtkMapper from '@kitware/vtk.js/Rendering/Core/Mapper';
@@ -59,7 +57,6 @@ import vtkActor from '@kitware/vtk.js/Rendering/Core/Actor';
 // Import VTK rendering profiles (required to register rendering backends like WebGL)
 import '@kitware/vtk.js/Rendering/Profiles/All';
 
-const { SlicingMode } = ImageConstants;
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api";
 
@@ -130,12 +127,6 @@ interface Annotation {
       max: number;
     } | null;
   };
-}
-
-interface HistoryAction {
-  type: 'add' | 'delete' | 'edit';
-  annotation: Annotation;
-  prevAnnotation?: Annotation;
 }
 
 export default function App() {
@@ -240,12 +231,6 @@ export default function App() {
   // Mesh reference
   const marchingCubesRef = useRef<any>(null);
   const polyDataRef = useRef<any>(null);
-
-  // Viewport DOM refs
-  const axialContainerRef = useRef<HTMLDivElement>(null);
-  const sagittalContainerRef = useRef<HTMLDivElement>(null);
-  const coronalContainerRef = useRef<HTMLDivElement>(null);
-  const volumeContainerRef = useRef<HTMLDivElement>(null);
 
   // VTK object refs to prevent re-creation
   const vtkObjectsRef = useRef<{
@@ -1912,9 +1897,9 @@ export default function App() {
         if (!isUndoRedoAction) {
           const existing = annotations.find(a => a.id === ann.id);
           if (existing) {
-            setUndoStack(prev => [...prev, { type: 'edit', annotation: ann, prevAnnotation: existing }]);
+            setUndoStack([...undoStack, { type: 'edit', annotation: ann, prevAnnotation: existing }]);
           } else {
-            setUndoStack(prev => [...prev, { type: 'add', annotation: ann }]);
+            setUndoStack([...undoStack, { type: 'add', annotation: ann }]);
           }
           setRedoStack([]);
         }
@@ -1935,7 +1920,7 @@ export default function App() {
       });
       if (res.ok) {
         if (!isUndoRedoAction) {
-          setUndoStack(prev => [...prev, { type: 'delete', annotation: ann }]);
+          setUndoStack([...undoStack, { type: 'delete', annotation: ann }]);
           setRedoStack([]);
         }
         if (selectedAnnotationId === annId) {
@@ -1979,18 +1964,18 @@ export default function App() {
   const handleUndo = async () => {
     if (undoStack.length === 0) return;
     const action = undoStack[undoStack.length - 1];
-    setUndoStack(prev => prev.slice(0, -1));
+    setUndoStack(undoStack.slice(0, -1));
 
     if (action.type === 'add') {
       await deleteAnnotationWithHistory(action.annotation.id, true);
-      setRedoStack(prev => [...prev, action]);
+      setRedoStack([...redoStack, action]);
     } else if (action.type === 'delete') {
       await saveAnnotationWithHistory(action.annotation, true);
-      setRedoStack(prev => [...prev, action]);
+      setRedoStack([...redoStack, action]);
     } else if (action.type === 'edit') {
       if (action.prevAnnotation) {
         await saveAnnotationWithHistory(action.prevAnnotation, true);
-        setRedoStack(prev => [...prev, action]);
+        setRedoStack([...redoStack, action]);
       }
     }
   };
@@ -1998,17 +1983,17 @@ export default function App() {
   const handleRedo = async () => {
     if (redoStack.length === 0) return;
     const action = redoStack[redoStack.length - 1];
-    setRedoStack(prev => prev.slice(0, -1));
+    setRedoStack(redoStack.slice(0, -1));
 
     if (action.type === 'add') {
       await saveAnnotationWithHistory(action.annotation, true);
-      setUndoStack(prev => [...prev, action]);
+      setUndoStack([...undoStack, action]);
     } else if (action.type === 'delete') {
       await deleteAnnotationWithHistory(action.annotation.id, true);
-      setUndoStack(prev => [...prev, action]);
+      setUndoStack([...undoStack, action]);
     } else if (action.type === 'edit') {
       await saveAnnotationWithHistory(action.annotation, true);
-      setUndoStack(prev => [...prev, action]);
+      setUndoStack([...undoStack, action]);
     }
   };
 

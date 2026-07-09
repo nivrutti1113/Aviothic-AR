@@ -14,19 +14,20 @@ export class ClippingManager {
     mapper: vtkVolumeMapper,
     bounds: [number, number, number, number, number, number] | null
   ) {
+    const anyMapper = mapper as any;
     if (!bounds) {
-      mapper.setCropping(false);
-      mapper.modified();
+      anyMapper.setCropping(false);
+      anyMapper.modified();
       return;
     }
 
-    mapper.setCropping(true);
-    mapper.setCroppingPlanes(
+    anyMapper.setCropping(true);
+    anyMapper.setCroppingPlanes(
       bounds[0], bounds[1],
       bounds[2], bounds[3],
       bounds[4], bounds[5]
     );
-    mapper.modified();
+    anyMapper.modified();
   }
 
   /**
@@ -36,16 +37,17 @@ export class ClippingManager {
     mapper: vtkVolumeMapper,
     planes: ClippingPlaneConfig[]
   ) {
-    mapper.removeAllClippingPlanes();
+    const anyMapper = mapper as any;
+    anyMapper.removeAllClippingPlanes();
     
     planes.forEach(p => {
       const plane = vtkPlane.newInstance();
       plane.setOrigin(p.origin);
       plane.setNormal(p.normal);
-      mapper.addClippingPlane(plane);
+      anyMapper.addClippingPlane(plane);
     });
 
-    mapper.modified();
+    anyMapper.modified();
   }
 
   /**
@@ -57,7 +59,8 @@ export class ClippingManager {
     minVal: number,
     maxVal: number
   ) {
-    mapper.removeAllClippingPlanes();
+    const anyMapper = mapper as any;
+    anyMapper.removeAllClippingPlanes();
 
     let normal1: [number, number, number] = [1, 0, 0];
     let normal2: [number, number, number] = [-1, 0, 0];
@@ -82,17 +85,18 @@ export class ClippingManager {
     );
     plane2.setNormal(normal2);
 
-    mapper.addClippingPlane(plane1);
-    mapper.addClippingPlane(plane2);
+    anyMapper.addClippingPlane(plane1);
+    anyMapper.addClippingPlane(plane2);
     
-    mapper.modified();
+    anyMapper.modified();
   }
 
   /**
    * Reset all clipping planes on mapper.
    */
   public static removeAllClippingPlanes(mapper: vtkVolumeMapper) {
-    mapper.removeAllClippingPlanes();
-    mapper.modified();
+    const anyMapper = mapper as any;
+    anyMapper.removeAllClippingPlanes();
+    anyMapper.modified();
   }
 }
