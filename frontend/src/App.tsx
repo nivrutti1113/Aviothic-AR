@@ -662,7 +662,7 @@ export default function App() {
       labelScalarsRef.current = labelScalars;
 
       setLoadedVolume({ meta, binBuffer, initialWW, initialWL });
-
+      setLoadingVolume('');
     } catch (e) {
       console.error(e);
       alert("Error initializing 3D volume mapping.");
