@@ -186,7 +186,18 @@ def test_complete_processing_pipeline(client, test_db):
     
     study = test_db.query(Study).filter(Study.id == case_record.study_id).first()
     assert study is not None
-    assert study.study_uid == "1.2.826.0.1.3680043.8.498.8473787147862477177555989174171148911"
+    
+    # Read expected study UID dynamically from the generated zip file
+    import pydicom
+    expected_study_uid = None
+    with zipfile.ZipFile(zip_path, 'r') as archive:
+        for name in archive.namelist():
+            if name.endswith('.dcm'):
+                with archive.open(name) as f:
+                    ds = pydicom.dcmread(f, stop_before_pixels=True)
+                    expected_study_uid = ds.StudyInstanceUID
+                    break
+    assert study.study_uid == expected_study_uid
     
     # 4. Verify NIfTI file generation (.nii.gz)
     nifti_local_path = os.path.join("../data/storage", case_id, "volume.nii.gz")
