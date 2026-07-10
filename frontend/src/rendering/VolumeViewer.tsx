@@ -14,8 +14,6 @@ import vtkRenderWindowInteractor from '@kitware/vtk.js/Rendering/Core/RenderWind
 import vtkImageSlice from '@kitware/vtk.js/Rendering/Core/ImageSlice';
 import vtkImageMapper from '@kitware/vtk.js/Rendering/Core/ImageMapper';
 import ImageConstants from '@kitware/vtk.js/Rendering/Core/ImageMapper/Constants';
-import vtkLookupTable from '@kitware/vtk.js/Common/Core/LookupTable';
-import vtkDataArray from '@kitware/vtk.js/Common/Core/DataArray';
 import vtkVolume from '@kitware/vtk.js/Rendering/Core/Volume';
 import vtkVolumeMapper from '@kitware/vtk.js/Rendering/Core/VolumeMapper';
 import vtkColorTransferFunction from '@kitware/vtk.js/Rendering/Core/ColorTransferFunction';
@@ -182,24 +180,24 @@ export const VolumeViewer: React.FC<VolumeViewerProps> = ({
         const labelActor = vtkImageSlice.newInstance();
         labelActor.setMapper(labelMapper);
 
-        // Lookup Table for Segmentations (0: Transparent, 1: Red, 2: Green, 3: Blue, 4: Yellow)
-        const lut = vtkLookupTable.newInstance();
-        lut.setNumberOfColors(5);
-        lut.setRange(0, 4);
+        // Color mapping for segmentations (0: Transparent, 1: Red, 2: Green, 3: Blue, 4: Yellow)
+        const colorFun = vtkColorTransferFunction.newInstance();
+        colorFun.addRGBPoint(0, 0, 0, 0);      // Transparent
+        colorFun.addRGBPoint(1, 1, 0, 0);      // Red
+        colorFun.addRGBPoint(2, 0, 1, 0);      // Green
+        colorFun.addRGBPoint(3, 0, 0, 1);      // Blue
+        colorFun.addRGBPoint(4, 1, 1, 0);      // Yellow
 
-        const table = vtkDataArray.newInstance({
-          numberOfComponents: 4,
-          size: 20,
-          dataType: 'Uint8Array',
-        });
-        table.setTuple(0, [0, 0, 0, 0]);      // Transparent
-        table.setTuple(1, [255, 0, 0, 128]);  // Red
-        table.setTuple(2, [0, 255, 0, 128]);  // Green
-        table.setTuple(3, [0, 0, 255, 128]);  // Blue
-        table.setTuple(4, [255, 255, 0, 128]); // Yellow
-        lut.setTable(table);
+        const opacityFun = vtkPiecewiseFunction.newInstance();
+        opacityFun.addPoint(0, 0.0);
+        opacityFun.addPoint(1, 0.5);
+        opacityFun.addPoint(2, 0.5);
+        opacityFun.addPoint(3, 0.5);
+        opacityFun.addPoint(4, 0.5);
 
-        (labelActor.getProperty() as any).setLookupTable(lut);
+        const labelProperty = labelActor.getProperty();
+        (labelProperty as any).setRGBTransferFunction(0, colorFun);
+        (labelProperty as any).setScalarOpacity(0, opacityFun);
         renderer.addActor(labelActor);
 
         vtkRefs.current.labelMapper = labelMapper;
@@ -218,8 +216,8 @@ export const VolumeViewer: React.FC<VolumeViewerProps> = ({
       // Auto step sizes based on voxel dimensions
       const spacing = imageData.getSpacing();
       const minSpacing = Math.min(spacing[0], spacing[1], spacing[2]);
-      mapper.setSampleDistance(minSpacing * 0.45);
-      mapper.setAutoAdjustSampleDistances(false);
+      mapper.setSampleDistance(minSpacing * 1.2);
+      mapper.setAutoAdjustSampleDistances(true);
 
       const actor = vtkVolume.newInstance();
       actor.setMapper(mapper);
