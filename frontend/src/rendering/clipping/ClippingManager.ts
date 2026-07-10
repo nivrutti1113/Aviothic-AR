@@ -15,6 +15,33 @@ export class ClippingManager {
     bounds: [number, number, number, number, number, number] | null
   ) {
     const anyMapper = mapper as any;
+    
+    // Check if the mapper supports setCropping (vtk.js does not support this natively on vtkVolumeMapper)
+    if (typeof anyMapper.setCropping !== 'function') {
+      if (!bounds) {
+        return;
+      }
+      // Fallback: Implement box cropping using 6 clipping planes
+      const [xmin, xmax, ymin, ymax, zmin, zmax] = bounds;
+      const cropPlanes = [
+        { origin: [xmin, 0, 0], normal: [1, 0, 0] },
+        { origin: [xmax, 0, 0], normal: [-1, 0, 0] },
+        { origin: [0, ymin, 0], normal: [0, 1, 0] },
+        { origin: [0, ymax, 0], normal: [0, -1, 0] },
+        { origin: [0, 0, zmin], normal: [0, 0, 1] },
+        { origin: [0, 0, zmax], normal: [0, 0, -1] }
+      ];
+
+      cropPlanes.forEach(p => {
+        const plane = vtkPlane.newInstance();
+        plane.setOrigin(p.origin as [number, number, number]);
+        plane.setNormal(p.normal as [number, number, number]);
+        anyMapper.addClippingPlane(plane);
+      });
+      anyMapper.modified();
+      return;
+    }
+
     if (!bounds) {
       anyMapper.setCropping(false);
       anyMapper.modified();
