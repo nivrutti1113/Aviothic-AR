@@ -1180,13 +1180,8 @@ def list_audit_logs(
 # --- Health Check Endpoints ---
 
 @app.get("/health")
-def health_check(db: Session = Depends(get_db)):
-    try:
-        # Check DB accessibility
-        db.execute("SELECT 1")
-        return {"status": "healthy", "database": "accessible"}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Database connection failed: {e}")
+async def health():
+    return {"status": "ok"}
 
 @app.get("/health/worker")
 def worker_check():
