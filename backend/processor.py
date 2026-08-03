@@ -78,6 +78,32 @@ def clean_phi(ds):
         
     return ds
 
+def upload_bytes_to_orthanc(dicom_bytes: bytes, orthanc_url: str = None, auth: tuple = None) -> bool:
+    """
+    POST a single DICOM dataset (as bytes) to Orthanc's /instances REST API endpoint.
+    """
+    import requests
+    if not orthanc_url:
+        orthanc_url = os.getenv("ORTHANC_URL", "http://localhost:8042")
+    if not auth:
+        user = os.getenv("ORTHANC_USER", "orthanc")
+        passwd = os.getenv("ORTHANC_PASS", "aviothic_secret_pass")
+        auth = (user, passwd)
+    
+    url = f"{orthanc_url.rstrip('/')}/instances"
+    try:
+        res = requests.post(
+            url,
+            data=dicom_bytes,
+            headers={"Content-Type": "application/dicom"},
+            auth=auth,
+            timeout=5
+        )
+        return res.status_code in (200, 201)
+    except Exception as e:
+        print(f"Error uploading DICOM to Orthanc ({url}): {e}")
+        return False
+
 def process_dicom_zip(
     case_id: str,
     zip_path: str,
@@ -362,12 +388,49 @@ def process_dicom_zip(
             
             # Save NIfTI relative S3 key/path
             case_record.nifti_path = f"cases/{case_id}/volume.nii.gz"
-            case_record.error_message = None
             
+        report_progress(95, "Syncing DICOM instances to Orthanc DICOMweb PACS...")
+        orthanc_success = False
+        orthanc_error = None
+        orthanc_uploaded_count = 0
+
+        orthanc_url = os.getenv("ORTHANC_URL", "http://localhost:8042")
+        orthanc_user = os.getenv("ORTHANC_USER", "orthanc")
+        orthanc_pass = os.getenv("ORTHANC_PASS", "aviothic_secret_pass")
+
+        try:
+            import io
+            for _, ds in sorted_slices:
+                with io.BytesIO() as bio:
+                    ds.save_as(bio)
+                    dicom_bytes = bio.getvalue()
+                if upload_bytes_to_orthanc(dicom_bytes, orthanc_url, (orthanc_user, orthanc_pass)):
+                    orthanc_uploaded_count += 1
+
+            if orthanc_uploaded_count > 0:
+                orthanc_success = True
+            else:
+                orthanc_error = f"Failed to upload DICOM instances to Orthanc at {orthanc_url} (server unreachable or rejected upload)."
+        except Exception as e:
+            orthanc_error = f"Orthanc sync failed: {str(e)}"
+            orthanc_success = False
+
+        # Determine dual-store status
+        if orthanc_success:
+            final_status = "completed"
+            error_msg = None
+        else:
+            final_status = "partial_failure"
+            error_msg = f"Native 3D volume saved successfully, but Orthanc DICOMweb sync failed: {orthanc_error}"
+
+        if case_record:
+            case_record.status = final_status
+            case_record.error_message = error_msg
+            case_record.progress = 100
             db_session.commit()
 
-        report_progress(100, "Processing completed successfully.")
-        print(f"Case {case_id} processed successfully: {cols}x{rows}x{depth}")
+        report_progress(100, f"Processing completed with status: {final_status}")
+        print(f"Case {case_id} processed with status '{final_status}': {cols}x{rows}x{depth}")
 
     except Exception as e:
         db_session.rollback()

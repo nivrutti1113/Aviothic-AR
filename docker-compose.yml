@@ -8,6 +8,18 @@ services:
       - "6379:6379"
     restart: always
 
+  # Orthanc DICOM PACS Server (Internal network only - port 8042 not exposed to host)
+  orthanc:
+    image: jodogne/orthanc-plugins:latest
+    expose:
+      - "8042"
+    environment:
+      - DICOM_WEB_PLUGIN_ENABLED=true
+      - ORTHANC_JSON={"RegisteredUsers":{"orthanc":"aviothic_secret_pass"}}
+    volumes:
+      - orthanc_data:/var/lib/orthanc/db
+    restart: always
+
   # FastAPI web API service
   web:
     build: ./backend
@@ -19,10 +31,14 @@ services:
       - USE_CELERY=True
       - CELERY_BROKER_URL=redis://redis:6379/0
       - CELERY_RESULT_BACKEND=redis://redis:6379/0
+      - ORTHANC_URL=http://orthanc:8042
+      - ORTHANC_USER=orthanc
+      - ORTHANC_PASS=aviothic_secret_pass
     volumes:
       - case_data:/app/data
     depends_on:
       - redis
+      - orthanc
     restart: always
 
   # Celery worker service
@@ -35,10 +51,14 @@ services:
       - USE_CELERY=True
       - CELERY_BROKER_URL=redis://redis:6379/0
       - CELERY_RESULT_BACKEND=redis://redis:6379/0
+      - ORTHANC_URL=http://orthanc:8042
+      - ORTHANC_USER=orthanc
+      - ORTHANC_PASS=aviothic_secret_pass
     volumes:
       - case_data:/app/data
     depends_on:
       - redis
+      - orthanc
     restart: always
 
   # Nginx Frontend service
@@ -52,3 +72,5 @@ services:
 
 volumes:
   case_data:
+  orthanc_data:
+

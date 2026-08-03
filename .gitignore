@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases & local data storage
+*.db
+data/uploads/
+data/storage/
+data/test_*
+
+# Cloned repos & builds
+Viewers/
+viewers-repo/
+node_modules/
+dist/
+.DS_Store
+
+# Environment & local secrets
+.env
+.venv/
+env/

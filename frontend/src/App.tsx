@@ -204,6 +204,7 @@ export default function App() {
 
   const [cases, setCases] = useState<PatientCase[]>([]);
   const [loadingCases, setLoadingCases] = useState(false);
+  const [viewerMode, setViewerMode] = useState<'native' | 'ohif'>('native');
   const [activeSidebarTab, setActiveSidebarTab] = useState<'viewer' | 'report'>('viewer');
   const [reportHistory, setReportHistory] = useState<string>('');
   const [reportFindings, setReportFindings] = useState<string>('');
@@ -2848,10 +2849,10 @@ export default function App() {
                     <span>Slices: {c.slice_count} slices</span>
                     <span style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '4px' }}>
                       <span style={{ 
-                        color: c.status === 'completed' ? 'var(--accent-emerald)' : c.status === 'failed' ? 'var(--accent-rose)' : 'var(--accent-amber)',
+                        color: c.status === 'completed' ? 'var(--accent-emerald)' : c.status === 'partial_failure' ? 'var(--accent-amber)' : c.status === 'failed' ? 'var(--accent-rose)' : 'var(--accent-amber)',
                         fontWeight: 600
                       }}>
-                        {c.status.toUpperCase()}
+                        {c.status === 'partial_failure' ? 'PARTIAL (DICOMweb failed)' : c.status.toUpperCase()}
                       </span>
                       <button 
                         onClick={(e) => handleDeleteCase(c.id, e)}
@@ -2860,18 +2861,61 @@ export default function App() {
                         <Trash2 size={13} />
                       </button>
                     </span>
-                    {c.status === 'failed' && c.error_message && (
+                    {(c.status === 'failed' || c.status === 'partial_failure') && c.error_message && (
                       <div style={{ 
-                        color: 'var(--accent-rose)', 
+                        color: c.status === 'failed' ? 'var(--accent-rose)' : 'var(--accent-amber)', 
                         fontSize: '0.7rem', 
                         marginTop: '4px',
                         whiteSpace: 'pre-wrap',
                         wordBreak: 'break-word',
                         lineHeight: '1.2'
                       }}>
-                        Error: {c.error_message}
+                        Note: {c.error_message}
                       </div>
                     )}
+
+                    <div style={{ display: 'flex', gap: '6px', marginTop: '8px' }}>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          selectCase(c);
+                          setViewerMode('native');
+                        }}
+                        style={{
+                          flex: 1,
+                          background: viewerMode === 'native' && activeCase?.id === c.id ? 'var(--accent-cyan)' : 'var(--bg-tertiary)',
+                          color: viewerMode === 'native' && activeCase?.id === c.id ? '#000' : 'var(--text-primary)',
+                          border: '1px solid var(--border-color)',
+                          fontSize: '0.68rem',
+                          fontWeight: 600,
+                          padding: '3px 6px',
+                          borderRadius: '3px',
+                          cursor: 'pointer'
+                        }}
+                      >
+                        Native 3D
+                      </button>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setActiveCase(c);
+                          setViewerMode('ohif');
+                        }}
+                        style={{
+                          flex: 1,
+                          background: viewerMode === 'ohif' && activeCase?.id === c.id ? 'var(--accent-cyan)' : 'var(--bg-tertiary)',
+                          color: viewerMode === 'ohif' && activeCase?.id === c.id ? '#000' : 'var(--text-primary)',
+                          border: '1px solid var(--border-color)',
+                          fontSize: '0.68rem',
+                          fontWeight: 600,
+                          padding: '3px 6px',
+                          borderRadius: '3px',
+                          cursor: 'pointer'
+                        }}
+                      >
+                        OHIF Viewer
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))
@@ -2908,8 +2952,42 @@ export default function App() {
           )}
         </aside>
 
-        {/* Viewport 4-Panel Grid */}
-        <div className="viewport-grid" style={{ position: 'relative' }}>
+        {/* Viewport Area (Native WebGL vs OHIF DICOMweb Viewer) */}
+        {viewerMode === 'ohif' ? (
+          <div style={{ flex: 1, height: '100%', display: 'flex', flexDirection: 'column', background: '#0a0d14', position: 'relative' }}>
+            <div style={{ padding: '8px 16px', background: 'var(--bg-secondary)', borderBottom: '1px solid var(--border-color)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--accent-cyan)' }}>
+                  OHIF DICOMweb Foundation Viewer
+                </span>
+                {activeCase && (
+                  <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
+                    — Case: <strong>{activeCase.patient_name}</strong> (StudyUID: <code style={{ color: 'var(--accent-cyan)' }}>{activeCase.study_uid || 'N/A'}</code>)
+                  </span>
+                )}
+              </div>
+              <button
+                onClick={() => setViewerMode('native')}
+                style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)', color: 'var(--text-primary)', padding: '4px 12px', borderRadius: '4px', cursor: 'pointer', fontSize: '0.75rem', fontWeight: 600 }}
+              >
+                Switch to AVIOTHIC Native WebGL 3D
+              </button>
+            </div>
+            {activeCase?.study_uid ? (
+              <iframe
+                src={`${import.meta.env.VITE_OHIF_URL || 'http://localhost:3000'}/viewer?StudyInstanceUIDs=${activeCase.study_uid}`}
+                style={{ width: '100%', height: 'calc(100% - 40px)', border: 'none', background: '#0a0d14' }}
+                title="OHIF DICOMweb Foundation Viewer"
+              />
+            ) : (
+              <div style={{ display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center', color: 'var(--text-muted)', flexDirection: 'column', gap: '10px' }}>
+                <FolderOpen size={36} style={{ color: 'var(--accent-cyan)', opacity: 0.6 }} />
+                <span>Select a patient case from the directory to launch OHIF DICOMweb Viewer.</span>
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="viewport-grid" style={{ position: 'relative' }}>
           {loadingVolume && (
             <div style={{
               position: 'absolute',
@@ -3127,22 +3205,20 @@ export default function App() {
                   <Database size={48} style={{ marginBottom: '15px' }} />
                   <span>Select a Patient Case to Initialize 3D Volume Mapping</span>
                 </div>
-              ) : (
-                loadedVolume && vtkObjectsRef.current.imageData && (
-                  <VolumeViewer
-                    type="volume"
-                    imageData={vtkObjectsRef.current.imageData}
-                    labelImageData={labelImageDataRef.current}
-                    onInitialized={(objs) => {
-                      vtkObjectsRef.current.viewports.volume = objs as any;
-                    }}
-                  />
-                )
-              )}
+              ) : loadedVolume && vtkObjectsRef.current.imageData ? (
+                <VolumeViewer
+                  type="volume"
+                  imageData={vtkObjectsRef.current.imageData}
+                  labelImageData={labelImageDataRef.current}
+                  onInitialized={(objs) => {
+                    vtkObjectsRef.current.viewports.volume = objs as any;
+                  }}
+                />
+              ) : null}
             </div>
           </div>
-
         </div>
+      )}
 
         <aside className="tools-panel" style={{ display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden' }}>
           {/* Tab headers */}

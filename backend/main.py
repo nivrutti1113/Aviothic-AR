@@ -3,12 +3,16 @@ import uuid
 import shutil
 import json
 import datetime
-from fastapi import FastAPI, UploadFile, File, BackgroundTasks, Depends, HTTPException, status, Request
+from fastapi import FastAPI, UploadFile, File, BackgroundTasks, Depends, HTTPException, status, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 from sqlalchemy.orm import Session
 from pydantic import BaseModel, EmailStr
 from typing import List, Optional
+
+ORTHANC_URL = os.getenv("ORTHANC_URL", "http://localhost:8042")
+ORTHANC_USER = os.getenv("ORTHANC_USER", "orthanc")
+ORTHANC_PASS = os.getenv("ORTHANC_PASS", "aviothic_secret_pass")
 
 from database import init_db, get_db, SessionLocal, Case, Annotation, User, RefreshToken, Study, AuditLog, Report
 from processor import process_dicom_zip
@@ -34,10 +38,10 @@ app = FastAPI(
     description="Secure Medical Imaging (DICOM) viewer API with User & Case Management"
 )
 
-# CORS middleware to allow communication from React dev server (e.g. localhost:5173)
+# CORS middleware allowing credentials from local dev origins (e.g. localhost:5173 app, localhost:3000 OHIF)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # For development; restrict in production
+    allow_origin_regex=r"http://(localhost|127\.0\.0\.1)(:\d+)?",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -625,6 +629,114 @@ def get_case_nifti(
         )
     except Exception as e:
         raise HTTPException(status_code=404, detail=f"NIfTI file not found: {e}")
+
+# Orthanc PACS & DICOMweb Integration Endpoints
+
+@app.get("/api/orthanc/status")
+def get_orthanc_status(current_user: User = Depends(get_current_user)):
+    import requests
+    try:
+        res = requests.get(
+            f"{ORTHANC_URL.rstrip('/')}/system",
+            auth=(ORTHANC_USER, ORTHANC_PASS),
+            timeout=3
+        )
+        if res.status_code == 200:
+            return {
+                "status": "online",
+                "orthanc_url": ORTHANC_URL,
+                "system_info": res.json()
+            }
+        else:
+            return {
+                "status": "error",
+                "orthanc_url": ORTHANC_URL,
+                "status_code": res.status_code,
+                "detail": res.text
+            }
+    except Exception as e:
+        return {
+            "status": "unreachable",
+            "orthanc_url": ORTHANC_URL,
+            "error": str(e)
+        }
+
+@app.get("/api/cases/{case_id}/orthanc-study")
+def get_case_orthanc_study(
+    case_id: str,
+    request: Request,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    case = db.query(Case).filter(Case.id == case_id).first()
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+        
+    verify_case_access(case, current_user)
+    
+    if not case.study_uid:
+        raise HTTPException(status_code=400, detail="Case does not have an associated StudyInstanceUID.")
+        
+    audit_action(db, "get_orthanc_study", {"case_id": case_id, "study_uid": case.study_uid}, user_id=current_user.id, request=request)
+    
+    return {
+        "case_id": case.id,
+        "study_uid": case.study_uid,
+        "series_uid": case.series_uid,
+        "status": case.status,
+        "orthanc_dicomweb_root": "/api/orthanc-proxy/dicom-web"
+    }
+
+@app.api_route("/api/orthanc-proxy/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
+async def orthanc_proxy_endpoint(
+    path: str,
+    request: Request,
+    current_user: User = Depends(get_current_user)
+):
+    """
+    Authenticated reverse-proxy to Orthanc DICOMweb server.
+    Validates user session/JWT, injects Orthanc Basic Auth, and proxies response with framing CSP headers.
+    """
+    import requests
+    target_url = f"{ORTHANC_URL.rstrip('/')}/{path}"
+    if request.url.query:
+        target_url = f"{target_url}?{request.url.query}"
+
+    method = request.method
+    body = await request.body()
+
+    headers = {k: v for k, v in request.headers.items() if k.lower() not in ("host", "content-length", "authorization")}
+
+    try:
+        resp = requests.request(
+            method=method,
+            url=target_url,
+            headers=headers,
+            data=body,
+            auth=(ORTHANC_USER, ORTHANC_PASS),
+            timeout=30,
+            stream=True
+        )
+        
+        response_headers = {k: v for k, v in resp.headers.items() if k.lower() not in ("content-encoding", "transfer-encoding", "x-frame-options", "access-control-allow-origin", "access-control-allow-credentials")}
+        response_headers["Content-Security-Policy"] = "frame-ancestors 'self' http://localhost:* http://127.0.0.1:* https://*"
+        
+        # Dynamically set CORS headers for credentialed cross-origin OHIF requests
+        origin = request.headers.get("origin")
+        if origin:
+            response_headers["Access-Control-Allow-Origin"] = origin
+            response_headers["Access-Control-Allow-Credentials"] = "true"
+            response_headers["Access-Control-Allow-Headers"] = "Authorization, Content-Type, Accept"
+            response_headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS"
+        
+        return Response(
+            content=resp.content,
+            status_code=resp.status_code,
+            headers=response_headers,
+            media_type=resp.headers.get("content-type")
+        )
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"Orthanc Proxy Error: {str(e)}")
 
 # Annotations CRUD API
 
