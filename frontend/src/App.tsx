@@ -2975,7 +2975,11 @@ export default function App() {
             </div>
             {activeCase?.study_uid ? (
               <iframe
-                src={`${import.meta.env.VITE_OHIF_URL || 'http://localhost:3000'}/viewer?StudyInstanceUIDs=${activeCase.study_uid}`}
+                src={
+                  import.meta.env.VITE_OHIF_URL && !import.meta.env.VITE_OHIF_URL.includes('localhost:3000')
+                    ? `${import.meta.env.VITE_OHIF_URL.replace(/\/$/, '')}/index.html#/viewer?StudyInstanceUIDs=${activeCase.study_uid}`
+                    : `/viewer/index.html#/viewer?StudyInstanceUIDs=${activeCase.study_uid}`
+                }
                 style={{ width: '100%', height: 'calc(100% - 40px)', border: 'none', background: '#0a0d14' }}
                 title="OHIF DICOMweb Foundation Viewer"
               />

@@ -1,27 +1,27 @@
 {
-    "services": {
-        "frontend": {
-            "root": "frontend",
-            "framework": "vite"
-        },
-        "backend": {
-            "root": "backend"
-        }
-    },
     "rewrites": [
         {
-            "source": "/api(/.*)?",
-            "destination": {
-                "type": "service",
-                "service": "backend"
-            }
+            "source": "/api/(.*)",
+            "destination": "https://aviothic-ar-y48e.onrender.com/api/$1"
+        },
+        {
+            "source": "/viewer/(.*)",
+            "destination": "/viewer/$1"
         },
         {
             "source": "/(.*)",
-            "destination": {
-                "type": "service",
-                "service": "frontend"
-            }
+            "destination": "/index.html"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Content-Security-Policy",
+                    "value": "frame-ancestors 'self' https://*.vercel.app http://localhost:*"
+                }
+            ]
         }
     ]
 }
