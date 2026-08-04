@@ -5,6 +5,18 @@
             "destination": "https://aviothic-ar-y48e.onrender.com/api/$1"
         },
         {
+            "source": "/app-config.js",
+            "destination": "/viewer/app-config.js"
+        },
+        {
+            "source": "/init-service-worker.js",
+            "destination": "/viewer/init-service-worker.js"
+        },
+        {
+            "source": "/app.js",
+            "destination": "/viewer/app.js"
+        },
+        {
             "source": "/viewer/(.*)",
             "destination": "/viewer/$1"
         },
