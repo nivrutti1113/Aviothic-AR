@@ -96,18 +96,20 @@ def test_orthanc_proxy_cross_origin_auth(auth_headers):
 
 def test_case_orthanc_study_endpoint(auth_headers):
     db = SessionLocal()
-    case = Case(
-        id="orthanc-case-1",
-        patient_id="PAT-1001",
-        patient_name="Test Patient",
-        modality="MR",
-        study_uid="1.2.840.113619.2.1.1001",
-        series_uid="1.2.840.113619.2.1.1001.1",
-        slice_count=10,
-        status="completed"
-    )
-    db.add(case)
-    db.commit()
+    case = db.query(Case).filter(Case.id == "orthanc-case-1").first()
+    if not case:
+        case = Case(
+            id="orthanc-case-1",
+            patient_id="PAT-1001",
+            patient_name="Test Patient",
+            modality="MR",
+            study_uid="1.2.840.113619.2.1.1001",
+            series_uid="1.2.840.113619.2.1.1001.1",
+            slice_count=10,
+            status="completed"
+        )
+        db.add(case)
+        db.commit()
     db.close()
 
     response = client.get("/api/cases/orthanc-case-1/orthanc-study", headers=auth_headers)
