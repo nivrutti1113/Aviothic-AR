@@ -558,7 +558,7 @@ __webpack_require__.O = (result, chunkIds, fn, priority) => {
 })();
 // webpack/runtime/public_path
 (() => {
-__webpack_require__.p = "/";
+__webpack_require__.p = (typeof window !== "undefined" && window.__webpack_public_path__) || (typeof self !== "undefined" && self.__webpack_public_path__) || "/viewer/";
 })();
 // webpack/runtime/startup_chunk_dependencies
 (() => {

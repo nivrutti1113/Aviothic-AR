@@ -1,25 +1,93 @@
 {
     "rewrites": [
         {
-            "source": "/api/(.*)",
-            "destination": "https://aviothic-ar-y48e.onrender.com/api/$1"
+            "source": "/api/:path*",
+            "destination": "https://aviothic-ar-y48e.onrender.com/api/:path*"
         },
         {
-            "source": "/(extensions_.*|vendors-.*|modes_.*|ort/.*|customizations/.*|dicom-microscopy-viewer/.*|.*\\.wasm|.*\\.woff2|app-config\\.js|init-service-worker\\.js|app\\.js)",
-            "destination": "/viewer/$1"
+            "source": "/vendors-:path*",
+            "destination": "/viewer/vendors-:path*"
         },
         {
-            "source": "/viewer/(.*)",
-            "destination": "/viewer/$1"
+            "source": "/extensions_:path*",
+            "destination": "/viewer/extensions_:path*"
         },
         {
-            "source": "/(.*)",
+            "source": "/modes_:path*",
+            "destination": "/viewer/modes_:path*"
+        },
+        {
+            "source": "/ort/:path*",
+            "destination": "/viewer/ort/:path*"
+        },
+        {
+            "source": "/customizations/:path*",
+            "destination": "/viewer/customizations/:path*"
+        },
+        {
+            "source": "/dicom-microscopy-viewer/:path*",
+            "destination": "/viewer/dicom-microscopy-viewer/:path*"
+        },
+        {
+            "source": "/app.js",
+            "destination": "/viewer/app.js"
+        },
+        {
+            "source": "/app-config.js",
+            "destination": "/viewer/app-config.js"
+        },
+        {
+            "source": "/init-service-worker.js",
+            "destination": "/viewer/init-service-worker.js"
+        },
+        {
+            "source": "/compute.js",
+            "destination": "/viewer/compute.js"
+        },
+        {
+            "source": "/histogram-worker.js",
+            "destination": "/viewer/histogram-worker.js"
+        },
+        {
+            "source": "/interpolation.js",
+            "destination": "/viewer/interpolation.js"
+        },
+        {
+            "source": "/polySeg.js",
+            "destination": "/viewer/polySeg.js"
+        },
+        {
+            "source": "/:file(.*\\.woff2)",
+            "destination": "/viewer/:file"
+        },
+        {
+            "source": "/:file(.*\\.woff)",
+            "destination": "/viewer/:file"
+        },
+        {
+            "source": "/:file(.*\\.wasm)",
+            "destination": "/viewer/:file"
+        },
+        {
+            "source": "/:file(.*\\.ttf)",
+            "destination": "/viewer/:file"
+        },
+        {
+            "source": "/:file(.*\\.eot)",
+            "destination": "/viewer/:file"
+        },
+        {
+            "source": "/viewer/:path*",
+            "destination": "/viewer/:path*"
+        },
+        {
+            "source": "/:path*",
             "destination": "/index.html"
         }
     ],
     "headers": [
         {
-            "source": "/(.*)",
+            "source": "/:path*",
             "headers": [
                 {
                     "key": "Content-Security-Policy",
