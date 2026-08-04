@@ -1,0 +1,2 @@
+FROM jodogne/orthanc-plugins:latest
+EXPOSE 8042

@@ -1,0 +1,34 @@
+services:
+  # FastAPI Backend Web Service
+  - type: web
+    name: aviothic-backend
+    env: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///data/metadata.db
+      - key: STORAGE_BACKEND
+        value: local
+      - key: ORTHANC_USER
+        value: orthanc
+      - key: ORTHANC_PASS
+        value: aviothic_secret_pass
+      - key: ORTHANC_URL
+        value: http://aviothic-orthanc:8042
+
+  # Orthanc PACS Private Service (Docker)
+  - type: pserv
+    name: aviothic-orthanc
+    env: docker
+    dockerfilePath: Dockerfile.orthanc
+    envVars:
+      - key: DICOM_WEB_PLUGIN_ENABLED
+        value: "true"
+      - key: ORTHANC_JSON
+        value: '{"RegisteredUsers":{"orthanc":"aviothic_secret_pass"}}'
+    disk:
+      name: orthanc-db
+      mountPath: /var/lib/orthanc/db
+      sizeGB: 10
