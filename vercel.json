@@ -5,16 +5,8 @@
             "destination": "https://aviothic-ar-y48e.onrender.com/api/$1"
         },
         {
-            "source": "/app-config.js",
-            "destination": "/viewer/app-config.js"
-        },
-        {
-            "source": "/init-service-worker.js",
-            "destination": "/viewer/init-service-worker.js"
-        },
-        {
-            "source": "/app.js",
-            "destination": "/viewer/app.js"
+            "source": "/(extensions_.*|vendors-.*|modes_.*|ort/.*|customizations/.*|dicom-microscopy-viewer/.*|.*\\.wasm|.*\\.woff2|app-config\\.js|init-service-worker\\.js|app\\.js)",
+            "destination": "/viewer/$1"
         },
         {
             "source": "/viewer/(.*)",
