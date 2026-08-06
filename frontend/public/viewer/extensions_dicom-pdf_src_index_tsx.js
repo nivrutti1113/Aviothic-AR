@@ -8,7 +8,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _id__rspack_import_0 = __webpack_require__("../../../extensions/dicom-pdf/src/id.js");
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_i18n__rspack_import_2 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -102,7 +102,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/dicom-pdf/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 const SOPClassHandlerId = `${id}.sopClassHandlerModule.dicom-pdf`;
@@ -122,7 +122,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _getSopClassHandlerModule__rspack_import_1 = __webpack_require__("../../../extensions/dicom-pdf/src/getSopClassHandlerModule.js");
 /* import */ var _id_js__rspack_import_2 = __webpack_require__("../../../extensions/dicom-pdf/src/id.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 

@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _getContextModule__rspack_import_5 = __webpack_require__("../../../extensions/measurement-tracking/src/getContextModule.tsx");
 /* import */ var _cornerstonejs_core__rspack_import_6 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _ohif_core__rspack_import_7 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {

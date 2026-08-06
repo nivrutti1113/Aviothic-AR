@@ -300,7 +300,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_createSegmentationForViewport__rspack_import_24 = __webpack_require__("../../../extensions/cornerstone/src/utils/createSegmentationForViewport.ts");
 /* import */ var _cornerstonejs_tools_segmentation__rspack_import_25 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/stateManagement/segmentation/index.js");
 /* import */ var _ohif_i18n__rspack_import_26 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -3113,7 +3113,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _radix_ui_react_icons__rspack_import_3 = __webpack_require__("../../../node_modules/@radix-ui/react-icons/dist/react-icons.esm.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -3338,7 +3338,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _AccordionGroup__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/components/AccordionGroup/AccordionGroup.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /* export default */ const __rspack_default_export = (_AccordionGroup__rspack_import_0["default"]);
@@ -3360,7 +3360,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var prop_types__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(prop_types__rspack_import_1);
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ViewportWindowLevel_ViewportWindowLevel__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/ViewportWindowLevel/ViewportWindowLevel.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -3402,7 +3402,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* reexport safe */ _ActiveViewportWindowLevel__rspack_import_0["default"])
 });
 /* import */ var _ActiveViewportWindowLevel__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/components/ActiveViewportWindowLevel/ActiveViewportWindowLevel.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
@@ -3423,7 +3423,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core_src_services_ToolBarService_ToolbarService__rspack_import_3 = __webpack_require__("../../core/src/services/ToolBarService/ToolbarService.ts");
 /* import */ var classnames__rspack_import_4 = __webpack_require__("../../../node_modules/classnames/index.js");
 /* import */ var classnames__rspack_import_4_default = /*#__PURE__*/__webpack_require__.n(classnames__rspack_import_4);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -3591,7 +3591,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* reexport safe */ _AdvancedRenderingControls__rspack_import_0["default"])
 });
 /* import */ var _AdvancedRenderingControls__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/components/AdvancedRenderingControls/AdvancedRenderingControls.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
@@ -3615,7 +3615,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_DicomFileUploader__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/DicomFileUploader.ts");
 /* import */ var _DicomUploadProgress__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/components/DicomUpload/DicomUploadProgress.tsx");
 /* import */ var _ohif_ui_next__rspack_import_6 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -3741,7 +3741,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _DicomUploadProgressItem__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/components/DicomUpload/DicomUploadProgressItem.tsx");
 /* import */ var classnames__rspack_import_6 = __webpack_require__("../../../node_modules/classnames/index.js");
 /* import */ var classnames__rspack_import_6_default = /*#__PURE__*/__webpack_require__.n(classnames__rspack_import_6);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -4054,7 +4054,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var prop_types__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(prop_types__rspack_import_1);
 /* import */ var _utils_DicomFileUploader__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/DicomFileUploader.ts");
 /* import */ var _ohif_ui_next__rspack_import_3 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -4158,7 +4158,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react_i18next__rspack_import_1 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _cornerstonejs_tools_enums__rspack_import_3 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/enums/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -4225,7 +4225,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _PanelAccordionTrigger__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/components/PanelAccordionTrigger.tsx");
 /* import */ var _MeasurementsMenu__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/MeasurementsMenu.tsx");
 /* import */ var _ohif_core__rspack_import_4 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -4317,7 +4317,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -4393,7 +4393,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -4497,7 +4497,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _AccordionGroup__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/components/AccordionGroup/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _MeasurementTableNested__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/MeasurementTableNested.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -4601,7 +4601,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core_src__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _hooks_useViewportDisplaySets__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
 /* import */ var _hooks_useMeasurementTracking__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useMeasurementTracking.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -4759,7 +4759,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* reexport safe */ _ModalityLoadBadge__rspack_import_0["default"])
 });
 /* import */ var _ModalityLoadBadge__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/components/ModalityLoadBadge/ModalityLoadBadge.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
@@ -4782,7 +4782,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _hooks_useMeasurementTracking__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useMeasurementTracking.ts");
 /* import */ var _hooks_useViewportDisplaySets__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
 /* import */ var _cornerstonejs_tools_enums__rspack_import_7 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/enums/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -4933,7 +4933,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _hooks__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/hooks/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -5014,7 +5014,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _OpacityMenu__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/OpacityMenu/OpacityMenu.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -5111,7 +5111,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _radix_ui_react_icons__rspack_import_2 = __webpack_require__("../../../node_modules/@radix-ui/react-icons/dist/react-icons.esm.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -5190,7 +5190,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -5288,7 +5288,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_extension_default__rspack_import_2 = __webpack_require__("../../../extensions/default/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -5364,7 +5364,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 // should be used in a Select component
@@ -5406,7 +5406,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _PanelAccordionTrigger__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/PanelAccordionTrigger.tsx");
 /* import */ var _MeasurementItems__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/components/MeasurementItems.tsx");
 /* import */ var _MeasurementsMenu__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/components/MeasurementsMenu.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -5534,7 +5534,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _AccordionGroup__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/components/AccordionGroup/index.ts");
 /* import */ var _MeasurementsOrAdditionalFindings__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/MeasurementsOrAdditionalFindings.tsx");
 /* import */ var _StudySummaryWithActions__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/components/StudySummaryWithActions.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -5639,7 +5639,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -5737,7 +5737,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -5785,7 +5785,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _StudySummaryFromMetadata__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/components/StudySummaryFromMetadata.tsx");
 /* import */ var _StudyMeasurementsActions__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/components/StudyMeasurementsActions.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -5814,7 +5814,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _hooks__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/hooks/index.ts");
 /* import */ var _hooks_useViewportDisplaySets__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
 /* import */ var _SelectItemWithModality__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/components/SelectItemWithModality.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -5917,7 +5917,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ThresholdMenu__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/ThresholdMenu/ThresholdMenu.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -6014,7 +6014,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _hooks_useMeasurementTracking__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useMeasurementTracking.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -6070,7 +6070,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _hooks_useViewportRendering__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportRendering.tsx");
 /* import */ var _ohif_core__rspack_import_4 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _cornerstonejs_core__rspack_import_5 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -6252,7 +6252,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _VOIManualControlMenu__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/VOIManualControlMenu/VOIManualControlMenu.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -6348,7 +6348,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _VOIManualControlMenuWrapper__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/components/VOIManualControlMenu/VOIManualControlMenuWrapper.tsx");
 /* import */ var _VOIManualControlMenu__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/components/VOIManualControlMenu/VOIManualControlMenu.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -6368,7 +6368,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _cornerstonejs_tools__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -6513,7 +6513,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ViewportColorbar__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/components/ViewportColorbar/ViewportColorbar.tsx");
 /* import */ var _hooks_useViewportRendering__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportRendering.tsx");
 /* import */ var _hooks_useViewportDisplaySets__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -6653,7 +6653,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ViewportColorbar__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/components/ViewportColorbar/ViewportColorbar.tsx");
 /* import */ var _ViewportColorbarsContainer__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/components/ViewportColorbar/ViewportColorbarsContainer.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -6678,7 +6678,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _hooks_useViewportDisplaySets__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
 /* import */ var _SelectItemWithModality__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/components/SelectItemWithModality.tsx");
 /* import */ var _hooks__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/hooks/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -7074,7 +7074,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ViewportDataOverlayMenu__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/ViewportDataOverlaySettingMenu/ViewportDataOverlayMenu.tsx");
 /* import */ var _hooks_useViewportDisplaySets__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -7184,7 +7184,7 @@ __webpack_require__.d(__webpack_exports__, {
   sortByOverlayable: () => (sortByOverlayable)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const DEFAULT_COLORMAP = 'hsv';
 const DEFAULT_OPACITY = 0.5;
@@ -7350,7 +7350,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _cornerstonejs_core__rspack_import_3 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _services_ViewportService_adapter__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -7599,7 +7599,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ViewportOrientationMenu__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/components/ViewportOrientationMenu/ViewportOrientationMenu.tsx");
 /* import */ var _hooks_useViewportDisplaySets__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -7656,7 +7656,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_4 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _ohif_core__rspack_import_5 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _utils__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/components/ViewportWindowLevel/utils.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -7855,7 +7855,7 @@ __webpack_require__.d(__webpack_exports__, {
   getViewportVolumeHistogram: () => (getViewportVolumeHistogram)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const workerManager = (0,_cornerstonejs_core__rspack_import_0.getWebWorkerManager)();
 const WorkerOptions = {
@@ -7940,7 +7940,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _kitware_vtk_js_Rendering_Core_ColorTransferFunction_ColorMaps__rspack_import_1 = __webpack_require__("../../../node_modules/@kitware/vtk.js/Rendering/Core/ColorTransferFunction/ColorMaps.js");
 /* import */ var _getViewportVolumeHistogram__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/components/ViewportWindowLevel/getViewportVolumeHistogram.ts");
 /* import */ var _services_ViewportService_adapter__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -8102,7 +8102,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _hooks_useViewportRendering__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportRendering.tsx");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -8158,7 +8158,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _hooks_useViewportRendering__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportRendering.tsx");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -8289,7 +8289,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -8405,7 +8405,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _VolumeShade__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/components/WindowLevelActionMenu/VolumeShade.tsx");
 /* import */ var _hooks_useViewportRendering__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportRendering.tsx");
 /* import */ var react_i18next__rspack_import_7 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -8472,7 +8472,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _hooks_useViewportRendering__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportRendering.tsx");
 /* import */ var react_i18next__rspack_import_5 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -8541,7 +8541,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_1);
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -8624,7 +8624,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -8716,7 +8716,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -8793,7 +8793,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -8891,7 +8891,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _hooks_useViewportRendering__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportRendering.tsx");
 /* import */ var _hooks_useViewportDisplaySets__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
 /* import */ var react_i18next__rspack_import_4 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -9058,7 +9058,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _VolumeRenderingOptions__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone/src/components/WindowLevelActionMenu/VolumeRenderingOptions.tsx");
 /* import */ var _hooks_useViewportRendering__rspack_import_8 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportRendering.tsx");
 /* import */ var i18next__rspack_import_9 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -9162,7 +9162,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _WindowLevelActionMenu__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/WindowLevelActionMenu/WindowLevelActionMenu.tsx");
 /* import */ var _hooks_useViewportDisplaySets__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
 /* import */ var _hooks__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/hooks/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -9286,7 +9286,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 // The following are the default window level presets and can be further
 // configured via the customization service.
 const defaultWindowLevelPresets = {
@@ -9388,7 +9388,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _VolumeLighting__rspack_import_8 = __webpack_require__("../../../extensions/cornerstone/src/components/WindowLevelActionMenu/VolumeLighting.tsx");
 /* import */ var _VolumeShade__rspack_import_9 = __webpack_require__("../../../extensions/cornerstone/src/components/WindowLevelActionMenu/VolumeShade.tsx");
 /* import */ var _VolumeShift__rspack_import_10 = __webpack_require__("../../../extensions/cornerstone/src/components/WindowLevelActionMenu/VolumeShift.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -9446,7 +9446,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _MeasurementsOrAdditionalFindings__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone/src/components/MeasurementsOrAdditionalFindings.tsx");
 /* import */ var _WindowLevelActionMenu__rspack_import_8 = __webpack_require__("../../../extensions/cornerstone/src/components/WindowLevelActionMenu/index.ts");
 /* import */ var _ModalityLoadBadge__rspack_import_9 = __webpack_require__("../../../extensions/cornerstone/src/components/ModalityLoadBadge/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -9471,7 +9471,7 @@ __webpack_require__.d(__webpack_exports__, {
   DYNAMIC_VOLUME_LOADER_SCHEME: () => (DYNAMIC_VOLUME_LOADER_SCHEME),
   VOLUME_LOADER_SCHEME: () => (VOLUME_LOADER_SCHEME)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 // Volume loader schemes
 const VOLUME_LOADER_SCHEME = 'cornerstoneStreamingImageVolume';
 const DYNAMIC_VOLUME_LOADER_SCHEME = 'cornerstoneStreamingDynamicImageVolume';
@@ -9493,7 +9493,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react_i18next__rspack_import_2 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_core_src__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _components_ExportSegmentationSubMenuItem__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/components/ExportSegmentationSubMenuItem.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -9625,7 +9625,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_core_src_utils__rspack_import_4 = __webpack_require__("../../core/src/utils/index.ts");
 /* import */ var _ohif_core_src__rspack_import_5 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -9761,7 +9761,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var react_i18next__rspack_import_2 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -9895,7 +9895,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _utils_colormaps__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/utils/colormaps.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const defaultPosition = 'bottom';
 const DefaultColormap = 'Grayscale';
@@ -9992,7 +9992,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   'layoutSelector.advancedPresetGenerator': ({
     servicesManager
@@ -10085,7 +10085,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   'cornerstone.measurements': {
     Angle: {
@@ -10205,7 +10205,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_ui_next__rspack_import_0 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _components_DicomUpload_DicomUpload__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/components/DicomUpload/DicomUpload.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -10250,7 +10250,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   'cornerstone.modalityOverlayDefaultColorMaps': {
     defaultSettings: {
@@ -10292,7 +10292,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_3 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_3_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_3);
 /* import */ var _cornerstonejs_tools_enums__rspack_import_4 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/enums/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -10430,7 +10430,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const {
@@ -11218,7 +11218,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _initCornerstoneTools__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/initCornerstoneTools.js");
 /* import */ var _segmentationToolbarCustomization__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/customizations/segmentationToolbarCustomization.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -11439,7 +11439,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var i18next__rspack_import_2 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -12099,7 +12099,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   cornerstoneViewportClickCommands: {
     doubleClick: ['toggleOneUp'],
@@ -12125,7 +12125,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   'viewportDownload.warningMessage': {
     enabled: true,
@@ -12144,7 +12144,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   'viewportOverlay.topLeft': [{
     id: 'StudyDate',
@@ -12205,7 +12205,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (getViewportScrollbarCustomization)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Default customization values for viewport scrollbar behavior.
  * The `progress` scrollbar variant is in full mode for stack viewports and
@@ -12247,7 +12247,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _initCornerstoneTools__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/initCornerstoneTools.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /* export default */ const __rspack_default_export = ({
@@ -12298,7 +12298,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   VIEWPORT_PRESETS
@@ -12326,7 +12326,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _components_WindowLevelActionMenu_defaultWindowLevelPresets__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/components/WindowLevelActionMenu/defaultWindowLevelPresets.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = ({
   'cornerstone.windowLevelPresets': _components_WindowLevelActionMenu_defaultWindowLevelPresets__rspack_import_0["default"]
@@ -12345,7 +12345,7 @@ __webpack_require__.d(__webpack_exports__, {
   CORNERSTONE_3D_TOOLS_SOURCE_VERSION: () => (CORNERSTONE_3D_TOOLS_SOURCE_VERSION),
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const CORNERSTONE_3D_TOOLS_SOURCE_NAME = 'Cornerstone3DTools';
 const CORNERSTONE_3D_TOOLS_SOURCE_VERSION = '0.1';
 const Enums = {
@@ -12382,7 +12382,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _customizations_captureViewportModalCustomization__rspack_import_14 = __webpack_require__("../../../extensions/cornerstone/src/customizations/captureViewportModalCustomization.tsx");
 /* import */ var _customizations_viewportDownloadWarningCustomization__rspack_import_15 = __webpack_require__("../../../extensions/cornerstone/src/customizations/viewportDownloadWarningCustomization.tsx");
 /* import */ var _customizations_viewportScrollbarCustomization__rspack_import_16 = __webpack_require__("../../../extensions/cornerstone/src/customizations/viewportScrollbarCustomization.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -12455,7 +12455,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _hps_primary3D__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/hps/primary3D.ts");
 /* import */ var _hps_primaryAxial__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/hps/primaryAxial.ts");
 /* import */ var _hps_frameView__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone/src/hps/frameView.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -12513,7 +12513,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _panels_PanelMeasurement__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/panels/PanelMeasurement.tsx");
 /* import */ var _cornerstonejs_tools_enums__rspack_import_6 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/enums/index.js");
 /* import */ var _ohif_i18n__rspack_import_7 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -12646,7 +12646,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var dcmjs__rspack_import_3 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
 /* import */ var _ohif_extension_default__rspack_import_4 = __webpack_require__("../../../extensions/default/src/index.ts");
 /* import */ var _utils_ecgMetadata__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/ecgMetadata.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -12907,7 +12907,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _components_TrackingStatus_TrackingStatus__rspack_import_12 = __webpack_require__("../../../extensions/cornerstone/src/components/TrackingStatus/TrackingStatus.tsx");
 /* import */ var _components_ViewportColorbar__rspack_import_13 = __webpack_require__("../../../extensions/cornerstone/src/components/ViewportColorbar/index.ts");
 /* import */ var _components_AdvancedRenderingControls__rspack_import_14 = __webpack_require__("../../../extensions/cornerstone/src/components/AdvancedRenderingControls/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -13481,7 +13481,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _useViewportDisplaySets__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
 /* import */ var _useMeasurementTracking__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useMeasurementTracking.ts");
 /* import */ var _useViewportRendering__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportRendering.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -13504,7 +13504,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_ui_next__rspack_import_0 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _useViewportSegmentations__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportSegmentations.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -13539,7 +13539,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core_src__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _useViewportDisplaySets__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useViewportDisplaySets.ts");
 /* import */ var _utils_getLegacyViewportType__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -13657,7 +13657,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var lodash_debounce__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__rspack_import_1);
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_i18n__rspack_import_3 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -13777,7 +13777,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var lodash_debounce__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__rspack_import_1);
 /* import */ var _ohif_core_src_utils__rspack_import_2 = __webpack_require__("../../core/src/utils/index.ts");
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -13921,7 +13921,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _components_ViewportDataOverlaySettingMenu_utils__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/components/ViewportDataOverlaySettingMenu/utils.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -14095,7 +14095,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -14187,7 +14187,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getLegacyViewportType__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
 /* import */ var _services_ViewportService_adapter__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/index.ts");
 /* import */ var _ohif_core_src_services_ToolBarService_ToolbarService__rspack_import_6 = __webpack_require__("../../core/src/services/ToolBarService/ToolbarService.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -14840,7 +14840,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var lodash_debounce__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__rspack_import_1);
 /* import */ var _ohif_core_src_utils__rspack_import_2 = __webpack_require__("../../core/src/utils/index.ts");
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -15032,7 +15032,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _mpr__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/hps/mpr.ts");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const fourUp = {
@@ -15146,7 +15146,7 @@ __webpack_require__.d(__webpack_exports__, {
   frameView: () => (frameView)
 });
 /* import */ var i18next__rspack_import_0 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const frameView = {
   id: '@ohif/frameView',
@@ -16444,7 +16444,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _mpr__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/hps/mpr.ts");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const main3D = {
@@ -16580,7 +16580,7 @@ __webpack_require__.d(__webpack_exports__, {
   mpr: () => (mpr)
 });
 /* import */ var i18next__rspack_import_0 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const VOI_SYNC_GROUP = {
   type: 'voi',
@@ -16759,7 +16759,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _mpr__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/hps/mpr.ts");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const mprAnd3DVolumeViewport = {
@@ -16880,7 +16880,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _mpr__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/hps/mpr.ts");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const only3D = {
@@ -16956,7 +16956,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _mpr__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/hps/mpr.ts");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const primary3D = {
@@ -17091,7 +17091,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _mpr__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/hps/mpr.ts");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const primaryAxial = {
@@ -17201,7 +17201,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 
@@ -17334,7 +17334,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var immutability_helper__rspack_import_49_default = /*#__PURE__*/__webpack_require__.n(immutability_helper__rspack_import_49);
 /* import */ var _components__rspack_import_50 = __webpack_require__("../../../extensions/cornerstone/src/components/index.ts");
 /* import */ var _constants__rspack_import_51 = __webpack_require__("../../../extensions/cornerstone/src/constants/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -17635,7 +17635,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _stores_useSegmentationPresentationStore__rspack_import_22 = __webpack_require__("../../../extensions/cornerstone/src/stores/useSegmentationPresentationStore.ts");
 /* import */ var _cornerstonejs_core_utilities__rspack_import_23 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/utilities/index.js");
 /* import */ var _utils_initWebWorkerProgressHandler__rspack_import_24 = __webpack_require__("../../../extensions/cornerstone/src/utils/initWebWorkerProgressHandler.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -18025,7 +18025,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _cornerstonejs_tools__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function _getVolumeFromViewport(viewport) {
@@ -18113,7 +18113,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_tools__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _state__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/state.ts");
 /* import */ var _utils_findNearbyToolData__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/findNearbyToolData.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -18216,7 +18216,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_polymorphic_segmentation__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/polymorphic-segmentation/dist/esm/index.js");
 /* import */ var _tools_CalibrationLineTool__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/tools/CalibrationLineTool.ts");
 /* import */ var _tools_ImageOverlayViewerTool__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/tools/ImageOverlayViewerTool.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -18366,7 +18366,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _cornerstonejs_tools__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _utils_findNearbyToolData__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/findNearbyToolData.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -18453,7 +18453,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_measurementServiceMappings_utils_getSOPInstanceAttributes__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getSOPInstanceAttributes.js");
 /* import */ var _cornerstonejs_tools_utilities__rspack_import_8 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/utilities/index.js");
 /* import */ var _utils_getActiveViewportEnabledElement__rspack_import_9 = __webpack_require__("../../../extensions/cornerstone/src/utils/getActiveViewportEnabledElement.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -18900,7 +18900,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function initStudyPrefetcherService(servicesManager) {
   const {
@@ -18944,7 +18944,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core_loaders__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/loaders/index.js");
 /* import */ var _cornerstonejs_dicom_image_loader__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/dicom-image-loader/dist/esm/index.js");
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -18994,7 +18994,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _hooks_useMeasurements__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/hooks/useMeasurements.ts");
 /* import */ var _components_StudyMeasurements__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/components/StudyMeasurements.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -19111,7 +19111,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _components_SegmentationUtilityButton__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/components/SegmentationUtilityButton.tsx");
 /* import */ var _stores__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone/src/stores/index.ts");
 /* import */ var _utils_segmentationExportUtils__rspack_import_8 = __webpack_require__("../../../extensions/cornerstone/src/utils/segmentationExportUtils.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -19467,7 +19467,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _ViewportService_adapter__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/index.ts");
 /* import */ var _types_Colorbar__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/types/Colorbar.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _ColorbarService;
 
 
@@ -19704,7 +19704,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ColorbarService__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/services/ColorbarService/ColorbarService.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = (_ColorbarService__rspack_import_0["default"]);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -19722,7 +19722,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _utils_getCornerstoneViewportType__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/getCornerstoneViewportType.ts");
 /* import */ var _constants__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/constants/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _CornerstoneCacheService;
 
 
@@ -20043,7 +20043,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _CornerstoneCacheService__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/services/CornerstoneCacheService/CornerstoneCacheService.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = (_CornerstoneCacheService__rspack_import_0["default"]);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -20058,7 +20058,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   mapROIContoursToRTStructData: () => (mapROIContoursToRTStructData)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Maps a DICOM RT Struct ROI Contour to a RTStruct data that can be used
  * in Segmentation Service
@@ -20129,7 +20129,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _backends__rspack_import_9 = __webpack_require__("../../../extensions/cornerstone/src/services/SegmentationService/backends/index.ts");
 /* import */ var _utils_nextViewports__rspack_import_10 = __webpack_require__("../../../extensions/cornerstone/src/utils/nextViewports.ts");
 /* import */ var _ViewportService_adapter__rspack_import_11 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _SegmentationService;
 
 
@@ -21837,7 +21837,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _utils_getLegacyViewportType__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const {
@@ -21960,7 +21960,7 @@ __webpack_require__.d(__webpack_exports__, {
   NextSegmentationBackend: () => (NextSegmentationBackend)
 });
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   Labelmap: LABELMAP
@@ -22124,7 +22124,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _LegacySegmentationBackend__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/services/SegmentationService/backends/LegacySegmentationBackend.ts");
 /* import */ var _NextSegmentationBackend__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/services/SegmentationService/backends/NextSegmentationBackend.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -22140,7 +22140,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _SegmentationService__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/services/SegmentationService/SegmentationService.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = (_SegmentationService__rspack_import_0["default"]);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -22159,7 +22159,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _createHydrateSegmentationSynchronizer__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/services/SyncGroupService/createHydrateSegmentationSynchronizer.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _SyncGroupService;
 
 
@@ -22394,7 +22394,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_tools__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _utils_isAnyDisplaySetCommon__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/isAnyDisplaySetCommon.ts");
 /* import */ var _utils_getLegacyViewportType__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -22503,7 +22503,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _SyncGroupService__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/services/SyncGroupService/SyncGroupService.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = (_SyncGroupService__rspack_import_0["default"]);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -22522,7 +22522,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _utils_getActiveViewportEnabledElement__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/getActiveViewportEnabledElement.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _ToolGroupService;
 
 
@@ -22983,7 +22983,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ToolGroupService__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/services/ToolGroupService/ToolGroupService.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = (_ToolGroupService__rspack_import_0["default"]);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -22999,7 +22999,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _ViewedDataService;
 
 class ViewedDataService extends _ohif_core__rspack_import_0.PubSubService {
@@ -23057,7 +23057,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ViewedDataService__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewedDataService/ViewedDataService.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = (_ViewedDataService__rspack_import_0["default"]);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -23092,7 +23092,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_nextViewports__rspack_import_15 = __webpack_require__("../../../extensions/cornerstone/src/utils/nextViewports.ts");
 /* import */ var _backends_LegacyViewportBackend__rspack_import_16 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/backends/LegacyViewportBackend.ts");
 /* import */ var _backends_NextViewportBackend__rspack_import_17 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/backends/NextViewportBackend.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _CornerstoneViewportService;
 
 
@@ -24646,7 +24646,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getCornerstoneBlendMode__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/getCornerstoneBlendMode.ts");
 /* import */ var _utils_getCornerstoneOrientation__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/getCornerstoneOrientation.ts");
 /* import */ var _utils_getCornerstoneViewportType__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/getCornerstoneViewportType.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -24900,7 +24900,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _utils_getLegacyViewportType__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -25107,7 +25107,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _utils_getLegacyViewportType__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -25326,7 +25326,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _LegacyViewportAdapter__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/LegacyViewportAdapter.ts");
 /* import */ var _NextViewportAdapter__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/NextViewportAdapter.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -25404,7 +25404,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _getViewportAdapter__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/getViewportAdapter.ts");
 /* import */ var _LegacyViewportAdapter__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/LegacyViewportAdapter.ts");
 /* import */ var _NextViewportAdapter__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/NextViewportAdapter.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -25423,7 +25423,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _utils_getLegacyViewportType__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
 /* import */ var _dataIdRegistry__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/backends/dataIdRegistry.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -25627,7 +25627,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getLegacyViewportType__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
 /* import */ var _utils_getCenterExtent__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/getCenterExtent.ts");
 /* import */ var _utils_isMeasurementWithinViewport__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/isMeasurementWithinViewport.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -25904,7 +25904,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getLegacyViewportType__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
 /* import */ var _utils_nextViewports__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/nextViewports.ts");
 /* import */ var _dataIdRegistry__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/backends/dataIdRegistry.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -26458,7 +26458,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _adapter__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/index.ts");
 /* import */ var _LegacyViewportOperations__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/backends/LegacyViewportOperations.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -26613,7 +26613,7 @@ __webpack_require__.d(__webpack_exports__, {
   DataIdRegistry: () => (DataIdRegistry)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -26743,7 +26743,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _adapter__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/index.ts");
 /* import */ var _LegacyViewportOperations__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/backends/LegacyViewportOperations.ts");
 /* import */ var _NextViewportOperations__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/backends/NextViewportOperations.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -26793,7 +26793,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   RENDERING_ENGINE_ID: () => (RENDERING_ENGINE_ID)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const RENDERING_ENGINE_ID = 'OHIFCornerstoneRenderingEngine';
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -26810,7 +26810,7 @@ __webpack_require__.d(__webpack_exports__, {
   reset: () => (reset),
   setEnabledElement: () => (setEnabledElement)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const state = {
   // The `defaultContext` of an extension's commandsModule
   DEFAULT_CONTEXT: 'CORNERSTONE',
@@ -26863,7 +26863,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _useSegmentationPresentationStore__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/stores/useSegmentationPresentationStore.ts");
 /* import */ var _useSynchronizersStore__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/stores/useSynchronizersStore.ts");
 /* import */ var _useSelectedSegmentationsForViewportStore__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/stores/useSelectedSegmentationsForViewportStore.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -26883,7 +26883,7 @@ __webpack_require__.d(__webpack_exports__, {
   JOIN_STR: () => (JOIN_STR),
   addUniqueIndex: () => (addUniqueIndex)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const JOIN_STR = '&';
 
 // The default lut presentation id if none defined
@@ -26931,7 +26931,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
 /* import */ var _presentationUtils__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/stores/presentationUtils.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -27050,7 +27050,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
 /* import */ var _presentationUtils__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/stores/presentationUtils.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -27166,7 +27166,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
 /* import */ var _presentationUtils__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/stores/presentationUtils.ts");
 /* import */ var _utils_getViewportOrientationFromImageOrientationPatient__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/getViewportOrientationFromImageOrientationPatient.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -27340,7 +27340,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const PRESENTATION_TYPE_ID = 'selectedSegmentationsForViewportId';
@@ -27397,7 +27397,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -27465,7 +27465,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const frameViewSyncCallback = (synchronizerInstance, sourceViewport, targetViewport) => {
@@ -27520,7 +27520,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _ohif_extension_default__rspack_import_1 = __webpack_require__("../../../extensions/default/src/index.ts");
 /* import */ var _utils_getActiveViewportEnabledElement__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/getActiveViewportEnabledElement.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -27629,7 +27629,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core_src_utils__rspack_import_2 = __webpack_require__("../../core/src/utils/index.ts");
 /* import */ var _OverlayPlaneModuleProvider__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/tools/OverlayPlaneModuleProvider.ts");
 /* import */ var _utils_getLegacyViewportType__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -27871,7 +27871,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const _cachedOverlayMetadata = new Map();
 
@@ -27921,7 +27921,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   ChangeTypes: () => (ChangeTypes)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 // Position options
 
 // Tick position options
@@ -27966,7 +27966,7 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 "../../../extensions/cornerstone/src/types/Presentation.ts"(module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -27978,7 +27978,7 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 "../../../extensions/cornerstone/src/types/ViewportPresets.ts"(module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -27990,7 +27990,7 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 "../../../extensions/cornerstone/src/types/VolumeLighting.ts"(module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -28002,7 +28002,7 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 "../../../extensions/cornerstone/src/types/VolumeRenderingConfig.ts"(module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -28014,7 +28014,7 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 "../../../extensions/cornerstone/src/types/WindowLevel.ts"(module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -28031,7 +28031,7 @@ __webpack_require__.r(__webpack_exports__);
 /* import */ var _WindowLevel__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/types/WindowLevel.ts");
 /* import */ var _VolumeRenderingConfig__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/types/VolumeRenderingConfig.ts");
 /* import */ var _VolumeLighting__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/types/VolumeLighting.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -28059,7 +28059,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_tools__rspack_import_4 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _state__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/state.ts");
 /* import */ var _services_ViewportService_adapter__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -28348,7 +28348,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_dicom_image_loader__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/dicom-image-loader/dist/esm/index.js");
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const EVENTS = {
@@ -28515,7 +28515,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Jump Presets - This enum defines the 3 jump states which are available
  * to be used with the jumpToSlice utility function.
@@ -28542,7 +28542,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   colormaps: () => (colormaps)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const colormaps = [{
   ColorSpace: 'RGB',
   Name: 'Grayscale',
@@ -28628,7 +28628,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _cornerstonejs_tools_enums__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/enums/index.js");
 /* import */ var _ohif_i18n__rspack_import_2 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -28706,7 +28706,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_dicom_image_loader__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/dicom-image-loader/dist/esm/index.js");
 /* import */ var dicomweb_client__rspack_import_2 = __webpack_require__("../../../node_modules/dicomweb-client/build/dicomweb-client.es.js");
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -28889,7 +28889,7 @@ __webpack_require__.d(__webpack_exports__, {
   buildEcgModule: () => (buildEcgModule),
   decodeInt16Multiplex: () => (decodeInt16Multiplex)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Decode a multiplexed Int16 buffer into per-channel arrays.
  * Layout: sample0ch0, sample0ch1 ... sample0chN, sample1ch0, …
@@ -29002,7 +29002,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   findNearbyToolData: () => (findNearbyToolData)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Finds tool nearby event position triggered.
  *
@@ -29036,7 +29036,7 @@ __webpack_require__.d(__webpack_exports__, {
   generateSegmentationCSVReport: () => (generateSegmentationCSVReport)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   downloadCsv
@@ -29143,7 +29143,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getActiveViewportEnabledElement)
 });
 /* import */ var _getViewportEnabledElement__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/utils/getViewportEnabledElement.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function getActiveViewportEnabledElement(viewportGridService) {
   const {
@@ -29163,7 +29163,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   getCenterExtent: () => (getCenterExtent)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Calculates the center point and bounding box extent of a measurement based on its points.
  * @param {Object} measurement - The measurement object containing points
@@ -29225,7 +29225,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getCornerstoneBlendMode)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const MIP = 'mip';
 const MINIP = 'minip';
@@ -29258,7 +29258,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getCornerstoneOrientation)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const AXIAL = 'axial';
 const SAGITTAL = 'sagittal';
@@ -29301,7 +29301,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _nextViewports__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/nextViewports.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const STACK = 'stack';
@@ -29384,7 +29384,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (getInterleavedFrames)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function getInterleavedFrames(imageIds) {
   if (imageIds.length === 0) {
     return [];
@@ -29461,7 +29461,7 @@ __webpack_require__.d(__webpack_exports__, {
   isVolumeViewportType: () => (isVolumeViewportType)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   ViewportType
@@ -29533,7 +29533,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (getNthFrames)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Returns a re-ordered array consisting of, in order:
  *    1. First few objects
@@ -29578,7 +29578,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _state__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/state.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function getViewportEnabledElement(viewportId) {
@@ -29601,7 +29601,7 @@ __webpack_require__.d(__webpack_exports__, {
   getViewportOrientationFromImageOrientationPatient: () => (getViewportOrientationFromImageOrientationPatient)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   MPR_CAMERA_VALUES
@@ -29656,7 +29656,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   getUpdatedViewportsForSegmentation: () => (getUpdatedViewportsForSegmentation)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * After SEG hydration we must refresh every viewport that shows the referenced volume so
  * presentations (including segmentation) apply to all MPR/3D tiles. Hanging-protocol matching
@@ -29751,7 +29751,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (toggleImageSliceSync)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const IMAGE_SLICE_SYNC_NAME = 'IMAGE_SLICE_SYNC';
 function toggleImageSliceSync({
   servicesManager,
@@ -29863,7 +29863,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _promptHydrationDialog__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/promptHydrationDialog.ts");
 /* import */ var _getCenterExtent__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/getCenterExtent.ts");
 /* import */ var _createSegmentationForViewport__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/createSegmentationForViewport.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -29894,7 +29894,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const IMAGE_TIMING_KEYS = [];
@@ -29958,7 +29958,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _cornerstonejs_tools__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -30084,7 +30084,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (interleave)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Interleave the items from all the lists so that the first items are first
  * in the returned list, the second items are next etc.
@@ -30135,7 +30135,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var lodash_compact__rspack_import_3_default = /*#__PURE__*/__webpack_require__.n(lodash_compact__rspack_import_3);
 /* import */ var lodash_flatten__rspack_import_4 = __webpack_require__("../../../node_modules/lodash.flatten/index.js");
 /* import */ var lodash_flatten__rspack_import_4_default = /*#__PURE__*/__webpack_require__.n(lodash_flatten__rspack_import_4);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -30306,7 +30306,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var lodash_compact__rspack_import_2_default = /*#__PURE__*/__webpack_require__.n(lodash_compact__rspack_import_2);
 /* import */ var lodash_flatten__rspack_import_3 = __webpack_require__("../../../node_modules/lodash.flatten/index.js");
 /* import */ var lodash_flatten__rspack_import_3_default = /*#__PURE__*/__webpack_require__.n(lodash_flatten__rspack_import_3);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -30461,7 +30461,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   isAnyDisplaySetCommon: () => (isAnyDisplaySetCommon)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Checks whether two viewports share at least one common display set.
  *
@@ -30490,7 +30490,7 @@ __webpack_require__.d(__webpack_exports__, {
   isMeasurementWithinViewport: () => (isMeasurementWithinViewport)
 });
 /* import */ var _getCenterExtent__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/utils/getCenterExtent.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -30546,7 +30546,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var gl_matrix__rspack_import_0 = __webpack_require__("../../../node_modules/gl-matrix/esm/index.js");
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 var OrientationAxis = _cornerstonejs_core__rspack_import_1.Enums.OrientationAxis;
@@ -30644,7 +30644,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getIsVisible__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
 /* import */ var _utils_getSOPInstanceAttributes__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getSOPInstanceAttributes.js");
 /* import */ var _ohif_core__rspack_import_5 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -30852,7 +30852,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getIsLocked__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsLocked.ts");
 /* import */ var _utils_getSOPInstanceAttributes__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getSOPInstanceAttributes.js");
 /* import */ var _utils_getIsVisible__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -31035,7 +31035,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/index.ts");
 /* import */ var _utils_getIsLocked__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsLocked.ts");
 /* import */ var _utils_getIsVisible__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -31243,7 +31243,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getValueDisplayString__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getValueDisplayString.js");
 /* import */ var _utils_getIsLocked__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsLocked.ts");
 /* import */ var _utils_getIsVisible__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -31492,7 +31492,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getIsVisible__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
 /* import */ var _utils_getSOPInstanceAttributes__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getSOPInstanceAttributes.js");
 /* import */ var _ohif_core__rspack_import_5 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -31706,7 +31706,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getSOPInstanceAttributes__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getSOPInstanceAttributes.js");
 /* import */ var _ohif_core__rspack_import_5 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _utils_getValueDisplayString__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getValueDisplayString.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -31945,7 +31945,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getIsVisible__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
 /* import */ var _utils_getSOPInstanceAttributes__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getSOPInstanceAttributes.js");
 /* import */ var _ohif_core__rspack_import_4 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -32162,7 +32162,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _utils_getIsLocked__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsLocked.ts");
 /* import */ var _utils_getIsVisible__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -32357,7 +32357,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getIsVisible__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
 /* import */ var _utils__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/index.ts");
 /* import */ var _utils_getValueDisplayString__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getValueDisplayString.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -32620,7 +32620,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _utils_getIsLocked__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsLocked.ts");
 /* import */ var _utils_getIsVisible__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -32824,7 +32824,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getValueDisplayString__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getValueDisplayString.js");
 /* import */ var _utils_getIsLocked__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsLocked.ts");
 /* import */ var _utils_getIsVisible__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -33069,7 +33069,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/index.ts");
 /* import */ var _utils_getIsLocked__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsLocked.ts");
 /* import */ var _utils_getIsVisible__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -33267,7 +33267,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getIsLocked__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsLocked.ts");
 /* import */ var _utils_getIsVisible__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
 /* import */ var _utils__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -33528,7 +33528,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _utils_getIsLocked__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsLocked.ts");
 /* import */ var _utils_getIsVisible__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -33756,7 +33756,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getSOPInstanceAttributes__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getSOPInstanceAttributes.js");
 /* import */ var _utils_getIsLocked__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsLocked.ts");
 /* import */ var _utils_getIsVisible__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getIsVisible.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -33935,7 +33935,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const supportedTools = ['Length', 'EllipticalROI', 'CircleROI', 'Bidirectional', 'ArrowAnnotate', 'Angle', 'CobbAngle', 'Probe', 'RectangleROI', 'PlanarFreehandROI', 'SplineROI', 'LivewireContour', 'UltrasoundDirectionalTool', 'UltrasoundPleuraBLineTool', 'SegmentBidirectional'];
 /* export default */ const __rspack_default_export = (supportedTools);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -33951,7 +33951,7 @@ __webpack_require__.d(__webpack_exports__, {
   measurementMappingUtils: () => (/* reexport module object */ _utils__rspack_import_0)
 });
 /* import */ var _utils__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -33982,7 +33982,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _UltrasoundDirectional__rspack_import_13 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/UltrasoundDirectional.ts");
 /* import */ var _SegmentBidirectional__rspack_import_14 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/SegmentBidirectional.ts");
 /* import */ var _UltrasoundPleuraBLine__rspack_import_15 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/UltrasoundPleuraBLine.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -34178,7 +34178,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const getDisplayUnit = unit => unit == null ? '' : unit;
 /* export default */ const __rspack_default_export = (getDisplayUnit);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -34193,7 +34193,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (getHandlesFromPoints)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function getHandlesFromPoints(points) {
   if (points.longAxis && points.shortAxis) {
     const handles = {};
@@ -34224,7 +34224,7 @@ __webpack_require__.d(__webpack_exports__, {
   getIsLocked: () => (getIsLocked)
 });
 /* import */ var _cornerstonejs_tools_annotation__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/stateManagement/annotation/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const getIsLocked = annotationUID => {
   return _cornerstonejs_tools_annotation__rspack_import_0.locking.isAnnotationLocked(annotationUID);
@@ -34242,7 +34242,7 @@ __webpack_require__.d(__webpack_exports__, {
   getIsVisible: () => (getIsVisible)
 });
 /* import */ var _cornerstonejs_tools_annotation__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/stateManagement/annotation/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const getIsVisible = annotationUID => {
   const isVisible = _cornerstonejs_tools_annotation__rspack_import_0.visibility.isAnnotationVisible(annotationUID);
@@ -34261,7 +34261,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getSOPInstanceAttributes)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function getDisplaySet({
   metadata,
@@ -34339,7 +34339,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _getDisplayUnit__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getDisplayUnit.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const getStatisticDisplayString = (numbers, unit, key) => {
@@ -34371,7 +34371,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _selection__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/selection.ts");
 /* import */ var _getSOPInstanceAttributes__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getSOPInstanceAttributes.js");
 /* import */ var _getDisplayUnit__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/measurementServiceMappings/utils/getDisplayUnit.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -34392,7 +34392,7 @@ __webpack_require__.d(__webpack_exports__, {
   setAnnotationSelected: () => (setAnnotationSelected)
 });
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -34438,7 +34438,7 @@ __webpack_require__.d(__webpack_exports__, {
   getHydrationViewportTypeForModality: () => (getHydrationViewportTypeForModality)
 });
 /* import */ var _nextViewports__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/utils/nextViewports.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -34497,7 +34497,7 @@ __webpack_require__.d(__webpack_exports__, {
   setNextViewportsEnabled: () => (setNextViewportsEnabled),
   setViewportRenderingOverrides: () => (setViewportRenderingOverrides)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Module-level accessor for the `appConfig.genericViewports.enabled` opt-in flag.
  *
@@ -34653,7 +34653,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _getNthFrames__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/getNthFrames.ts");
 /* import */ var _interleave__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/utils/interleave.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -34749,7 +34749,7 @@ __webpack_require__.d(__webpack_exports__, {
   HydrationType: () => (HydrationType),
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const HydrationType = {
   SEG: 'SEG',
   SR: 'SR',
@@ -34919,7 +34919,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   handleSegmentChange: () => (handleSegmentChange)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const handleSegmentChange = ({
   direction,
   segmentationId,
@@ -34969,7 +34969,7 @@ __webpack_require__.d(__webpack_exports__, {
   hasExportableLabelMapData: () => (hasExportableLabelMapData)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /**
  * Checks if a labelmap segmentation has exportable data
@@ -35051,7 +35051,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _updateSegmentationStats__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/updateSegmentationStats.ts");
 /* import */ var _stores__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/stores/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -35193,7 +35193,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const {
@@ -35226,7 +35226,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _segmentationHandlers__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/utils/segmentationHandlers.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const setUpSegmentationEventHandlers = ({
@@ -35334,7 +35334,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (toggleVOISliceSync)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const VOI_SYNC_NAME = 'VOI_SYNC';
 const getSyncId = modality => `${VOI_SYNC_NAME}_${modality}`;
 function toggleVOISliceSync({
@@ -35446,7 +35446,7 @@ __webpack_require__.d(__webpack_exports__, {
   easeOut: () => (easeOut),
   linear: () => (linear)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /** Cubic Bezier Implementation */
 
 /**
@@ -35739,7 +35739,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var lodash_clonedeep__rspack_import_1 = __webpack_require__("../../../node_modules/lodash.clonedeep/index.js");
 /* import */ var lodash_clonedeep__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(lodash_clonedeep__rspack_import_1);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -35911,7 +35911,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  *
  * @param {*} servicesManager
@@ -35972,7 +35972,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react_i18next__rspack_import_1 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _DataSourceConfigurationModalComponent__rspack_import_3 = __webpack_require__("../../../extensions/default/src/Components/DataSourceConfigurationModalComponent.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -36103,7 +36103,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react_i18next__rspack_import_2 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_ui_next__rspack_import_3 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ItemListComponent__rspack_import_4 = __webpack_require__("../../../extensions/default/src/Components/ItemListComponent.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -36244,7 +36244,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react_i18next__rspack_import_2 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_4 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -36333,7 +36333,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const LineChartViewport = ({
@@ -36382,7 +36382,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* reexport safe */ _LineChartViewport__rspack_import_0["default"])
 });
 /* import */ var _LineChartViewport__rspack_import_0 = __webpack_require__("../../../extensions/default/src/Components/LineChartViewport/LineChartViewport.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
@@ -36400,7 +36400,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$(),
   _s2 = $RefreshSig$();
 function _extends() {
@@ -36537,7 +36537,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -36643,7 +36643,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -36765,7 +36765,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ContextMenuItemsBuilder__rspack_import_0 = __webpack_require__("../../../extensions/default/src/CustomizableContextMenu/ContextMenuItemsBuilder.ts");
 /* import */ var _cornerstonejs_tools__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _ContextMenuController;
 
 
@@ -36960,7 +36960,7 @@ __webpack_require__.d(__webpack_exports__, {
   findMenuDefault: () => (findMenuDefault),
   getMenuItems: () => (getMenuItems)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Finds menu by menu id
  *
@@ -37141,7 +37141,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ContextMenuController__rspack_import_0 = __webpack_require__("../../../extensions/default/src/CustomizableContextMenu/ContextMenuController.tsx");
 /* import */ var _ContextMenuItemsBuilder__rspack_import_1 = __webpack_require__("../../../extensions/default/src/CustomizableContextMenu/ContextMenuItemsBuilder.ts");
 /* import */ var _types__rspack_import_2 = __webpack_require__("../../../extensions/default/src/CustomizableContextMenu/types.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -37155,7 +37155,7 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 "../../../extensions/default/src/CustomizableContextMenu/types.ts"(module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -37170,7 +37170,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   GoogleCloudDataSourceConfigurationAPI: () => (GoogleCloudDataSourceConfigurationAPI)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * This file contains the implementations of BaseDataSourceConfigurationAPIItem
  * and BaseDataSourceConfigurationAPI for the Google cloud healthcare API. To
@@ -37352,7 +37352,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _DicomWebDataSource_utils_getImageId__rspack_import_2 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/utils/getImageId.js");
 /* import */ var _utils_getDirectURL__rspack_import_3 = __webpack_require__("../../../extensions/default/src/utils/getDirectURL.ts");
 /* import */ var _utils_secureConfigFetch__rspack_import_4 = __webpack_require__("../../../extensions/default/src/utils/secureConfigFetch.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -37692,7 +37692,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _utils_dicomWriter__rspack_import_1 = __webpack_require__("../../../extensions/default/src/utils/dicomWriter.ts");
 /* import */ var _utils_appendFrameQueryToImageId__rspack_import_2 = __webpack_require__("../../../extensions/default/src/utils/appendFrameQueryToImageId.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -37978,7 +37978,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _DicomTagTable__rspack_import_5 = __webpack_require__("../../../extensions/default/src/DicomTagBrowser/DicomTagTable.tsx");
 /* import */ var _DicomTagBrowser_css__rspack_import_6 = __webpack_require__("../../../extensions/default/src/DicomTagBrowser/DicomTagBrowser.css");
 /* import */ var _DicomTagBrowser_css__rspack_import_6_default = /*#__PURE__*/__webpack_require__.n(_DicomTagBrowser_css__rspack_import_6);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -38383,7 +38383,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var lodash_debounce__rspack_import_3 = __webpack_require__("../../../node_modules/lodash.debounce/index.js");
 /* import */ var lodash_debounce__rspack_import_3_default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__rspack_import_3);
 /* import */ var _ohif_ui_next__rspack_import_4 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$(),
   _s3 = $RefreshSig$();
 
@@ -38669,7 +38669,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* export default binding */ __rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ function __rspack_default_export(wadoRoot, getAuthrorizationHeader) {
   return {
     series: (StudyInstanceUID, SeriesInstanceUID) => {
@@ -38737,7 +38737,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _retrieveThumbnail__rspack_import_12 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/retrieveThumbnail.ts");
 /* import */ var _retrieveRendered__rspack_import_13 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/retrieveRendered.ts");
 /* import */ var _retrieveBulkData__rspack_import_14 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/retrieveBulkData.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -39374,7 +39374,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_core_src_utils_sortStudy__rspack_import_1 = __webpack_require__("../../core/src/utils/sortStudy.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * QIDO - Query based on ID for DICOM Objects
  * search for studies, series and instances by patient ID, and receive their
@@ -39599,7 +39599,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (retrieveBulkData)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * A bindable function that retrieves bulkdata against `this` DICOMweb client
  * and caches the resolved buffer on the given value element.
@@ -39646,7 +39646,7 @@ __webpack_require__.d(__webpack_exports__, {
   getRenderedURL: () => (getRenderedURL),
   isTrustedWadoURL: () => (isTrustedWadoURL)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function getRenderedURL({
   config,
   getAuthorizationHeader,
@@ -39759,7 +39759,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _utils_retrieveMetadataFiltered_js__rspack_import_0 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/utils/retrieveMetadataFiltered.js");
 /* import */ var _wado_retrieveMetadata_js__rspack_import_1 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/wado/retrieveMetadata.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const moduleName = 'RetrieveStudyMetadata';
@@ -39836,7 +39836,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   getGetThumbnailSrc: () => (getGetThumbnailSrc)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * The subset of the data source's `retrieve` object the thumbnail strategies
  * call back into for the directURL and bulkData-backed renderings.
@@ -40073,7 +40073,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var dicomweb_client__rspack_import_0 = __webpack_require__("../../../node_modules/dicomweb-client/build/dicomweb-client.es.js");
 /* import */ var _fixMultipart__rspack_import_1 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/utils/fixMultipart.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const {
@@ -40343,7 +40343,7 @@ __webpack_require__.d(__webpack_exports__, {
   transferDenaturalizedDataset: () => (transferDenaturalizedDataset)
 });
 /* import */ var _fixBulkDataURI__rspack_import_0 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/utils/fixBulkDataURI.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function isPrimitive(v) {
   return !(typeof v == 'object' || Array.isArray(v));
@@ -40409,7 +40409,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function checkToken(token, data, dataOffset) {
   if (dataOffset + token.length > data.length) {
     return false;
@@ -40455,7 +40455,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   fixBulkDataURI: () => (fixBulkDataURI)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Modifies a bulkDataURI to ensure it is absolute based on the DICOMWeb configuration and
  * instance data. The modification is in-place.
@@ -40538,7 +40538,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   fixMultiValueKeys: () => (fixMultiValueKeys)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Fix multi-valued keys so that those which are strings split by
  * a backslash are returned as arrays.
@@ -40567,7 +40567,7 @@ __webpack_require__.d(__webpack_exports__, {
   uint8ArrayToString: () => (uint8ArrayToString)
 });
 /* import */ var _findIndexOfString__rspack_import_0 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/utils/findIndexOfString.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -40643,7 +40643,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getImageId)
 });
 /* import */ var _getWADORSImageId__rspack_import_0 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/utils/getWADORSImageId.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function buildInstanceWadoUrl(config, instance) {
   const {
@@ -40709,7 +40709,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (getWADORSImageId)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function buildInstanceWadoRsUri(instance, config) {
   const {
     StudyInstanceUID,
@@ -40778,7 +40778,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _fixBulkDataURI__rspack_import_0 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/utils/fixBulkDataURI.ts");
 /* import */ var _cleanDenaturalizedDataset__rspack_import_1 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/utils/cleanDenaturalizedDataset.ts");
 /* import */ var _fixMultiValueKeys__rspack_import_2 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/utils/fixMultiValueKeys.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -40796,7 +40796,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _wado_retrieveMetadata__rspack_import_0 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/wado/retrieveMetadata.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -40860,7 +40860,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _retrieveMetadataLoaderSync__rspack_import_0 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/wado/retrieveMetadataLoaderSync.js");
 /* import */ var _retrieveMetadataLoaderAsync__rspack_import_1 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/wado/retrieveMetadataLoaderAsync.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -40900,7 +40900,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (RetrieveMetadataLoader)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Class to define inheritance of load retrieve strategy.
  * The process can be async load (lazy) or sync load
@@ -40972,7 +40972,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var dcmjs__rspack_import_0 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
 /* import */ var _ohif_core_src_utils_sortStudy__rspack_import_1 = __webpack_require__("../../core/src/utils/sortStudy.ts");
 /* import */ var _retrieveMetadataLoader__rspack_import_2 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/wado/retrieveMetadataLoader.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -41153,7 +41153,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (RetrieveMetadataLoaderSync)
 });
 /* import */ var _retrieveMetadataLoader__rspack_import_0 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/wado/retrieveMetadataLoader.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 // import { api } from 'dicomweb-client';
 // import DICOMWeb from '../../../DICOMWeb/';
 
@@ -41230,7 +41230,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _DicomWebDataSource_index__rspack_import_1 = __webpack_require__("../../../extensions/default/src/DicomWebDataSource/index.ts");
 /* import */ var _utils_secureConfigFetch__rspack_import_2 = __webpack_require__("../../../extensions/default/src/utils/secureConfigFetch.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -41346,7 +41346,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var lodash_get__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(lodash_get__rspack_import_1);
 /* import */ var lodash_uniqby__rspack_import_2 = __webpack_require__("../../../node_modules/lodash.uniqby/index.js");
 /* import */ var lodash_uniqby__rspack_import_2_default = /*#__PURE__*/__webpack_require__.n(lodash_uniqby__rspack_import_2);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -41657,7 +41657,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react_router_dom__rspack_import_2 = __webpack_require__("../../../node_modules/react-router-dom/dist/index.js");
 /* import */ var _state__rspack_import_3 = __webpack_require__("./state/index.js");
 /* import */ var _ohif_ui_next__rspack_import_4 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -41730,7 +41730,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _constants__rspack_import_5 = __webpack_require__("../../../extensions/default/src/Panels/StudyBrowser/constants/index.ts");
 /* import */ var _Components_MoreDropdownMenu__rspack_import_6 = __webpack_require__("../../../extensions/default/src/Components/MoreDropdownMenu.tsx");
 /* import */ var _ohif_core_src_utils_thumbnailNoImageModalities__rspack_import_7 = __webpack_require__("../../core/src/utils/thumbnailNoImageModalities.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -42206,7 +42206,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -42263,7 +42263,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   defaultActionIcons: () => (defaultActionIcons)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const defaultActionIcons = [{
   id: 'settings',
   iconName: 'Settings',
@@ -42285,7 +42285,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _actionIcons__rspack_import_0 = __webpack_require__("../../../extensions/default/src/Panels/StudyBrowser/constants/actionIcons.ts");
 /* import */ var _viewPresets__rspack_import_1 = __webpack_require__("../../../extensions/default/src/Panels/StudyBrowser/constants/viewPresets.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -42301,7 +42301,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   defaultViewPresets: () => (defaultViewPresets)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const defaultViewPresets = [{
   id: 'list',
   iconName: 'ListView',
@@ -42331,7 +42331,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _getStudiesForPatientByMRN__rspack_import_3 = __webpack_require__("../../../extensions/default/src/Panels/getStudiesForPatientByMRN.js");
 /* import */ var _requestDisplaySetCreationForStudy__rspack_import_4 = __webpack_require__("../../../extensions/default/src/Panels/requestDisplaySetCreationForStudy.js");
 /* import */ var _ohif_core__rspack_import_5 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 //
@@ -42407,7 +42407,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (CreateReportDialogPrompt)
 });
 /* import */ var _utils_shared_PROMPT_RESPONSES__rspack_import_0 = __webpack_require__("../../../extensions/default/src/utils/_shared/PROMPT_RESPONSES.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -42503,7 +42503,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * @param {*} cornerstone
  * @param {*} imageId
@@ -42533,7 +42533,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 async function getStudiesForPatientByMRN(dataSource, qidoForStudyUID) {
   if (!qidoForStudyUID?.length) {
     return [];
@@ -42567,7 +42567,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _StudyBrowser_PanelStudyBrowser__rspack_import_0 = __webpack_require__("../../../extensions/default/src/Panels/StudyBrowser/PanelStudyBrowser.tsx");
 /* import */ var _WrappedPanelStudyBrowser__rspack_import_1 = __webpack_require__("../../../extensions/default/src/Panels/WrappedPanelStudyBrowser.tsx");
 /* import */ var _createReportDialogPrompt__rspack_import_2 = __webpack_require__("../../../extensions/default/src/Panels/createReportDialogPrompt.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -42584,7 +42584,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function requestDisplaySetCreationForStudy(dataSource, displaySetService, StudyInstanceUID, madeInClient) {
   // TODO: is this already short-circuited by the map of Retrieve promises?
   if (displaySetService.activeDisplaySets.some(displaySet => displaySet.StudyInstanceUID === StudyInstanceUID)) {
@@ -42610,7 +42610,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _id__rspack_import_1 = __webpack_require__("../../../extensions/default/src/id.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const SOPClassHandlerName = 'chart';
@@ -42708,7 +42708,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var classnames__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(classnames__rspack_import_1);
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core_src_hooks_useToolbar__rspack_import_3 = __webpack_require__("../../core/src/hooks/useToolbar.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -42807,7 +42807,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core_src__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -42899,7 +42899,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -42951,7 +42951,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -43020,7 +43020,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -43123,7 +43123,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function ToolbarDivider() {
   return /*#__PURE__*/react__rspack_import_0_default().createElement("span", {
@@ -43152,7 +43152,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_3 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var react_i18next__rspack_import_4 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -43346,7 +43346,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ToolBoxWrapper__rspack_import_4 = __webpack_require__("../../../extensions/default/src/Toolbar/ToolBoxWrapper.tsx");
 /* import */ var _ToolbarDivider__rspack_import_5 = __webpack_require__("../../../extensions/default/src/Toolbar/ToolbarDivider.tsx");
 /* import */ var _ToolbarLayoutSelector__rspack_import_6 = __webpack_require__("../../../extensions/default/src/Toolbar/ToolbarLayoutSelector.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -43371,7 +43371,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _hooks_usePatientInfo__rspack_import_1 = __webpack_require__("../../../extensions/default/src/hooks/usePatientInfo.tsx");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -43451,7 +43451,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _HeaderPatientInfo__rspack_import_0 = __webpack_require__("../../../extensions/default/src/ViewerLayout/HeaderPatientInfo/HeaderPatientInfo.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = (_HeaderPatientInfo__rspack_import_0["default"]);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -43470,7 +43470,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var react_resizable_panels__rspack_import_1 = __webpack_require__("../../../node_modules/react-resizable-panels/dist/react-resizable-panels.browser.development.esm.js");
 /* import */ var _constants_panels__rspack_import_2 = __webpack_require__("../../../extensions/default/src/ViewerLayout/constants/panels.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -43755,7 +43755,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _HeaderPatientInfo__rspack_import_6 = __webpack_require__("../../../extensions/default/src/ViewerLayout/HeaderPatientInfo/index.js");
 /* import */ var _HeaderPatientInfo_HeaderPatientInfo__rspack_import_7 = __webpack_require__("../../../extensions/default/src/ViewerLayout/HeaderPatientInfo/HeaderPatientInfo.tsx");
 /* import */ var _ohif_app__rspack_import_8 = __webpack_require__("./index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -43901,7 +43901,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   getPanelGroupDefinition: () => (getPanelGroupDefinition)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const expandedInsideBorderSize = 0;
 const collapsedInsideBorderSize = 4;
 const collapsedOutsideBorderSize = 4;
@@ -43964,7 +43964,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ViewerHeader__rspack_import_5 = __webpack_require__("../../../extensions/default/src/ViewerLayout/ViewerHeader.tsx");
 /* import */ var _Components_SidePanelWithServices__rspack_import_6 = __webpack_require__("../../../extensions/default/src/Components/SidePanelWithServices.tsx");
 /* import */ var _ResizablePanelsHook__rspack_import_7 = __webpack_require__("../../../extensions/default/src/ViewerLayout/ResizablePanelsHook.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -44183,7 +44183,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _stores_useToggleOneUpViewportGridStore__rspack_import_14 = __webpack_require__("../../../extensions/default/src/stores/useToggleOneUpViewportGridStore.ts");
 /* import */ var _Panels_requestDisplaySetCreationForStudy__rspack_import_15 = __webpack_require__("../../../extensions/default/src/Panels/requestDisplaySetCreationForStudy.js");
 /* import */ var _utils_promptSaveReport__rspack_import_16 = __webpack_require__("../../../extensions/default/src/utils/promptSaveReport.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -45074,7 +45074,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var browser_detect__rspack_import_2 = __webpack_require__("../../../node_modules/browser-detect/dist/browser-detect.es5.js");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -45133,7 +45133,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var react_i18next__rspack_import_2 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -45248,7 +45248,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   'ohif.contextMenu': {
     $transform: function (customizationService) {
@@ -45290,7 +45290,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_ui_next__rspack_import_0 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = ({
   'ui.contextMenu': _ohif_ui_next__rspack_import_0.ContextMenuViewport
@@ -45307,7 +45307,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   'routes.customRoutes': {
     routes: [],
@@ -45328,7 +45328,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _Components_DataSourceConfigurationComponent__rspack_import_0 = __webpack_require__("../../../extensions/default/src/Components/DataSourceConfigurationComponent.tsx");
 /* import */ var _DataSourceConfigurationAPI_GoogleCloudDataSourceConfigurationAPI__rspack_import_1 = __webpack_require__("../../../extensions/default/src/DataSourceConfigurationAPI/GoogleCloudDataSourceConfigurationAPI.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function getDataSourceConfigurationCustomization({
@@ -45358,7 +45358,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _Panels_DataSourceSelector__rspack_import_0 = __webpack_require__("../../../extensions/default/src/Panels/DataSourceSelector.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = ({
   'routes.customRoutes': {
@@ -45382,7 +45382,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   measurementsContextMenu: {
     inheritsFrom: 'ohif.contextMenu',
@@ -45417,7 +45417,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = ({
   'routes.customRoutes': {
@@ -45446,7 +45446,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = ({
   'ohif.hotkeyBindings': _ohif_core__rspack_import_0.defaults.hotkeyBindings
@@ -45463,7 +45463,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   instanceSortingCriteria: {
     sortFunctions: {},
@@ -45483,7 +45483,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_ui_next__rspack_import_0 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = ({
   'ui.labellingComponent': _ohif_ui_next__rspack_import_0.LabellingFlow
@@ -45501,7 +45501,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_ui_next__rspack_import_0 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = ({
   'ui.loadingIndicatorProgress': _ohif_ui_next__rspack_import_0.LoadingIndicatorProgress
@@ -45519,7 +45519,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_ui_next__rspack_import_0 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = ({
   'ui.loadingIndicatorTotalPercent': _ohif_ui_next__rspack_import_0.LoadingIndicatorTotalPercent
@@ -45539,7 +45539,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /* export default */ const __rspack_default_export = ({
@@ -45604,7 +45604,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   'studyBrowser.studyMenuItems': {
     $push: [{
@@ -45671,7 +45671,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_i18n__rspack_import_0 = __webpack_require__("../../i18n/src/index.js");
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const beginTrackingMessage = _ohif_i18n__rspack_import_0["default"].t('MeasurementTable:Track measurements for this series?');
@@ -45707,7 +45707,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = ({
   customOnDropHandler: () => {
     return Promise.resolve({
@@ -45728,7 +45728,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_i18n__rspack_import_0 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function waitForElement(selector, maxAttempts = 20, interval = 25) {
   return new Promise(resolve => {
@@ -45920,7 +45920,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /* export default */ const __rspack_default_export = ({
@@ -45962,7 +45962,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _Components_ProgressDropdownWithService__rspack_import_0 = __webpack_require__("../../../extensions/default/src/Components/ProgressDropdownWithService.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = ({
   progressDropdownWithServiceComponent: _Components_ProgressDropdownWithService__rspack_import_0.ProgressDropdownWithService
@@ -45980,7 +45980,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_ui_next__rspack_import_0 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = ({
   'ui.progressLoadingBar': _ohif_ui_next__rspack_import_0.ProgressLoadingBar
@@ -46003,7 +46003,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react_i18next__rspack_import_1 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -46191,7 +46191,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   sortingCriteria
@@ -46219,7 +46219,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_i18n__rspack_import_1 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const {
@@ -46309,7 +46309,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_i18n__rspack_import_4 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -46561,7 +46561,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getWorkListCustomization)
 });
 /* import */ var _ohif_ui_next__rspack_import_0 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -46689,7 +46689,7 @@ __webpack_require__.d(__webpack_exports__, {
   findOrCreateViewport: () => (findOrCreateViewport)
 });
 /* import */ var _stores_useViewportsByPositionStore__rspack_import_0 = __webpack_require__("../../../extensions/default/src/stores/useViewportsByPositionStore.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -46831,7 +46831,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _customizations_onboardingCustomization__rspack_import_24 = __webpack_require__("../../../extensions/default/src/customizations/onboardingCustomization.ts");
 /* import */ var _customizations_instanceSortingCriteriaCustomization__rspack_import_25 = __webpack_require__("../../../extensions/default/src/customizations/instanceSortingCriteriaCustomization.ts");
 /* import */ var _customizations_workListCustomization__rspack_import_26 = __webpack_require__("../../../extensions/default/src/customizations/workListCustomization.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -46933,7 +46933,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _DicomLocalDataSource_index__rspack_import_2 = __webpack_require__("../../../extensions/default/src/DicomLocalDataSource/index.js");
 /* import */ var _DicomWebProxyDataSource_index__rspack_import_3 = __webpack_require__("../../../extensions/default/src/DicomWebProxyDataSource/index.ts");
 /* import */ var _MergeDataSource_index__rspack_import_4 = __webpack_require__("../../../extensions/default/src/MergeDataSource/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 // TODO: Pull in IWebClientApi from @ohif/core
 // TODO: Use constructor to create an instance of IWebClientApi
 // TODO: Use existing DICOMWeb configuration (previously, appConfig, to configure instance)
@@ -46988,7 +46988,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _utils_validations_checkMultiframe__rspack_import_3 = __webpack_require__("../../../extensions/default/src/utils/validations/checkMultiframe.ts");
 /* import */ var _utils_validations_checkSingleFrames__rspack_import_4 = __webpack_require__("../../../extensions/default/src/utils/validations/checkSingleFrames.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -47047,7 +47047,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_core_src_classes_ImageSet__rspack_import_0 = __webpack_require__("../../core/src/classes/ImageSet.ts");
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -47106,7 +47106,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _hangingprotocols_hpCompare__rspack_import_1 = __webpack_require__("../../../extensions/default/src/hangingprotocols/hpCompare.ts");
 /* import */ var _hangingprotocols_hpMammo__rspack_import_2 = __webpack_require__("../../../extensions/default/src/hangingprotocols/hpMammo.ts");
 /* import */ var _hangingprotocols_hpScale__rspack_import_3 = __webpack_require__("../../../extensions/default/src/hangingprotocols/hpScale.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -47256,7 +47256,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* export default binding */ __rspack_default_export)
 });
 /* import */ var _ViewerLayout__rspack_import_0 = __webpack_require__("../../../extensions/default/src/ViewerLayout/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /*
 - Define layout for the viewer in mode configuration.
@@ -47302,7 +47302,7 @@ __webpack_require__.d(__webpack_exports__, {
   getPTImageIdInstanceMetadata: () => (getPTImageIdInstanceMetadata)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const metadataProvider = _ohif_core__rspack_import_0["default"].classes.MetadataProvider;
 function getPTImageIdInstanceMetadata(imageId) {
@@ -47412,7 +47412,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _Panels__rspack_import_1 = __webpack_require__("../../../extensions/default/src/Panels/index.js");
 /* import */ var i18next__rspack_import_2 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -47468,7 +47468,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _getDisplaySetsFromUnsupportedSeries__rspack_import_4 = __webpack_require__("../../../extensions/default/src/getDisplaySetsFromUnsupportedSeries.js");
 /* import */ var _SOPClassHandlers_chartSOPClassHandler__rspack_import_5 = __webpack_require__("../../../extensions/default/src/SOPClassHandlers/chartSOPClassHandler.ts");
 /* import */ var _cornerstonejs_core__rspack_import_6 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -47734,7 +47734,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _Toolbar_ToolBoxWrapper__rspack_import_5 = __webpack_require__("../../../extensions/default/src/Toolbar/ToolBoxWrapper.tsx");
 /* import */ var _Toolbar_ToolButtonWrapper__rspack_import_6 = __webpack_require__("../../../extensions/default/src/Toolbar/ToolButtonWrapper.tsx");
 /* import */ var _Toolbar__rspack_import_7 = __webpack_require__("../../../extensions/default/src/Toolbar/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -47809,7 +47809,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getViewportModule)
 });
 /* import */ var _Components_LineChartViewport_index__rspack_import_0 = __webpack_require__("../../../extensions/default/src/Components/LineChartViewport/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const getViewportModule = () => {
   return [{
@@ -47831,7 +47831,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var i18next__rspack_import_0 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const defaultDisplaySetSelector = {
   studyMatchingRules: [{
@@ -48017,7 +48017,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_studySelectors__rspack_import_0 = __webpack_require__("../../../extensions/default/src/hangingprotocols/utils/studySelectors.ts");
 /* import */ var _utils_seriesSelectors__rspack_import_1 = __webpack_require__("../../../extensions/default/src/hangingprotocols/utils/seriesSelectors.ts");
 /* import */ var _utils_viewportOptions__rspack_import_2 = __webpack_require__("../../../extensions/default/src/hangingprotocols/utils/viewportOptions.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -48335,7 +48335,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _utils_mammoDisplaySetSelector__rspack_import_0 = __webpack_require__("../../../extensions/default/src/hangingprotocols/utils/mammoDisplaySetSelector.ts");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const rightDisplayArea = {
@@ -48504,7 +48504,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const displayAreaScale1 = {
   type: 'SCALE',
   scale: 1,
@@ -48649,7 +48649,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _hpMammo__rspack_import_3 = __webpack_require__("../../../extensions/default/src/hangingprotocols/hpMammo.ts");
 /* import */ var _hpMNGrid__rspack_import_4 = __webpack_require__("../../../extensions/default/src/hangingprotocols/hpMNGrid.ts");
 /* import */ var _hpCompare__rspack_import_5 = __webpack_require__("../../../extensions/default/src/hangingprotocols/hpCompare.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -48670,7 +48670,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = (displaySet => {
   const frameAnatomy = displaySet?.images?.[0]?.SharedFunctionalGroupsSequence?.[0]?.FrameAnatomySequence?.[0];
   if (!frameAnatomy) {
@@ -48698,7 +48698,7 @@ __webpack_require__.d(__webpack_exports__, {
   RMLO: () => (RMLO),
   RMLOPrior: () => (RMLOPrior)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const priorStudyMatchingRules = [{
   // The priorInstance is a study counter that indicates what position this study is in
   // and the value comes from the options parameter.
@@ -48890,7 +48890,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _viewCode__rspack_import_0 = __webpack_require__("../../../extensions/default/src/hangingprotocols/utils/viewCode.ts");
 /* import */ var _laterality__rspack_import_1 = __webpack_require__("../../../extensions/default/src/hangingprotocols/utils/laterality.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function registerHangingProtocolAttributes({
@@ -48914,7 +48914,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   seriesWithImages: () => (seriesWithImages)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const seriesWithImages = [{
   attribute: 'numImageFrames',
   constraint: {
@@ -48946,7 +48946,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   studyWithImages: () => (studyWithImages)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const studyWithImages = [{
   id: 'OneOrMoreSeries',
   weight: 25,
@@ -48967,7 +48967,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = (displaySet => {
   const ViewCodeSequence = displaySet?.images[0]?.ViewCodeSequence[0];
   if (!ViewCodeSequence) {
@@ -48995,7 +48995,7 @@ __webpack_require__.d(__webpack_exports__, {
   hydrateSegDefault: () => (hydrateSegDefault),
   viewportOptions: () => (viewportOptions)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /** A default viewport options */
 const viewportOptions = {
   toolGroupId: 'default',
@@ -49026,7 +49026,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -49108,7 +49108,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/default/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 
@@ -49186,7 +49186,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _Components_MoreDropdownMenu__rspack_import_32 = __webpack_require__("../../../extensions/default/src/Components/MoreDropdownMenu.tsx");
 /* import */ var _Panels_requestDisplaySetCreationForStudy__rspack_import_33 = __webpack_require__("../../../extensions/default/src/Panels/requestDisplaySetCreationForStudy.js");
 /* import */ var _Toolbar_Toolbar__rspack_import_34 = __webpack_require__("../../../extensions/default/src/Toolbar/Toolbar.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -49280,7 +49280,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _getPTImageIdInstanceMetadata__rspack_import_3 = __webpack_require__("../../../extensions/default/src/getPTImageIdInstanceMetadata.ts");
 /* import */ var _hangingprotocols__rspack_import_4 = __webpack_require__("../../../extensions/default/src/hangingprotocols/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -49447,7 +49447,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -49513,7 +49513,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const PRESENTATION_TYPE_ID = 'hangingProtocolStageIndexId';
@@ -49570,7 +49570,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const PRESENTATION_TYPE_ID = 'toggleHangingProtocolId';
@@ -49626,7 +49626,7 @@ __webpack_require__.d(__webpack_exports__, {
   useToggleOneUpViewportGridStore: () => (useToggleOneUpViewportGridStore)
 });
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const PRESENTATION_TYPE_ID = 'toggleOneUpViewportGridId';
 // Stores the entire ViewportGridService getState when toggling to one up
@@ -49655,7 +49655,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -49725,7 +49725,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -49795,7 +49795,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var zustand__rspack_import_0 = __webpack_require__("../../../node_modules/zustand/esm/index.mjs");
 /* import */ var zustand_middleware__rspack_import_1 = __webpack_require__("../../../node_modules/zustand/esm/middleware.mjs");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const PRESENTATION_TYPE_ID = 'viewportsByPositionId';
@@ -49862,7 +49862,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -50001,7 +50001,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const RESPONSE = {
   NO_NEVER: -1,
   CANCEL: 0,
@@ -50024,7 +50024,7 @@ __webpack_require__.d(__webpack_exports__, {
   addIcon: () => (addIcon)
 });
 /* import */ var _ohif_ui_next__rspack_import_0 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /** Adds the icon to both ui and ui-next */
@@ -50043,7 +50043,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   appendFrameQueryToImageId: () => (appendFrameQueryToImageId)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Appends ?frame= or &frame= to a local/wadouri imageId.
  */
@@ -50071,7 +50071,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_tools_utilities__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/utilities/index.js");
 /* import */ var _cornerstonejs_tools__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _ohif_ui_next__rspack_import_3 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -50189,7 +50189,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _colorPickerDialog_css__rspack_import_3 = __webpack_require__("../../../extensions/default/src/utils/colorPickerDialog.css");
 /* import */ var _colorPickerDialog_css__rspack_import_3_default = /*#__PURE__*/__webpack_require__.n(_colorPickerDialog_css__rspack_import_3);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -50240,7 +50240,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Generates the rendered URL that can be used for direct retrieve of the pixel data binary stream.
  *
@@ -50300,7 +50300,7 @@ __webpack_require__.d(__webpack_exports__, {
   writeDicomDictToPart10Buffer: () => (writeDicomDictToPart10Buffer)
 });
 /* import */ var dcmjs__rspack_import_0 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const EXPLICIT_VR_LITTLE_ENDIAN = '1.2.840.10008.1.2.1';
 const DICOM_WRITE_OPTIONS = {
@@ -50399,7 +50399,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Generates a URL that can be used for direct retrieve of the bulkdata.
  *
@@ -50458,7 +50458,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _getBulkdataValue__rspack_import_1 = __webpack_require__("../../../extensions/default/src/utils/getBulkdataValue.js");
 /* import */ var _createRenderedRetrieve__rspack_import_2 = __webpack_require__("../../../extensions/default/src/utils/createRenderedRetrieve.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -50536,7 +50536,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _addIcon__rspack_import_0 = __webpack_require__("../../../extensions/default/src/utils/addIcon.ts");
 /* import */ var _Toolbox__rspack_import_1 = __webpack_require__("../../../extensions/default/src/utils/Toolbox.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -50560,7 +50560,7 @@ __webpack_require__.d(__webpack_exports__, {
   getModalityOverlayColormap: () => (getModalityOverlayColormap)
 });
 /* import */ var _ohif_extension_cornerstone__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const DERIVED_OVERLAY_MODALITIES = ['SEG', 'RTSTRUCT'];
 const DEFAULT_COLORMAP = 'hsv';
@@ -50759,7 +50759,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _callInputDialog__rspack_import_0 = __webpack_require__("../../../extensions/default/src/utils/callInputDialog.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function promptLabelAnnotation({
   servicesManager
@@ -50827,7 +50827,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _Actions_createReportAsync__rspack_import_1 = __webpack_require__("../../../extensions/default/src/Actions/createReportAsync.tsx");
 /* import */ var _Panels__rspack_import_2 = __webpack_require__("../../../extensions/default/src/Panels/index.js");
 /* import */ var _shared_PROMPT_RESPONSES__rspack_import_3 = __webpack_require__("../../../extensions/default/src/utils/_shared/PROMPT_RESPONSES.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -50939,7 +50939,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _dicomWriter__rspack_import_2 = __webpack_require__("../../../extensions/default/src/utils/dicomWriter.ts");
 /* import */ var _appendFrameQueryToImageId__rspack_import_3 = __webpack_require__("../../../extensions/default/src/utils/appendFrameQueryToImageId.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -51078,7 +51078,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _stores_useViewportGridStore__rspack_import_0 = __webpack_require__("../../../extensions/default/src/stores/useViewportGridStore.ts");
 /* import */ var _stores_useDisplaySetSelectorStore__rspack_import_1 = __webpack_require__("../../../extensions/default/src/stores/useDisplaySetSelectorStore.ts");
 /* import */ var _stores_useHangingProtocolStageIndexStore__rspack_import_2 = __webpack_require__("../../../extensions/default/src/stores/useHangingProtocolStageIndexStore.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -51182,7 +51182,7 @@ __webpack_require__.d(__webpack_exports__, {
   fetchConfigJson: () => (fetchConfigJson),
   resolveConfigFetchPolicy: () => (resolveConfigFetchPolicy)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 // @ts-nocheck
 
 function normalizeAllowedOrigins(allowedOrigins = []) {
@@ -51279,7 +51279,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (areAllImageComponentsEqual)
 });
 /* import */ var _ohif_core_src_utils_toNumber__rspack_import_0 = __webpack_require__("../../core/src/utils/toNumber.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -51317,7 +51317,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (areAllImageDimensionsEqual)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   toNumber
@@ -51363,7 +51363,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core_src_utils_toNumber__rspack_import_1 = __webpack_require__("../../core/src/utils/toNumber.js");
 /* import */ var _ohif_core_src_utils_isDisplaySetReconstructable__rspack_import_2 = __webpack_require__("../../core/src/utils/isDisplaySetReconstructable.js");
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -51433,7 +51433,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core_src_utils_isDisplaySetReconstructable__rspack_import_0 = __webpack_require__("../../core/src/utils/isDisplaySetReconstructable.js");
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_core_src_utils_toNumber__rspack_import_2 = __webpack_require__("../../core/src/utils/toNumber.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -51496,7 +51496,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_core_src_utils_isDisplaySetReconstructable__rspack_import_0 = __webpack_require__("../../core/src/utils/isDisplaySetReconstructable.js");
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -51533,7 +51533,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _areAllImagePositionsEqual__rspack_import_2 = __webpack_require__("../../../extensions/default/src/utils/validations/areAllImagePositionsEqual.ts");
 /* import */ var _areAllImageSpacingEqual__rspack_import_3 = __webpack_require__("../../../extensions/default/src/utils/validations/areAllImageSpacingEqual.ts");
 /* import */ var _ohif_core__rspack_import_4 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 

@@ -6,7 +6,7 @@ __webpack_require__.d(__webpack_exports__, {
   MAX_SEGMENTATION_DRAWING_RADIUS: () => (MAX_SEGMENTATION_DRAWING_RADIUS),
   MIN_SEGMENTATION_DRAWING_RADIUS: () => (MIN_SEGMENTATION_DRAWING_RADIUS)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const MIN_SEGMENTATION_DRAWING_RADIUS = 0.5;
 const MAX_SEGMENTATION_DRAWING_RADIUS = 99.5;
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -21,7 +21,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../modes/segmentation/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 
@@ -46,7 +46,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _initToolGroups__rspack_import_1 = __webpack_require__("../../../modes/segmentation/src/initToolGroups.ts");
 /* import */ var _utils_setUpAutoTabSwitchHandler__rspack_import_2 = __webpack_require__("../../../modes/segmentation/src/utils/setUpAutoTabSwitchHandler.ts");
 /* import */ var _ohif_mode_basic__rspack_import_3 = __webpack_require__("../../../modes/basic/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -187,7 +187,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _constants__rspack_import_0 = __webpack_require__("../../../modes/segmentation/src/constants.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const colours = {
   'viewport-0': 'rgb(200, 0, 0)',
@@ -485,7 +485,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (setUpAutoTabSwitchHandler)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Sets up auto tab switching for when the first segmentation is added into the viewer.
  */

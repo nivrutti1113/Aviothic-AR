@@ -10,7 +10,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_1 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_1);
 /* import */ var _OHIFCornerstoneSRContentItem__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/components/OHIFCornerstoneSRContentItem.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -115,7 +115,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_1);
 /* import */ var _enums__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/enums.ts");
 /* import */ var _utils_formatContentItem__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/utils/formatContentItem.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -191,7 +191,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_cornerstone__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _ohif_ui_next__rspack_import_5 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core_src_contextProviders_SystemProvider__rspack_import_6 = __webpack_require__("../../core/src/contextProviders/SystemProvider.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -477,7 +477,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_1);
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _OHIFCornerstoneSRContainer__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/components/OHIFCornerstoneSRContainer.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -526,7 +526,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _OHIFCornerstoneSRMeasurementViewport__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/components/OHIFCornerstoneSRMeasurementViewport.tsx");
 /* import */ var _OHIFCornerstoneSRTextViewport__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/components/OHIFCornerstoneSRTextViewport.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -571,7 +571,7 @@ __webpack_require__.d(__webpack_exports__, {
   formatContentItemValue: () => (formatContentItemValue)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**

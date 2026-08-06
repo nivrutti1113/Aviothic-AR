@@ -5,7 +5,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (getWorkflowSettings)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const dynamicVolume = {
   sopClassHandler: '@ohif/extension-cornerstone-dynamic-volume.sopClassHandlerModule.dynamic-volume',
   leftPanel: '@ohif/extension-cornerstone-dynamic-volume.panelModule.dynamic-volume',
@@ -135,7 +135,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../modes/preclinical-4d/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 
@@ -154,7 +154,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _initWorkflowSteps__rspack_import_1 = __webpack_require__("../../../modes/preclinical-4d/src/initWorkflowSteps.ts");
 /* import */ var _initToolGroups__rspack_import_2 = __webpack_require__("../../../modes/preclinical-4d/src/initToolGroups.tsx");
 /* import */ var _toolbarButtons__rspack_import_3 = __webpack_require__("../../../modes/preclinical-4d/src/toolbarButtons.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -362,7 +362,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (initToolGroups),
   toolGroupIds: () => (toolGroupIds)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const toolGroupIds = {
   default: 'dynamic4D-default',
   PT: 'dynamic4D-pt',
@@ -565,7 +565,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (initWorkflowSteps)
 });
 /* import */ var _getWorkflowSettings__rspack_import_0 = __webpack_require__("../../../modes/preclinical-4d/src/getWorkflowSettings.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function initWorkflowSteps({
   servicesManager
@@ -592,7 +592,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _initToolGroups__rspack_import_0 = __webpack_require__("../../../modes/preclinical-4d/src/initToolGroups.tsx");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const setToolActiveToolbar = {

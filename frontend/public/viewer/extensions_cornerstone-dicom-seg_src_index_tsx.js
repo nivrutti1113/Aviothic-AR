@@ -12,7 +12,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_default__rspack_import_4 = __webpack_require__("../../../extensions/default/src/index.ts");
 /* import */ var _default_src_utils_shared_PROMPT_RESPONSES__rspack_import_5 = __webpack_require__("../../../extensions/default/src/utils/_shared/PROMPT_RESPONSES.ts");
 /* import */ var _utils_segmentationConfig__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/utils/segmentationConfig.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -459,7 +459,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_3 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _cornerstonejs_tools_utilities__rspack_import_4 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/utilities/index.js");
 /* import */ var react_i18next__rspack_import_5 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$(),
   _s2 = $RefreshSig$();
 
@@ -681,7 +681,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -762,7 +762,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -815,7 +815,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _utils_segmentationConfig__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/utils/segmentationConfig.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /** Extension-registered defaults: Label Map SEG + RLE Lossless. */
 const segmentationCustomization = {
@@ -839,7 +839,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getCustomizationModule)
 });
 /* import */ var _customizations_segmentationCustomization__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/customizations/segmentationCustomization.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function getCustomizationModule() {
   return [{
@@ -859,7 +859,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export),
   segProtocol: () => (segProtocol)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const segProtocol = {
   id: '@ohif/seg',
   // Don't store this hanging protocol as it applies to the currently active
@@ -961,7 +961,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_dicomlabToRGB__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/utils/dicomlabToRGB.ts");
 /* import */ var _utils_segmentationConfig__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/utils/segmentationConfig.ts");
 /* import */ var _utils_segLocalImageIds__rspack_import_8 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/utils/segLocalImageIds.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1416,7 +1416,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _components_LogicalContourOperationsOptions__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/components/LogicalContourOperationsOptions.tsx");
 /* import */ var _components_SimplifyContourOptions__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/components/SimplifyContourOptions.tsx");
 /* import */ var _components_SmoothContoursOptions__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/components/SmoothContoursOptions.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1568,7 +1568,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 const SOPClassHandlerName = 'dicom-seg';
@@ -1593,7 +1593,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _commandsModule__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/commandsModule.ts");
 /* import */ var _getCustomizationModule__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/getCustomizationModule.ts");
 /* import */ var _getToolbarModule__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/getToolbarModule.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -1676,7 +1676,7 @@ __webpack_require__.d(__webpack_exports__, {
   dicomlabToRGB: () => (dicomlabToRGB)
 });
 /* import */ var dcmjs__rspack_import_0 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -1703,7 +1703,7 @@ __webpack_require__.d(__webpack_exports__, {
   isLocalSchemeImageId: () => (isLocalSchemeImageId),
   stripFrameFromImageId: () => (stripFrameFromImageId)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function isLocalSchemeImageId(imageId) {
   return /^(wadouri:|dicomfile:|dicomweb:)/.test(imageId);
 }
@@ -1741,7 +1741,7 @@ __webpack_require__.d(__webpack_exports__, {
   getSegmentationParserType: () => (getSegmentationParserType),
   getSegmentationSaveOptions: () => (getSegmentationSaveOptions)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const LABELMAP_SEG_SOP_CLASS_UID = '1.2.840.10008.5.1.4.1.1.66.7';
 const BITMAP_SEG_SOP_CLASS_UID = '1.2.840.10008.5.1.4.1.1.66.4';
 /** RLE Lossless — OHIF default SEG store transfer syntax. */

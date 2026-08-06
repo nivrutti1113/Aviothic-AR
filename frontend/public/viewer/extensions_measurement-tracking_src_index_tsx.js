@@ -19,7 +19,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _hydrateStructuredReport__rspack_import_7 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/hydrateStructuredReport.tsx");
 /* import */ var _state__rspack_import_8 = __webpack_require__("./state/index.js");
 /* import */ var _promptWrapperFunctions__rspack_import_9 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptWrapperFunctions.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$(),
   _s2 = $RefreshSig$();
 
@@ -397,7 +397,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_extension_cornerstone_dicom_sr__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function hydrateStructuredReport({
   servicesManager,
@@ -446,7 +446,7 @@ __webpack_require__.d(__webpack_exports__, {
   useTrackedMeasurements: () => (/* reexport safe */ _TrackedMeasurementsContext_tsx__rspack_import_0.useTrackedMeasurements)
 });
 /* import */ var _TrackedMeasurementsContext_tsx__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/TrackedMeasurementsContext.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
@@ -462,7 +462,7 @@ __webpack_require__.d(__webpack_exports__, {
   machineConfiguration: () => (machineConfiguration)
 });
 /* import */ var xstate__rspack_import_0 = __webpack_require__("../../../node_modules/xstate/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const RESPONSE = {
   NO_NEVER: -1,
@@ -908,7 +908,7 @@ __webpack_require__.d(__webpack_exports__, {
   measurementTrackingMode: () => (measurementTrackingMode)
 });
 /* import */ var i18next__rspack_import_0 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const RESPONSE = {
   NO_NEVER: -1,
@@ -1006,7 +1006,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const RESPONSE = {
   NO_NEVER: -1,
   CANCEL: 0,
@@ -1092,7 +1092,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_extension_cornerstone__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function promptHydrateStructuredReport({
   servicesManager,
@@ -1139,7 +1139,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _promptBeginTracking__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptBeginTracking.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const RESPONSE = {
   NO_NEVER: -1,
@@ -1260,7 +1260,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var i18next__rspack_import_0 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
 /* import */ var _promptBeginTracking__rspack_import_1 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptBeginTracking.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const RESPONSE = {
@@ -1393,7 +1393,7 @@ __webpack_require__.d(__webpack_exports__, {
   promptTrackNewSeriesWrapper: () => (promptTrackNewSeriesWrapper),
   promptTrackNewStudyWrapper: () => (promptTrackNewStudyWrapper)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const promptBeginTrackingWrapper = ({
   servicesManager,
   extensionManager
@@ -1506,7 +1506,7 @@ __webpack_require__.d(__webpack_exports__, {
   useTrackedMeasurements: () => (/* reexport safe */ _TrackedMeasurementsContext__rspack_import_0.useTrackedMeasurements)
 });
 /* import */ var _TrackedMeasurementsContext__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
@@ -1525,7 +1525,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _contexts_TrackedMeasurementsContext_promptTrackNewSeries__rspack_import_3 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptTrackNewSeries.js");
 /* import */ var _contexts_TrackedMeasurementsContext_promptTrackNewStudy__rspack_import_4 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptTrackNewStudy.ts");
 /* import */ var _ohif_extension_default__rspack_import_5 = __webpack_require__("../../../extensions/default/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1554,7 +1554,7 @@ __webpack_require__.d(__webpack_exports__, {
   onDoubleClickHandler: () => (onDoubleClickHandler)
 });
 /* import */ var _contexts_TrackedMeasurementsContext_promptBeginTracking__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptBeginTracking.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const onDoubleClickHandler = {
   callbacks: [({
@@ -1628,7 +1628,7 @@ __webpack_require__.d(__webpack_exports__, {
   useTrackedMeasurements: () => (/* reexport safe */ _contexts__rspack_import_0.useTrackedMeasurements)
 });
 /* import */ var _contexts__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function getContextModule({
   servicesManager,
@@ -1660,7 +1660,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getCustomizationModule)
 });
 /* import */ var _customizations_measurementTrackingPrompts__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/customizations/measurementTrackingPrompts.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function getCustomizationModule() {
   return [{
@@ -1685,7 +1685,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
 /* import */ var react__rspack_import_2 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_2_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_2);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -1743,7 +1743,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_extension_cornerstone__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -1800,7 +1800,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 
@@ -1825,7 +1825,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _customizations_studyBrowserCustomization__rspack_import_6 = __webpack_require__("../../../extensions/measurement-tracking/src/customizations/studyBrowserCustomization.ts");
 /* import */ var _services__rspack_import_7 = __webpack_require__("../../../extensions/measurement-tracking/src/services/index.ts");
 /* import */ var _types__rspack_import_8 = __webpack_require__("../../../extensions/measurement-tracking/src/types/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1892,7 +1892,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_cornerstone__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _getContextModule__rspack_import_4 = __webpack_require__("../../../extensions/measurement-tracking/src/getContextModule.tsx");
 /* import */ var _PanelStudyBrowserTracking_untrackSeriesModal__rspack_import_5 = __webpack_require__("../../../extensions/measurement-tracking/src/panels/PanelStudyBrowserTracking/untrackSeriesModal.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -2025,7 +2025,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_default_src_Panels_StudyBrowser_PanelStudyBrowser__rspack_import_4 = __webpack_require__("../../../extensions/default/src/Panels/StudyBrowser/PanelStudyBrowser.tsx");
 /* import */ var _untrackSeriesModal__rspack_import_5 = __webpack_require__("../../../extensions/measurement-tracking/src/panels/PanelStudyBrowserTracking/untrackSeriesModal.tsx");
 /* import */ var _getContextModule__rspack_import_6 = __webpack_require__("../../../extensions/measurement-tracking/src/getContextModule.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -2179,7 +2179,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * @param {*} cornerstone
  * @param {*} imageId
@@ -2214,7 +2214,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _getImageSrcFromImageId__rspack_import_2 = __webpack_require__("../../../extensions/measurement-tracking/src/panels/PanelStudyBrowserTracking/getImageSrcFromImageId.js");
 /* import */ var _ohif_extension_default__rspack_import_3 = __webpack_require__("../../../extensions/default/src/index.ts");
 /* import */ var _ohif_core__rspack_import_4 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 //
@@ -2296,7 +2296,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function UntrackSeriesModal({
@@ -2338,7 +2338,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _PanelStudyBrowserTracking__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/panels/PanelStudyBrowserTracking/index.tsx");
 /* import */ var _PanelMeasurementTableTracking__rspack_import_1 = __webpack_require__("../../../extensions/measurement-tracking/src/panels/PanelMeasurementTableTracking.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2355,7 +2355,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _TrackedMeasurementsService;
 
 const EVENTS = {
@@ -2518,7 +2518,7 @@ __webpack_require__.d(__webpack_exports__, {
   TrackedMeasurementsService: () => (/* reexport safe */ _TrackedMeasurementsService__rspack_import_0.TrackedMeasurementsService)
 });
 /* import */ var _TrackedMeasurementsService__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/services/TrackedMeasurementsService/TrackedMeasurementsService.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
@@ -2532,7 +2532,7 @@ __webpack_require__.d(__webpack_exports__, {
   TrackedMeasurementsService: () => (/* reexport safe */ _TrackedMeasurementsService__rspack_import_0.TrackedMeasurementsService)
 });
 /* import */ var _TrackedMeasurementsService__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/services/TrackedMeasurementsService/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
@@ -2542,7 +2542,7 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 },
 "../../../extensions/measurement-tracking/src/types/AppTypes.ts"(module, __webpack_exports__, __webpack_require__) {
 __webpack_require__.r(__webpack_exports__);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -2554,7 +2554,7 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 "../../../extensions/measurement-tracking/src/types/index.ts"(module, __webpack_exports__, __webpack_require__) {
 __webpack_require__.r(__webpack_exports__);
 /* import */ var _AppTypes__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/types/AppTypes.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }

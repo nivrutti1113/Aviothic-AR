@@ -5,7 +5,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function createRTToolGroupAndAddTools(ToolGroupService, customizationService, toolGroupId) {
   const tools = customizationService.getCustomization('cornerstone.overlayViewportTools');
   return ToolGroupService.createToolGroupAndAddTools(toolGroupId, tools);
@@ -23,7 +23,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_extension_cornerstone__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function promptHydrateRT({
   servicesManager,
@@ -62,7 +62,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_promptHydrateRT__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dicom-rt/src/utils/promptHydrateRT.ts");
 /* import */ var _utils_initRTToolGroup__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone-dicom-rt/src/utils/initRTToolGroup.ts");
 /* import */ var _ohif_core_src__rspack_import_6 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {

@@ -716,7 +716,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_dicomWebClient__rspack_import_4 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/dicomWebClient.ts");
 /* import */ var dcmjs__rspack_import_5 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
 /* import */ var _ohif_core__rspack_import_6 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -1040,7 +1040,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_4 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _utils__rspack_import_5 = __webpack_require__("../../../extensions/dicom-microscopy/src/components/ViewportOverlay/utils.ts");
 /* import */ var _ohif_core__rspack_import_6 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1157,7 +1157,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const listComponentGenerator = props => {
   const {
     list,
@@ -1201,7 +1201,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var moment__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(moment__rspack_import_0);
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 

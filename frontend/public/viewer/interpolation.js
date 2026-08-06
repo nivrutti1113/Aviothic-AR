@@ -188,10 +188,10 @@ __webpack_require__.i = [];
 // the startup function
 __webpack_require__.x = () => {
 // Load entry module and return exports
-__webpack_require__.O(undefined, ["vendors-node_modules_rspack_plugin-react-refresh_client_reactRefreshEntry_js-node_modules_rsp-4f252d", "vendors-node_modules_kitware_vtk_js_Common_DataModel_ImageData_js"], () => __webpack_require__("../../../node_modules/@cornerstonejs/labelmap-interpolation/dist/esm/workers/interpolationWorker.js"));
-__webpack_require__.O(undefined, ["vendors-node_modules_rspack_plugin-react-refresh_client_reactRefreshEntry_js-node_modules_rsp-4f252d", "vendors-node_modules_kitware_vtk_js_Common_DataModel_ImageData_js"], () => __webpack_require__("../../../node_modules/@rspack/dev-server/node_modules/@rspack/core/hot/dev-server.js"));
-__webpack_require__.O(undefined, ["vendors-node_modules_rspack_plugin-react-refresh_client_reactRefreshEntry_js-node_modules_rsp-4f252d", "vendors-node_modules_kitware_vtk_js_Common_DataModel_ImageData_js"], () => __webpack_require__("../../../node_modules/@rspack/dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true"));
-var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_rspack_plugin-react-refresh_client_reactRefreshEntry_js-node_modules_rsp-4f252d", "vendors-node_modules_kitware_vtk_js_Common_DataModel_ImageData_js"], () => __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefreshEntry.js"));
+__webpack_require__.O(undefined, ["vendors-node_modules_kitware_vtk_js_Common_DataModel_ImageData_js"], () => __webpack_require__("../../../node_modules/@cornerstonejs/labelmap-interpolation/dist/esm/workers/interpolationWorker.js"));
+__webpack_require__.O(undefined, ["vendors-node_modules_kitware_vtk_js_Common_DataModel_ImageData_js"], () => __webpack_require__("../../../node_modules/@rspack/dev-server/node_modules/@rspack/core/hot/dev-server.js"));
+__webpack_require__.O(undefined, ["vendors-node_modules_kitware_vtk_js_Common_DataModel_ImageData_js"], () => __webpack_require__("../../../node_modules/@rspack/dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=info&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true"));
+var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_kitware_vtk_js_Common_DataModel_ImageData_js"], () => );
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 return __webpack_exports__
 };
@@ -686,7 +686,7 @@ __webpack_require__.p = (typeof window !== "undefined" && window.__webpack_publi
 (() => {
 var next = __webpack_require__.x
 __webpack_require__.x = () => {
-  return Promise.all([__webpack_require__.e("vendors-node_modules_rspack_plugin-react-refresh_client_reactRefreshEntry_js-node_modules_rsp-4f252d"),
+  return Promise.all([__webpack_require__.e(),
 __webpack_require__.e("vendors-node_modules_kitware_vtk_js_Common_DataModel_ImageData_js")]).then(next);
 }
 })();

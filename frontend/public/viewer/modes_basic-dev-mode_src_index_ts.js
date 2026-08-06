@@ -6,7 +6,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../modes/basic-dev-mode/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 
@@ -24,7 +24,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _toolbarButtons__rspack_import_0 = __webpack_require__("../../../modes/basic-dev-mode/src/toolbarButtons.ts");
 /* import */ var _id__rspack_import_1 = __webpack_require__("../../../modes/basic-dev-mode/src/id.js");
 /* import */ var i18next__rspack_import_2 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -214,7 +214,7 @@ __webpack_require__.d(__webpack_exports__, {
   setToolActiveToolbar: () => (setToolActiveToolbar)
 });
 /* import */ var i18next__rspack_import_0 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const setToolActiveToolbar = {
   commandName: 'setToolActive',

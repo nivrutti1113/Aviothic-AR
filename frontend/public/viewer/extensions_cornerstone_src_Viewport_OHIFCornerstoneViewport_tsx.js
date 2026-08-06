@@ -469,7 +469,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_presentations_getViewportPresentations__rspack_import_9 = __webpack_require__("../../../extensions/cornerstone/src/utils/presentations/getViewportPresentations.ts");
 /* import */ var _stores_useSynchronizersStore__rspack_import_10 = __webpack_require__("../../../extensions/cornerstone/src/stores/useSynchronizersStore.ts");
 /* import */ var _utils_ActiveViewportBehavior__rspack_import_11 = __webpack_require__("../../../extensions/cornerstone/src/utils/ActiveViewportBehavior.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -877,7 +877,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _CustomizableViewportOverlay__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/Viewport/Overlays/CustomizableViewportOverlay.tsx");
 /* import */ var _ViewportOrientationMarkers__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/Viewport/Overlays/ViewportOrientationMarkers.tsx");
 /* import */ var _ViewportImageSliceLoadingIndicator__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/Viewport/Overlays/ViewportImageSliceLoadingIndicator.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -993,7 +993,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _CustomizableViewportOverlay_css__rspack_import_10 = __webpack_require__("../../../extensions/cornerstone/src/Viewport/Overlays/CustomizableViewportOverlay.css");
 /* import */ var _CustomizableViewportOverlay_css__rspack_import_10_default = /*#__PURE__*/__webpack_require__.n(_CustomizableViewportOverlay_css__rspack_import_10);
 /* import */ var _hooks__rspack_import_11 = __webpack_require__("../../../extensions/cornerstone/src/hooks/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -1409,7 +1409,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_3 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _utils_getLegacyViewportType__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
 /* import */ var _utils_viewportDataShape__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/utils/viewportDataShape.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -1535,7 +1535,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var prop_types__rspack_import_1 = __webpack_require__("../../../node_modules/prop-types/index.js");
 /* import */ var prop_types__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(prop_types__rspack_import_1);
 /* import */ var _cornerstonejs_core__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -1632,7 +1632,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ViewportOrientationMarkers_css__rspack_import_5_default = /*#__PURE__*/__webpack_require__.n(_ViewportOrientationMarkers_css__rspack_import_5);
 /* import */ var _hooks__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/hooks/index.ts");
 /* import */ var _utils_viewportDataShape__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone/src/utils/viewportDataShape.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -1773,7 +1773,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_4 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _helpers__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/Viewport/Overlays/ViewportSliceProgressScrollbar/helpers.ts");
 /* import */ var _hooks__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/Viewport/Overlays/ViewportSliceProgressScrollbar/hooks.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -1955,7 +1955,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _utils_getLegacyViewportType__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
 /* import */ var _services_ViewportService_adapter__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/services/ViewportService/adapter/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function getImageIndexFromEvent(event) {
@@ -2020,7 +2020,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_getLegacyViewportType__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/utils/getLegacyViewportType.ts");
 /* import */ var _utils_viewportDataShape__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/utils/viewportDataShape.ts");
 /* import */ var _helpers__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/Viewport/Overlays/ViewportSliceProgressScrollbar/helpers.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$(),
   _s2 = $RefreshSig$(),
   _s3 = $RefreshSig$(),
@@ -2351,7 +2351,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var moment__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(moment__rspack_import_0);
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2434,7 +2434,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _cornerstonejs_core__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _state__rspack_import_3 = __webpack_require__("./state/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$(),
   _s2 = $RefreshSig$();
 
@@ -2699,7 +2699,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _CinePlayer__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/components/CinePlayer/CinePlayer.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = (_CinePlayer__rspack_import_0["default"]);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -2720,7 +2720,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_default_src_Toolbar_Toolbar__rspack_import_2 = __webpack_require__("../../../extensions/default/src/Toolbar/Toolbar.tsx");
 /* import */ var _ohif_core_src_services_ToolBarService_ToolbarService__rspack_import_3 = __webpack_require__("../../core/src/services/ToolBarService/ToolbarService.ts");
 /* import */ var _hooks__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/hooks/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -2805,7 +2805,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 const ActiveViewportBehavior = /*#__PURE__*/_s(/*#__PURE__*/(0,react__rspack_import_0.memo)(_c = _s(({
@@ -2884,7 +2884,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _stores_usePositionPresentationStore__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/stores/usePositionPresentationStore.ts");
 /* import */ var _stores_useLutPresentationStore__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/stores/useLutPresentationStore.ts");
 /* import */ var _stores_useSegmentationPresentationStore__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/stores/useSegmentationPresentationStore.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2942,7 +2942,7 @@ __webpack_require__.d(__webpack_exports__, {
   isVolumeViewportData: () => (isVolumeViewportData)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**

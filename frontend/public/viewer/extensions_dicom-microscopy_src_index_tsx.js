@@ -8,7 +8,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _utils_loadAnnotation__rspack_import_1 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/loadAnnotation.js");
 /* import */ var _utils_getSourceDisplaySet__rspack_import_2 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/getSourceDisplaySet.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -126,7 +126,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_toArray__rspack_import_2 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/toArray.js");
 /* import */ var _utils_dcmCodeValues__rspack_import_3 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/dcmCodeValues.js");
 /* import */ var _utils_getSourceDisplaySet__rspack_import_4 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/getSourceDisplaySet.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -249,7 +249,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _services_MicroscopyService__rspack_import_5 = __webpack_require__("../../../extensions/dicom-microscopy/src/services/MicroscopyService.ts");
 /* import */ var dcmjs__rspack_import_6 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
 /* import */ var _utils_constructSR__rspack_import_7 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/constructSR.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -621,7 +621,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_default__rspack_import_0 = __webpack_require__("../../../extensions/default/src/index.ts");
 /* import */ var _utils_styles__rspack_import_1 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/styles.js");
 /* import */ var _ohif_i18n__rspack_import_2 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -766,7 +766,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (getCustomizationModule)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function getCustomizationModule() {
   return [];
 }
@@ -785,7 +785,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _components_MicroscopyPanel_MicroscopyPanel__rspack_import_2 = __webpack_require__("../../../extensions/dicom-microscopy/src/components/MicroscopyPanel/MicroscopyPanel.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -841,7 +841,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/dicom-microscopy/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 
@@ -869,7 +869,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react_resize_detector__rspack_import_9 = __webpack_require__("../../../node_modules/react-resize-detector/build/index.esm.js");
 /* import */ var lodash_debounce__rspack_import_10 = __webpack_require__("../../../node_modules/lodash.debounce/index.js");
 /* import */ var lodash_debounce__rspack_import_10_default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__rspack_import_10);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -1053,7 +1053,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_RoiAnnotation__rspack_import_1 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/RoiAnnotation.js");
 /* import */ var _utils_styles__rspack_import_2 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/styles.js");
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _MicroscopyService;
 
 
@@ -1692,7 +1692,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_coordinateFormatScoord3d2Geometry__rspack_import_0 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/coordinateFormatScoord3d2Geometry.js");
 /* import */ var _utils_styles__rspack_import_1 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/styles.js");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2124,7 +2124,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 // We need to define a UID for this extension as a device, and it should be the same for all saves:
 
 const uid = '2.25.285241207697168520771311899641885187923';
@@ -2144,7 +2144,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _areaOfPolygon__rspack_import_0 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/areaOfPolygon.js");
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_i18n__rspack_import_2 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2321,7 +2321,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (areaOfPolygon)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function areaOfPolygon(coordinates) {
   // Shoelace algorithm.
   const n = coordinates.length;
@@ -2349,7 +2349,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var dcmjs__rspack_import_0 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
 /* import */ var _DEVICE_OBSERVER_UID__rspack_import_1 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/DEVICE_OBSERVER_UID.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2544,7 +2544,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (coordinateFormatScoord3d2Geometry)
 });
 /* import */ var mathjs__rspack_import_0 = __webpack_require__("../../../extensions/dicom-microscopy/node_modules/mathjs/lib/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 // TODO -> This is pulled out of some internal logic from Dicom Microscopy Viewer,
@@ -2651,7 +2651,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const DCM_CODE_VALUES = {
   IMAGING_MEASUREMENTS: '126010',
   MEASUREMENT_GROUP: '125007',
@@ -2682,7 +2682,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_extension_default__rspack_import_1 = __webpack_require__("../../../extensions/default/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2764,7 +2764,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (getSourceDisplaySet)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Get referenced SM displaySet from SR displaySet
  *
@@ -2810,7 +2810,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (loadAnnotation)
 });
 /* import */ var _dicomWebClient__rspack_import_0 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/dicomWebClient.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -2910,7 +2910,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var dcmjs__rspack_import_0 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
 /* import */ var _dcmCodeValues__rspack_import_1 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/dcmCodeValues.js");
 /* import */ var _toArray__rspack_import_2 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/toArray.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -3067,7 +3067,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const defaultFill = {
   color: 'rgba(255,255,255,0.4)'
 };
@@ -3120,7 +3120,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (toArray)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function toArray(item) {
   return Array.isArray(item) ? item : [item];
 }

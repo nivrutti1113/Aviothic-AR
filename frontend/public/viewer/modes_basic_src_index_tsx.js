@@ -6,7 +6,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../modes/basic/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 
@@ -55,7 +55,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _initToolGroups__rspack_import_2 = __webpack_require__("../../../modes/basic/src/initToolGroups.ts");
 /* import */ var _modeCustomization__rspack_import_3 = __webpack_require__("../../../modes/basic/src/modeCustomization.ts");
 /* import */ var _id__rspack_import_4 = __webpack_require__("../../../modes/basic/src/id.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -447,7 +447,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const colours = {
   'viewport-0': 'rgb(200, 0, 0)',
   'viewport-1': 'rgb(200, 200, 0)',
@@ -812,7 +812,7 @@ __webpack_require__.d(__webpack_exports__, {
   applyToolGroupAdditions: () => (applyToolGroupAdditions),
   registerModeToolbar: () => (registerModeToolbar)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * Helpers for applying a mode's toolbar / tool-group composition.
  *

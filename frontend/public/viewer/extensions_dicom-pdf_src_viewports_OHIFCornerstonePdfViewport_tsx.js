@@ -130,7 +130,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _OHIFCornerstonePdfViewport_css__rspack_import_3 = __webpack_require__("../../../extensions/dicom-pdf/src/viewports/OHIFCornerstonePdfViewport.css");
 /* import */ var _OHIFCornerstonePdfViewport_css__rspack_import_3_default = /*#__PURE__*/__webpack_require__.n(_OHIFCornerstonePdfViewport_css__rspack_import_3);
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 

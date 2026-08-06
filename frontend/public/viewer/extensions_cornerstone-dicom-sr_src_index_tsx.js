@@ -10,7 +10,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_adapters__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/adapters/dist/esm/index.js");
 /* import */ var _utils_getFilteredCornerstoneToolState__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/utils/getFilteredCornerstoneToolState.ts");
 /* import */ var _utils_hydrateStructuredReport__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/utils/hydrateStructuredReport.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -174,7 +174,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _cornerstonejs_adapters__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/adapters/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   CodeScheme: Cornerstone3DCodeScheme
@@ -227,7 +227,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export),
   srProtocol: () => (srProtocol)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const srProtocol = {
   id: '@ohif/sr',
   // Don't store this hanging protocol as it applies to the currently active
@@ -310,7 +310,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_isRehydratable__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/utils/isRehydratable.ts");
 /* import */ var _id__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/id.js");
 /* import */ var _enums__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/enums.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1010,7 +1010,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 const SOPClassHandlerName = 'dicom-sr';
@@ -1046,7 +1046,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_hydrateStructuredReport__rspack_import_8 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/utils/hydrateStructuredReport.ts");
 /* import */ var _utils_createReferencedImageDisplaySet__rspack_import_9 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/utils/createReferencedImageDisplaySet.ts");
 /* import */ var _enums__rspack_import_10 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/enums.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -1146,7 +1146,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _tools_DICOMSRDisplayTool__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/tools/DICOMSRDisplayTool.ts");
 /* import */ var _utils_addToolInstance__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/utils/addToolInstance.ts");
 /* import */ var _tools_toolNames__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/tools/toolNames.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1202,7 +1202,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (onModeEnter)
 });
 /* import */ var _id__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/id.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function onModeEnter({
   servicesManager
@@ -1233,7 +1233,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _modules_dicomSRModule__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/tools/modules/dicomSRModule.js");
 /* import */ var _enums__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/enums.ts");
 /* import */ var _toolNames__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/tools/toolNames.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1512,7 +1512,7 @@ __webpack_require__.d(__webpack_exports__, {
   setTrackingUniqueIdentifiersForElement: () => (setTrackingUniqueIdentifiersForElement)
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const state = {
   TrackingUniqueIdentifier: null,
@@ -1572,7 +1572,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const toolNames = {
   DICOMSRDisplay: 'DICOMSRDisplay',
   SRLength: 'SRLength',
@@ -1602,7 +1602,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_adapters__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/adapters/dist/esm/index.js");
 /* import */ var _getRenderableData__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/utils/getRenderableData.ts");
 /* import */ var _tools_toolNames__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/tools/toolNames.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1770,7 +1770,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (addToolInstance)
 });
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function addToolInstance(name, toolClass, configuration = {}) {
   class InstanceClass extends toolClass {
@@ -1797,7 +1797,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const ImageSet = _ohif_core__rspack_import_0.classes.ImageSet;
 const findInstance = (measurement, displaySetService) => {
@@ -1898,7 +1898,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _cornerstonejs_adapters__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/adapters/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function getFilteredCornerstoneToolState(measurementData, additionalFindingTypes) {
@@ -1988,7 +1988,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getLabelFromDCMJSImportedToolData)
 });
 /* import */ var _cornerstonejs_adapters__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/adapters/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   CodeScheme: Cornerstone3DCodeScheme
@@ -2033,7 +2033,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var gl_matrix__rspack_import_0 = __webpack_require__("../../../node_modules/gl-matrix/esm/index.js");
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _enums__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/enums.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2194,7 +2194,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_adapters__rspack_import_4 = __webpack_require__("../../../node_modules/@cornerstonejs/adapters/dist/esm/index.js");
 /* import */ var _cornerstonejs_tools__rspack_import_5 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _ohif_extension_cornerstone__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2597,7 +2597,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (isRehydratable)
 });
 /* import */ var _cornerstonejs_adapters__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/adapters/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   MeasurementReport

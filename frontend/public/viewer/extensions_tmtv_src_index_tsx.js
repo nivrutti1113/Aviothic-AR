@@ -12,7 +12,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_ui_next__rspack_import_4 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -295,7 +295,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core_src_utils__rspack_import_3 = __webpack_require__("../../core/src/utils/index.ts");
 /* import */ var _ohif_core_src__rspack_import_4 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_5 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -407,7 +407,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var react_i18next__rspack_import_2 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -585,7 +585,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _PanelROIThresholdExport__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/Panels/PanelROIThresholdSegmentation/PanelROIThresholdExport.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = (_PanelROIThresholdExport__rspack_import_0["default"]);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -603,7 +603,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_extension_cornerstone__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _PanelROIThresholdSegmentation_PanelROIThresholdExport__rspack_import_2 = __webpack_require__("../../../extensions/tmtv/src/Panels/PanelROIThresholdSegmentation/PanelROIThresholdExport.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -636,7 +636,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_4 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_extension_cornerstone__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var react_i18next__rspack_import_6 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 var _s = $RefreshSig$();
 
 
@@ -752,7 +752,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _PanelPetSUV__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/Panels/PanelPetSUV.tsx");
 /* import */ var _PanelROIThresholdSegmentation__rspack_import_1 = __webpack_require__("../../../extensions/tmtv/src/Panels/PanelROIThresholdSegmentation/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -775,7 +775,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_createAndDownloadTMTVReport__rspack_import_5 = __webpack_require__("../../../extensions/tmtv/src/utils/createAndDownloadTMTVReport.js");
 /* import */ var _utils_dicomRTAnnotationExport_RTStructureSet__rspack_import_6 = __webpack_require__("../../../extensions/tmtv/src/utils/dicomRTAnnotationExport/RTStructureSet/index.js");
 /* import */ var _ohif_extension_cornerstone__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1266,7 +1266,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
 /* import */ var _toolGroupIds__rspack_import_2 = __webpack_require__("../../../extensions/tmtv/src/toolGroupIds.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -1738,7 +1738,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getCustomizationModule)
 });
 /* import */ var _customizations_toolbarCustomization__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/customizations/toolbarCustomization.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 /**
@@ -1767,7 +1767,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_extension_cornerstone__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _utils_hpViewports__rspack_import_1 = __webpack_require__("../../../extensions/tmtv/src/utils/hpViewports.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2083,7 +2083,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_default__rspack_import_2 = __webpack_require__("../../../extensions/default/src/index.ts");
 /* import */ var _Panels_PanelTMTV__rspack_import_3 = __webpack_require__("../../../extensions/tmtv/src/Panels/PanelTMTV.tsx");
 /* import */ var _ohif_i18n__rspack_import_4 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2156,7 +2156,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getToolbarModule)
 });
 /* import */ var _Panels_RectangleROIOptions__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/Panels/RectangleROIOptions.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 function getToolbarModule() {
   return [{
@@ -2176,7 +2176,7 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const id = _package_json__rspack_import_0.name;
 
@@ -2200,7 +2200,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _getToolbarModule__rspack_import_5 = __webpack_require__("../../../extensions/tmtv/src/getToolbarModule.tsx");
 /* import */ var _getCustomizationModule__rspack_import_6 = __webpack_require__("../../../extensions/tmtv/src/getCustomizationModule.ts");
 /* import */ var _toolGroupIds__rspack_import_7 = __webpack_require__("../../../extensions/tmtv/src/toolGroupIds.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2263,7 +2263,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _ohif_extension_cornerstone__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _utils_measurementServiceMappings_measurementServiceMappingsFactory__rspack_import_2 = __webpack_require__("../../../extensions/tmtv/src/utils/measurementServiceMappings/measurementServiceMappingsFactory.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2308,7 +2308,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export),
   toolGroupIds: () => (toolGroupIds)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /**
  * The tool group ids used by the TMTV hanging protocols and mode. Defined in
  * the extension so both the extension (hanging protocol viewports, toolbar
@@ -2334,7 +2334,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (createAndDownloadTMTVReport)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 const {
   downloadCsv
@@ -2387,7 +2387,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var dcmjs__rspack_import_0 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _cornerstonejs_adapters__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/adapters/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 
@@ -2415,7 +2415,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _dicomRTAnnotationExport__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/utils/dicomRTAnnotationExport/RTStructureSet/dicomRTAnnotationExport.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 /* export default */ const __rspack_default_export = (_dicomRTAnnotationExport__rspack_import_0["default"]);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
@@ -2431,7 +2431,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _cornerstonejs_tools__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 function getRoiStats(displaySet, annotations) {
@@ -2513,7 +2513,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   handleROIThresholding: () => (handleROIThresholding)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 const handleROIThresholding = async ({
   commandsManager,
   segmentationService
@@ -2554,7 +2554,7 @@ __webpack_require__.d(__webpack_exports__, {
   ptCORONAL: () => (ptCORONAL),
   ptSAGITTAL: () => (ptSAGITTAL)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 // Common sync group configurations
 const cameraPositionSync = id => ({
   type: 'cameraPosition',
@@ -3002,7 +3002,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _constants_supportedTools__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/utils/measurementServiceMappings/constants/supportedTools.js");
 /* import */ var _ohif_extension_cornerstone__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const CircleROIStartEndThreshold = {
@@ -3082,7 +3082,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _constants_supportedTools__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/utils/measurementServiceMappings/constants/supportedTools.js");
 /* import */ var _ohif_extension_cornerstone__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const RectangleROIStartEndThreshold = {
@@ -3155,7 +3155,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 /* export default */ const __rspack_default_export = (['RectangleROIStartEndThreshold', 'CircleROIStartEndThreshold']);
 function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
@@ -3170,7 +3170,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _RectangleROIStartEndThreshold__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/utils/measurementServiceMappings/RectangleROIStartEndThreshold.js");
 /* import */ var _CircleROIStartEndThreshold__rspack_import_1 = __webpack_require__("../../../extensions/tmtv/src/utils/measurementServiceMappings/CircleROIStartEndThreshold.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = __webpack_require__("../../../node_modules/@rspack/plugin-react-refresh/client/reactRefresh.js");
+/* provided dependency */ var $ReactRefreshRuntime$ = 
 
 
 const measurementServiceMappingsFactory = (measurementService, displaySetService, cornerstoneViewportService) => {
