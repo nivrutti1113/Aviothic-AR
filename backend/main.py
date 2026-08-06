@@ -5,6 +5,7 @@ import json
 import datetime
 from fastapi import FastAPI, UploadFile, File, BackgroundTasks, Depends, HTTPException, status, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.gzip import GZipMiddleware
 from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 from sqlalchemy.orm import Session
 from pydantic import BaseModel, EmailStr
@@ -46,6 +47,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 # Directories
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -596,7 +598,10 @@ def get_volume_raw(
         return StreamingResponse(
             stream, 
             media_type="application/octet-stream", 
-            headers={"Content-Disposition": f"attachment; filename=case_{case_id}_volume.bin"}
+            headers={
+                "Content-Disposition": f"attachment; filename=case_{case_id}_volume.bin",
+                "Cache-Control": "public, max-age=86400, immutable"
+            }
         )
     except Exception as e:
         raise HTTPException(status_code=404, detail=f"Binary volume file not found: {e}")
