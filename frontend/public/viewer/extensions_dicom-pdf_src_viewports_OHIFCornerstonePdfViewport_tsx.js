@@ -130,7 +130,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _OHIFCornerstonePdfViewport_css__rspack_import_3 = __webpack_require__("../../../extensions/dicom-pdf/src/viewports/OHIFCornerstonePdfViewport.css");
 /* import */ var _OHIFCornerstonePdfViewport_css__rspack_import_3_default = /*#__PURE__*/__webpack_require__.n(_OHIFCornerstonePdfViewport_css__rspack_import_3);
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -226,7 +226,7 @@ OHIFCornerstonePdfViewport.propTypes = {
 /* export default */ const __rspack_default_export = (OHIFCornerstonePdfViewport);
 var _c;
 $RefreshReg$(_c, "OHIFCornerstonePdfViewport");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

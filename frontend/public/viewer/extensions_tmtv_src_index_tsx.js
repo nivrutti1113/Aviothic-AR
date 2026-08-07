@@ -12,7 +12,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_ui_next__rspack_import_4 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -277,7 +277,7 @@ PanelPetSUV.propTypes = {
 var _c, _c2;
 $RefreshReg$(_c, "InputRow");
 $RefreshReg$(_c2, "PanelPetSUV");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -295,7 +295,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core_src_utils__rspack_import_3 = __webpack_require__("../../core/src/utils/index.ts");
 /* import */ var _ohif_core_src__rspack_import_4 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_ui_next__rspack_import_5 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -391,7 +391,7 @@ _s(PanelRoiThresholdSegmentation, "ewFqhyrrbGbH2S2gZLyAI+drn4Q=", false, functio
 _c = PanelRoiThresholdSegmentation;
 var _c;
 $RefreshReg$(_c, "PanelRoiThresholdSegmentation");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -407,7 +407,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var react_i18next__rspack_import_2 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -573,7 +573,7 @@ _c = ROIThresholdConfiguration;
 /* export default */ const __rspack_default_export = (ROIThresholdConfiguration);
 var _c;
 $RefreshReg$(_c, "ROIThresholdConfiguration");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -585,10 +585,10 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _PanelROIThresholdExport__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/Panels/PanelROIThresholdSegmentation/PanelROIThresholdExport.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 /* export default */ const __rspack_default_export = (_PanelROIThresholdExport__rspack_import_0["default"]);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -603,7 +603,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_extension_cornerstone__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _PanelROIThresholdSegmentation_PanelROIThresholdExport__rspack_import_2 = __webpack_require__("../../../extensions/tmtv/src/Panels/PanelROIThresholdSegmentation/PanelROIThresholdExport.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -617,7 +617,7 @@ function PanelTMTV({
 _c = PanelTMTV;
 var _c;
 $RefreshReg$(_c, "PanelTMTV");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -636,7 +636,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_4 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_extension_cornerstone__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var react_i18next__rspack_import_6 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -738,7 +738,7 @@ _c = RectangleROIOptions;
 /* export default */ const __rspack_default_export = (RectangleROIOptions);
 var _c;
 $RefreshReg$(_c, "RectangleROIOptions");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -752,11 +752,11 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _PanelPetSUV__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/Panels/PanelPetSUV.tsx");
 /* import */ var _PanelROIThresholdSegmentation__rspack_import_1 = __webpack_require__("../../../extensions/tmtv/src/Panels/PanelROIThresholdSegmentation/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -775,7 +775,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_createAndDownloadTMTVReport__rspack_import_5 = __webpack_require__("../../../extensions/tmtv/src/utils/createAndDownloadTMTVReport.js");
 /* import */ var _utils_dicomRTAnnotationExport_RTStructureSet__rspack_import_6 = __webpack_require__("../../../extensions/tmtv/src/utils/dicomRTAnnotationExport/RTStructureSet/index.js");
 /* import */ var _ohif_extension_cornerstone__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -1248,7 +1248,7 @@ const commandsModule = ({
   };
 };
 /* export default */ const __rspack_default_export = (commandsModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1266,7 +1266,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
 /* import */ var _toolGroupIds__rspack_import_2 = __webpack_require__("../../../extensions/tmtv/src/toolGroupIds.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -1726,7 +1726,7 @@ const toolbarCustomization = {
 };
 
 /* export default */ const __rspack_default_export = (toolbarCustomization);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1738,7 +1738,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getCustomizationModule)
 });
 /* import */ var _customizations_toolbarCustomization__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/customizations/toolbarCustomization.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 /**
@@ -1754,7 +1754,7 @@ function getCustomizationModule() {
     }
   }];
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1767,7 +1767,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_extension_cornerstone__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _utils_hpViewports__rspack_import_1 = __webpack_require__("../../../extensions/tmtv/src/utils/hpViewports.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -2066,7 +2066,7 @@ function getHangingProtocolModule() {
   }];
 }
 /* export default */ const __rspack_default_export = (getHangingProtocolModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2083,7 +2083,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_default__rspack_import_2 = __webpack_require__("../../../extensions/default/src/index.ts");
 /* import */ var _Panels_PanelTMTV__rspack_import_3 = __webpack_require__("../../../extensions/tmtv/src/Panels/PanelTMTV.tsx");
 /* import */ var _ohif_i18n__rspack_import_4 = __webpack_require__("../../i18n/src/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -2144,7 +2144,7 @@ function getPanelModule({
   }];
 }
 /* export default */ const __rspack_default_export = (getPanelModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2156,7 +2156,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getToolbarModule)
 });
 /* import */ var _Panels_RectangleROIOptions__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/Panels/RectangleROIOptions.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 function getToolbarModule() {
   return [{
@@ -2164,7 +2164,7 @@ function getToolbarModule() {
     defaultComponent: _Panels_RectangleROIOptions__rspack_import_0["default"]
   }];
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2176,11 +2176,11 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const id = _package_json__rspack_import_0.name;
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2200,7 +2200,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _getToolbarModule__rspack_import_5 = __webpack_require__("../../../extensions/tmtv/src/getToolbarModule.tsx");
 /* import */ var _getCustomizationModule__rspack_import_6 = __webpack_require__("../../../extensions/tmtv/src/getCustomizationModule.ts");
 /* import */ var _toolGroupIds__rspack_import_7 = __webpack_require__("../../../extensions/tmtv/src/toolGroupIds.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -2249,7 +2249,7 @@ const tmtvExtension = {
 };
 /* export default */ const __rspack_default_export = (tmtvExtension);
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2263,7 +2263,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_tools__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _ohif_extension_cornerstone__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _utils_measurementServiceMappings_measurementServiceMappingsFactory__rspack_import_2 = __webpack_require__("../../../extensions/tmtv/src/utils/measurementServiceMappings/measurementServiceMappingsFactory.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -2296,7 +2296,7 @@ function init({
   measurementService.addMapping(csTools3DVer1MeasurementSource, 'RectangleROIStartEndThreshold', RectangleROIStartEndThreshold.matchingCriteria, RectangleROIStartEndThreshold.toAnnotation, RectangleROIStartEndThreshold.toMeasurement);
   measurementService.addMapping(csTools3DVer1MeasurementSource, 'CircleROIStartEndThreshold', CircleROIStartEndThreshold.matchingCriteria, CircleROIStartEndThreshold.toAnnotation, CircleROIStartEndThreshold.toMeasurement);
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2308,7 +2308,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export),
   toolGroupIds: () => (toolGroupIds)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 /**
  * The tool group ids used by the TMTV hanging protocols and mode. Defined in
  * the extension so both the extension (hanging protocol viewports, toolbar
@@ -2322,7 +2322,7 @@ const toolGroupIds = {
   default: 'default'
 };
 /* export default */ const __rspack_default_export = (toolGroupIds);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2334,7 +2334,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (createAndDownloadTMTVReport)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const {
   downloadCsv
@@ -2373,7 +2373,7 @@ function createAndDownloadTMTVReport(segReport, additionalReportRows, options = 
     filename: options.filename ?? `${firstReport.PatientID}_tmtv.csv`
   });
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2387,7 +2387,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var dcmjs__rspack_import_0 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _cornerstonejs_adapters__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/adapters/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -2403,7 +2403,7 @@ function dicomRTAnnotationExport(annotations) {
   var objectUrl = URL.createObjectURL(reportBlob);
   window.location.assign(objectUrl);
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2415,10 +2415,10 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _dicomRTAnnotationExport__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/utils/dicomRTAnnotationExport/RTStructureSet/dicomRTAnnotationExport.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 /* export default */ const __rspack_default_export = (_dicomRTAnnotationExport__rspack_import_0["default"]);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2431,7 +2431,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _cornerstonejs_core__rspack_import_0 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _cornerstonejs_tools__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 function getRoiStats(displaySet, annotations) {
@@ -2502,7 +2502,7 @@ function _getStrategyFn(statistic) {
   };
 }
 /* export default */ const __rspack_default_export = (getThresholdValues);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2513,7 +2513,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   handleROIThresholding: () => (handleROIThresholding)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 const handleROIThresholding = async ({
   commandsManager,
   segmentationService
@@ -2534,7 +2534,7 @@ const handleROIThresholding = async ({
     segmentationService.addOrUpdateSegmentation(segmentation);
   });
 };
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2554,7 +2554,7 @@ __webpack_require__.d(__webpack_exports__, {
   ptCORONAL: () => (ptCORONAL),
   ptSAGITTAL: () => (ptSAGITTAL)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 // Common sync group configurations
 const cameraPositionSync = id => ({
   type: 'cameraPosition',
@@ -2989,7 +2989,7 @@ const mipSAGITTAL = {
   }]
 };
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -3002,7 +3002,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _constants_supportedTools__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/utils/measurementServiceMappings/constants/supportedTools.js");
 /* import */ var _ohif_extension_cornerstone__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 const CircleROIStartEndThreshold = {
@@ -3069,7 +3069,7 @@ const CircleROIStartEndThreshold = {
   }
 };
 /* export default */ const __rspack_default_export = (CircleROIStartEndThreshold);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -3082,7 +3082,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _constants_supportedTools__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/utils/measurementServiceMappings/constants/supportedTools.js");
 /* import */ var _ohif_extension_cornerstone__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 const RectangleROIStartEndThreshold = {
@@ -3144,7 +3144,7 @@ const RectangleROIStartEndThreshold = {
   }
 };
 /* export default */ const __rspack_default_export = (RectangleROIStartEndThreshold);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -3155,9 +3155,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 /* export default */ const __rspack_default_export = (['RectangleROIStartEndThreshold', 'CircleROIStartEndThreshold']);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -3170,7 +3170,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _RectangleROIStartEndThreshold__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/utils/measurementServiceMappings/RectangleROIStartEndThreshold.js");
 /* import */ var _CircleROIStartEndThreshold__rspack_import_1 = __webpack_require__("../../../extensions/tmtv/src/utils/measurementServiceMappings/CircleROIStartEndThreshold.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 const measurementServiceMappingsFactory = (measurementService, displaySetService, cornerstoneViewportService) => {
@@ -3192,7 +3192,7 @@ const measurementServiceMappingsFactory = (measurementService, displaySetService
   };
 };
 /* export default */ const __rspack_default_export = (measurementServiceMappingsFactory);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

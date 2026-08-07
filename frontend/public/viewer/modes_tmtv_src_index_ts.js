@@ -6,10 +6,10 @@ __webpack_require__.d(__webpack_exports__, {
   MAX_SEGMENTATION_DRAWING_RADIUS: () => (MAX_SEGMENTATION_DRAWING_RADIUS),
   MIN_SEGMENTATION_DRAWING_RADIUS: () => (MIN_SEGMENTATION_DRAWING_RADIUS)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 const MIN_SEGMENTATION_DRAWING_RADIUS = 0.5;
 const MAX_SEGMENTATION_DRAWING_RADIUS = 99.5;
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -21,11 +21,11 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../modes/tmtv/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const id = _package_json__rspack_import_0.name;
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -53,7 +53,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _initToolGroups_js__rspack_import_4 = __webpack_require__("../../../modes/tmtv/src/initToolGroups.js");
 /* import */ var _utils_setCrosshairsConfiguration_js__rspack_import_5 = __webpack_require__("../../../modes/tmtv/src/utils/setCrosshairsConfiguration.js");
 /* import */ var _utils_setFusionActiveVolume_js__rspack_import_6 = __webpack_require__("../../../modes/tmtv/src/utils/setFusionActiveVolume.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -262,7 +262,7 @@ const mode = {
 };
 /* export default */ const __rspack_default_export = (mode);
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -276,7 +276,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _ohif_extension_tmtv__rspack_import_0 = __webpack_require__("../../../extensions/tmtv/src/index.tsx");
 /* import */ var _constants__rspack_import_1 = __webpack_require__("../../../modes/tmtv/src/constants.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -485,7 +485,7 @@ function initToolGroups({
   _initToolGroups(toolNames, Enums, toolGroupService, commandsManager);
 }
 /* export default */ const __rspack_default_export = (initToolGroups);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -497,7 +497,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (setCrosshairsConfiguration)
 });
 /* import */ var _initToolGroups__rspack_import_0 = __webpack_require__("../../../modes/tmtv/src/initToolGroups.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 function setCrosshairsConfiguration(matches, toolNames, toolGroupService, displaySetService) {
   const matchDetails = matches.get('ctDisplaySet');
@@ -515,7 +515,7 @@ function setCrosshairsConfiguration(matches, toolNames, toolGroupService, displa
   };
   toolGroupService.setToolConfiguration(_initToolGroups__rspack_import_0.toolGroupIds.Fusion, toolNames.Crosshairs, crosshairsConfig);
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -527,7 +527,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (setFusionActiveVolume)
 });
 /* import */ var _initToolGroups__rspack_import_0 = __webpack_require__("../../../modes/tmtv/src/initToolGroups.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 function setFusionActiveVolume(matches, toolNames, toolGroupService, displaySetService) {
   const matchDetails = matches.get('ptDisplaySet');
@@ -563,7 +563,7 @@ function setFusionActiveVolume(matches, toolNames, toolGroupService, displaySetS
   toolGroupService.setToolConfiguration(_initToolGroups__rspack_import_0.toolGroupIds.Fusion, toolNames.WindowLevel, windowLevelConfig);
   toolGroupService.setToolConfiguration(_initToolGroups__rspack_import_0.toolGroupIds.Fusion, toolNames.EllipticalROI, ellipticalROIConfig);
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

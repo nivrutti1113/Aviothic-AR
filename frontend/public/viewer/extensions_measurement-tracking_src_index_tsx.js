@@ -19,7 +19,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _hydrateStructuredReport__rspack_import_7 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/hydrateStructuredReport.tsx");
 /* import */ var _state__rspack_import_8 = __webpack_require__("./state/index.js");
 /* import */ var _promptWrapperFunctions__rspack_import_9 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptWrapperFunctions.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$(),
   _s2 = $RefreshSig$();
 
@@ -385,7 +385,7 @@ TrackedMeasurementsContextProvider.propTypes = {
 
 var _c;
 $RefreshReg$(_c, "TrackedMeasurementsContextProvider");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -397,7 +397,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_extension_cornerstone_dicom_sr__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 function hydrateStructuredReport({
   servicesManager,
@@ -432,7 +432,7 @@ function hydrateStructuredReport({
   });
 }
 /* export default */ const __rspack_default_export = (hydrateStructuredReport);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -446,9 +446,9 @@ __webpack_require__.d(__webpack_exports__, {
   useTrackedMeasurements: () => (/* reexport safe */ _TrackedMeasurementsContext_tsx__rspack_import_0.useTrackedMeasurements)
 });
 /* import */ var _TrackedMeasurementsContext_tsx__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/TrackedMeasurementsContext.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -462,7 +462,7 @@ __webpack_require__.d(__webpack_exports__, {
   machineConfiguration: () => (machineConfiguration)
 });
 /* import */ var xstate__rspack_import_0 = __webpack_require__("../../../node_modules/xstate/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const RESPONSE = {
   NO_NEVER: -1,
@@ -895,7 +895,7 @@ const defaultOptions = {
   }
 };
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -908,7 +908,7 @@ __webpack_require__.d(__webpack_exports__, {
   measurementTrackingMode: () => (measurementTrackingMode)
 });
 /* import */ var i18next__rspack_import_0 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const RESPONSE = {
   NO_NEVER: -1,
@@ -995,7 +995,7 @@ function _askTrackMeasurements(uiViewportDialogService, customizationService, vi
   });
 }
 /* export default */ const __rspack_default_export = (promptBeginTracking);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1006,7 +1006,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 const RESPONSE = {
   NO_NEVER: -1,
   CANCEL: 0,
@@ -1080,7 +1080,7 @@ function _askSaveDiscardOrCancel(UIViewportDialogService, customizationService, 
   });
 }
 /* export default */ const __rspack_default_export = (promptHasDirtyAnnotations);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1092,7 +1092,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_extension_cornerstone__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 function promptHydrateStructuredReport({
   servicesManager,
@@ -1127,7 +1127,7 @@ function promptHydrateStructuredReport({
   });
 }
 /* export default */ const __rspack_default_export = (promptHydrateStructuredReport);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1139,7 +1139,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _promptBeginTracking__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptBeginTracking.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const RESPONSE = {
   NO_NEVER: -1,
@@ -1247,7 +1247,7 @@ function _askSaveDiscardOrCancel(UIViewportDialogService, customizationService, 
   });
 }
 /* export default */ const __rspack_default_export = (promptTrackNewSeries);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1260,7 +1260,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var i18next__rspack_import_0 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
 /* import */ var _promptBeginTracking__rspack_import_1 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptBeginTracking.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 const RESPONSE = {
@@ -1376,7 +1376,7 @@ function _askSaveDiscardOrCancel(UIViewportDialogService, customizationService, 
   });
 }
 /* export default */ const __rspack_default_export = (promptTrackNewStudy);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1393,7 +1393,7 @@ __webpack_require__.d(__webpack_exports__, {
   promptTrackNewSeriesWrapper: () => (promptTrackNewSeriesWrapper),
   promptTrackNewStudyWrapper: () => (promptTrackNewStudyWrapper)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 const promptBeginTrackingWrapper = ({
   servicesManager,
   extensionManager
@@ -1492,7 +1492,7 @@ const promptHasDirtyAnnotationsWrapper = ({
   }, ctx, evt);
 };
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1506,9 +1506,9 @@ __webpack_require__.d(__webpack_exports__, {
   useTrackedMeasurements: () => (/* reexport safe */ _TrackedMeasurementsContext__rspack_import_0.useTrackedMeasurements)
 });
 /* import */ var _TrackedMeasurementsContext__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1525,7 +1525,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _contexts_TrackedMeasurementsContext_promptTrackNewSeries__rspack_import_3 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptTrackNewSeries.js");
 /* import */ var _contexts_TrackedMeasurementsContext_promptTrackNewStudy__rspack_import_4 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptTrackNewStudy.ts");
 /* import */ var _ohif_extension_default__rspack_import_5 = __webpack_require__("../../../extensions/default/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -1541,7 +1541,7 @@ __webpack_require__.d(__webpack_exports__, {
   'measurement.promptSaveReport': _ohif_extension_default__rspack_import_5.promptSaveReport,
   'measurement.promptHasDirtyAnnotations': _contexts_TrackedMeasurementsContext_promptHasDirtyAnnotations__rspack_import_1["default"]
 });
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1554,7 +1554,7 @@ __webpack_require__.d(__webpack_exports__, {
   onDoubleClickHandler: () => (onDoubleClickHandler)
 });
 /* import */ var _contexts_TrackedMeasurementsContext_promptBeginTracking__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/TrackedMeasurementsContext/promptBeginTracking.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const onDoubleClickHandler = {
   callbacks: [({
@@ -1615,7 +1615,7 @@ const checkHasDirtyAndSimplifiedMode = props => {
   return hasDirtyAndSimplifiedMode;
 };
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1628,7 +1628,7 @@ __webpack_require__.d(__webpack_exports__, {
   useTrackedMeasurements: () => (/* reexport safe */ _contexts__rspack_import_0.useTrackedMeasurements)
 });
 /* import */ var _contexts__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/contexts/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 function getContextModule({
   servicesManager,
@@ -1648,7 +1648,7 @@ function getContextModule({
 }
 
 /* export default */ const __rspack_default_export = (getContextModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1660,7 +1660,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getCustomizationModule)
 });
 /* import */ var _customizations_measurementTrackingPrompts__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/customizations/measurementTrackingPrompts.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 function getCustomizationModule() {
   return [{
@@ -1670,7 +1670,7 @@ function getCustomizationModule() {
     }
   }];
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1685,7 +1685,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
 /* import */ var react__rspack_import_2 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_2_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_2);
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -1729,7 +1729,7 @@ function getPanelModule({
   }];
 }
 /* export default */ const __rspack_default_export = (getPanelModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1743,7 +1743,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_extension_cornerstone__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -1788,7 +1788,7 @@ var _c, _c2, _c3;
 $RefreshReg$(_c, "Component$React.lazy");
 $RefreshReg$(_c2, "Component");
 $RefreshReg$(_c3, "OHIFCornerstoneViewport");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1800,11 +1800,11 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const id = _package_json__rspack_import_0.name;
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1825,7 +1825,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _customizations_studyBrowserCustomization__rspack_import_6 = __webpack_require__("../../../extensions/measurement-tracking/src/customizations/studyBrowserCustomization.ts");
 /* import */ var _services__rspack_import_7 = __webpack_require__("../../../extensions/measurement-tracking/src/services/index.ts");
 /* import */ var _types__rspack_import_8 = __webpack_require__("../../../extensions/measurement-tracking/src/types/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -1874,7 +1874,7 @@ const measurementTrackingExtension = {
 };
 /* export default */ const __rspack_default_export = (measurementTrackingExtension);
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1892,7 +1892,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_cornerstone__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _getContextModule__rspack_import_4 = __webpack_require__("../../../extensions/measurement-tracking/src/getContextModule.tsx");
 /* import */ var _PanelStudyBrowserTracking_untrackSeriesModal__rspack_import_5 = __webpack_require__("../../../extensions/measurement-tracking/src/panels/PanelStudyBrowserTracking/untrackSeriesModal.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -2005,7 +2005,7 @@ _c = PanelMeasurementTableTracking;
 /* export default */ const __rspack_default_export = (PanelMeasurementTableTracking);
 var _c;
 $RefreshReg$(_c, "PanelMeasurementTableTracking");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2025,7 +2025,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_default_src_Panels_StudyBrowser_PanelStudyBrowser__rspack_import_4 = __webpack_require__("../../../extensions/default/src/Panels/StudyBrowser/PanelStudyBrowser.tsx");
 /* import */ var _untrackSeriesModal__rspack_import_5 = __webpack_require__("../../../extensions/measurement-tracking/src/panels/PanelStudyBrowserTracking/untrackSeriesModal.tsx");
 /* import */ var _getContextModule__rspack_import_6 = __webpack_require__("../../../extensions/measurement-tracking/src/getContextModule.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -2168,7 +2168,7 @@ PanelStudyBrowserTracking.propTypes = {
 };
 var _c;
 $RefreshReg$(_c, "PanelStudyBrowserTracking");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2179,7 +2179,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 /**
  * @param {*} cornerstone
  * @param {*} imageId
@@ -2197,7 +2197,7 @@ function getImageSrcFromImageId(cornerstone, imageId) {
   });
 }
 /* export default */ const __rspack_default_export = (getImageSrcFromImageId);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2214,7 +2214,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _getImageSrcFromImageId__rspack_import_2 = __webpack_require__("../../../extensions/measurement-tracking/src/panels/PanelStudyBrowserTracking/getImageSrcFromImageId.js");
 /* import */ var _ohif_extension_default__rspack_import_3 = __webpack_require__("../../../extensions/default/src/index.ts");
 /* import */ var _ohif_core__rspack_import_4 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 //
@@ -2282,7 +2282,7 @@ function _createGetImageSrcFromImageIdFn(extensionManager) {
 /* export default */ const __rspack_default_export = (WrappedPanelStudyBrowserTracking);
 var _c;
 $RefreshReg$(_c, "WrappedPanelStudyBrowserTracking");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2296,7 +2296,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 function UntrackSeriesModal({
@@ -2324,7 +2324,7 @@ function UntrackSeriesModal({
 _c = UntrackSeriesModal;
 var _c;
 $RefreshReg$(_c, "UntrackSeriesModal");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2338,11 +2338,11 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _PanelStudyBrowserTracking__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/panels/PanelStudyBrowserTracking/index.tsx");
 /* import */ var _PanelMeasurementTableTracking__rspack_import_1 = __webpack_require__("../../../extensions/measurement-tracking/src/panels/PanelMeasurementTableTracking.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2355,7 +2355,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _TrackedMeasurementsService;
 
 const EVENTS = {
@@ -2506,7 +2506,7 @@ TrackedMeasurementsService.REGISTRATION = {
   }
 };
 /* export default */ const __rspack_default_export = (TrackedMeasurementsService);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2518,9 +2518,9 @@ __webpack_require__.d(__webpack_exports__, {
   TrackedMeasurementsService: () => (/* reexport safe */ _TrackedMeasurementsService__rspack_import_0.TrackedMeasurementsService)
 });
 /* import */ var _TrackedMeasurementsService__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/services/TrackedMeasurementsService/TrackedMeasurementsService.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2532,9 +2532,9 @@ __webpack_require__.d(__webpack_exports__, {
   TrackedMeasurementsService: () => (/* reexport safe */ _TrackedMeasurementsService__rspack_import_0.TrackedMeasurementsService)
 });
 /* import */ var _TrackedMeasurementsService__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/services/TrackedMeasurementsService/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2542,10 +2542,10 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 },
 "../../../extensions/measurement-tracking/src/types/AppTypes.ts"(module, __webpack_exports__, __webpack_require__) {
 __webpack_require__.r(__webpack_exports__);
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2554,9 +2554,9 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 "../../../extensions/measurement-tracking/src/types/index.ts"(module, __webpack_exports__, __webpack_require__) {
 __webpack_require__.r(__webpack_exports__);
 /* import */ var _AppTypes__rspack_import_0 = __webpack_require__("../../../extensions/measurement-tracking/src/types/AppTypes.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

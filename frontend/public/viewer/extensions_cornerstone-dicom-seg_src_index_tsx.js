@@ -12,7 +12,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_default__rspack_import_4 = __webpack_require__("../../../extensions/default/src/index.ts");
 /* import */ var _default_src_utils_shared_PROMPT_RESPONSES__rspack_import_5 = __webpack_require__("../../../extensions/default/src/utils/_shared/PROMPT_RESPONSES.ts");
 /* import */ var _utils_segmentationConfig__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/utils/segmentationConfig.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -441,7 +441,7 @@ const commandsModule = ({
   };
 };
 /* export default */ const __rspack_default_export = (commandsModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -459,7 +459,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_3 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _cornerstonejs_tools_utilities__rspack_import_4 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/utilities/index.js");
 /* import */ var react_i18next__rspack_import_5 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$(),
   _s2 = $RefreshSig$();
 
@@ -665,7 +665,7 @@ _c2 = LogicalContourOperationOptions;
 var _c, _c2;
 $RefreshReg$(_c, "SegmentSelector");
 $RefreshReg$(_c2, "LogicalContourOperationOptions");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -681,7 +681,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -746,7 +746,7 @@ _c = SimplifyContourOptions;
 /* export default */ const __rspack_default_export = (SimplifyContourOptions);
 var _c;
 $RefreshReg$(_c, "SimplifyContourOptions");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -762,7 +762,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_3 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -803,7 +803,7 @@ _c = SmoothContoursOptions;
 /* export default */ const __rspack_default_export = (SmoothContoursOptions);
 var _c;
 $RefreshReg$(_c, "SmoothContoursOptions");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -815,7 +815,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
 /* import */ var _utils_segmentationConfig__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/utils/segmentationConfig.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 /** Extension-registered defaults: Label Map SEG + RLE Lossless. */
 const segmentationCustomization = {
@@ -827,7 +827,7 @@ const segmentationCustomization = {
   }
 };
 /* export default */ const __rspack_default_export = (segmentationCustomization);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -839,7 +839,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (getCustomizationModule)
 });
 /* import */ var _customizations_segmentationCustomization__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/customizations/segmentationCustomization.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 function getCustomizationModule() {
   return [{
@@ -847,7 +847,7 @@ function getCustomizationModule() {
     value: _customizations_segmentationCustomization__rspack_import_0["default"]
   }];
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -859,7 +859,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export),
   segProtocol: () => (segProtocol)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 const segProtocol = {
   id: '@ohif/seg',
   // Don't store this hanging protocol as it applies to the currently active
@@ -941,7 +941,7 @@ function getHangingProtocolModule() {
 }
 /* export default */ const __rspack_default_export = (getHangingProtocolModule);
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -961,7 +961,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_dicomlabToRGB__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/utils/dicomlabToRGB.ts");
 /* import */ var _utils_segmentationConfig__rspack_import_7 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/utils/segmentationConfig.ts");
 /* import */ var _utils_segLocalImageIds__rspack_import_8 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/utils/segLocalImageIds.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -1399,7 +1399,7 @@ function getSopClassHandlerModule(params) {
   }];
 }
 /* export default */ const __rspack_default_export = (getSopClassHandlerModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1416,7 +1416,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _components_LogicalContourOperationsOptions__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/components/LogicalContourOperationsOptions.tsx");
 /* import */ var _components_SimplifyContourOptions__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/components/SimplifyContourOptions.tsx");
 /* import */ var _components_SmoothContoursOptions__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/components/SmoothContoursOptions.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -1554,7 +1554,7 @@ function getToolbarModule({
     }
   }];
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1568,13 +1568,13 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const id = _package_json__rspack_import_0.name;
 const SOPClassHandlerName = 'dicom-seg';
 const SOPClassHandlerId = `${id}.sopClassHandlerModule.${SOPClassHandlerName}`;
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1593,7 +1593,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _commandsModule__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/commandsModule.ts");
 /* import */ var _getCustomizationModule__rspack_import_5 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/getCustomizationModule.ts");
 /* import */ var _getToolbarModule__rspack_import_6 = __webpack_require__("../../../extensions/cornerstone-dicom-seg/src/getToolbarModule.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -1664,7 +1664,7 @@ var _c, _c2, _c3;
 $RefreshReg$(_c, "Component$React.lazy");
 $RefreshReg$(_c2, "Component");
 $RefreshReg$(_c3, "OHIFCornerstoneSEGViewport");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1676,7 +1676,7 @@ __webpack_require__.d(__webpack_exports__, {
   dicomlabToRGB: () => (dicomlabToRGB)
 });
 /* import */ var dcmjs__rspack_import_0 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 /**
@@ -1689,7 +1689,7 @@ function dicomlabToRGB(cielab) {
   return rgb;
 }
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1703,7 +1703,7 @@ __webpack_require__.d(__webpack_exports__, {
   isLocalSchemeImageId: () => (isLocalSchemeImageId),
   stripFrameFromImageId: () => (stripFrameFromImageId)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 function isLocalSchemeImageId(imageId) {
   return /^(wadouri:|dicomfile:|dicomweb:)/.test(imageId);
 }
@@ -1725,7 +1725,7 @@ function getFrameIndexFromImageId(imageId) {
   const frameMatch = imageId.match(/(?:&|\?)frame=(\d+)/);
   return frameMatch ? Number(frameMatch[1]) : 1;
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1741,7 +1741,7 @@ __webpack_require__.d(__webpack_exports__, {
   getSegmentationParserType: () => (getSegmentationParserType),
   getSegmentationSaveOptions: () => (getSegmentationSaveOptions)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 const LABELMAP_SEG_SOP_CLASS_UID = '1.2.840.10008.5.1.4.1.1.66.7';
 const BITMAP_SEG_SOP_CLASS_UID = '1.2.840.10008.5.1.4.1.1.66.4';
 /** RLE Lossless — OHIF default SEG store transfer syntax. */
@@ -1796,7 +1796,7 @@ function getSegmentationSaveOptions(customizationService, override) {
     transferSyntaxUid: transferSyntaxUID
   };
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

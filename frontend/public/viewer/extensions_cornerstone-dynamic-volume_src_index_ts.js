@@ -6,10 +6,10 @@ __webpack_require__.d(__webpack_exports__, {
   updateSegmentationsChartDisplaySet: () => (/* reexport safe */ _updateSegmentationsChartDisplaySet__rspack_import_0["default"])
 });
 /* import */ var _updateSegmentationsChartDisplaySet__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/src/actions/updateSegmentationsChartDisplaySet.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -23,7 +23,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _cornerstonejs_tools__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -300,7 +300,7 @@ function updateSegmentationsChartDisplaySet({
   }
 }
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -315,7 +315,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _actions__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/src/actions/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -694,7 +694,7 @@ const commandsModule = ({
   };
 };
 /* export default */ const __rspack_default_export = (commandsModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -705,7 +705,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 const DEFAULT_COLORMAP = '2hot';
 const toolGroupIds = {
   pt: 'dynamic4D-pt',
@@ -1294,7 +1294,7 @@ function getHangingProtocolModule() {
   }];
 }
 /* export default */ const __rspack_default_export = (getHangingProtocolModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1311,7 +1311,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_default__rspack_import_2 = __webpack_require__("../../../extensions/default/src/index.ts");
 /* import */ var _ohif_extension_cornerstone__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _panels_DynamicExport__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/src/panels/DynamicExport.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -1362,7 +1362,7 @@ function getPanelModule({
   }];
 }
 /* export default */ const __rspack_default_export = (getPanelModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1375,12 +1375,12 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const id = _package_json__rspack_import_0.name;
 const SOPClassHandlerName = 'dynamic-volume';
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1396,7 +1396,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _getPanelModule__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/src/getPanelModule.tsx");
 /* import */ var _getHangingProtocolModule__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/src/getHangingProtocolModule.ts");
 /* import */ var _cornerstonejs_core__rspack_import_4 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -1460,7 +1460,7 @@ const dynamicVolumeExtension = {
   }
 };
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1474,7 +1474,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _PanelGenerateImage__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/src/panels/PanelGenerateImage.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 function DynamicDataPanel({
@@ -1494,7 +1494,7 @@ _c = DynamicDataPanel;
 /* export default */ const __rspack_default_export = (DynamicDataPanel);
 var _c;
 $RefreshReg$(_c, "DynamicDataPanel");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1509,7 +1509,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_extension_cornerstone__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -1569,7 +1569,7 @@ _c = DynamicExport;
 /* export default */ const __rspack_default_export = (DynamicExport);
 var _c;
 $RefreshReg$(_c, "DynamicExport");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1584,7 +1584,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _ohif_ui_next__rspack_import_1 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _cornerstonejs_core__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -1803,7 +1803,7 @@ var _c, _c2, _c3;
 $RefreshReg$(_c, "Header");
 $RefreshReg$(_c2, "DynamicVolumeControls");
 $RefreshReg$(_c3, "DimensionGroupControls");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1820,7 +1820,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _cornerstonejs_tools__rspack_import_3 = __webpack_require__("../../../node_modules/@cornerstonejs/tools/dist/esm/index.js");
 /* import */ var _DynamicVolumeControls__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/src/panels/DynamicVolumeControls.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -2028,7 +2028,7 @@ _s(PanelGenerateImage, "nmYmOZ/D+Gv1c4mGrjUbmBzDsJ4=", false, function () {
 _c = PanelGenerateImage;
 var _c;
 $RefreshReg$(_c, "PanelGenerateImage");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2041,7 +2041,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 function WorkflowPanel({
   servicesManager
@@ -2060,7 +2060,7 @@ _c = WorkflowPanel;
 /* export default */ const __rspack_default_export = (WorkflowPanel);
 var _c;
 $RefreshReg$(_c, "WorkflowPanel");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -2076,12 +2076,12 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _DynamicDataPanel__rspack_import_0 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/src/panels/DynamicDataPanel.tsx");
 /* import */ var _WorkflowPanel__rspack_import_1 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/src/panels/WorkflowPanel.tsx");
 /* import */ var _PanelGenerateImage__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone-dynamic-volume/src/panels/PanelGenerateImage.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

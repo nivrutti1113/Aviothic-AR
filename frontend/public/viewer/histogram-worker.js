@@ -6,7 +6,7 @@ __webpack_require__.r(__webpack_exports__);
 /* import */ var comlink__rspack_import_0 = __webpack_require__("../../../node_modules/comlink/dist/esm/comlink.mjs");
 /* import */ var _kitware_vtk_js_Common_DataModel_ImageData__rspack_import_1 = __webpack_require__("../../../node_modules/@kitware/vtk.js/Common/DataModel/ImageData.js");
 /* import */ var _kitware_vtk_js_Common_Core_DataArray__rspack_import_2 = __webpack_require__("../../../node_modules/@kitware/vtk.js/Common/Core/DataArray.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -103,7 +103,7 @@ const obj = {
   }
 };
 (0,comlink__rspack_import_0.expose)(obj);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

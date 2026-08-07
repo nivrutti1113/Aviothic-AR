@@ -5,7 +5,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (getWorkflowSettings)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 const dynamicVolume = {
   sopClassHandler: '@ohif/extension-cornerstone-dynamic-volume.sopClassHandlerModule.dynamic-volume',
   leftPanel: '@ohif/extension-cornerstone-dynamic-volume.panelModule.dynamic-volume',
@@ -123,7 +123,7 @@ function getWorkflowSettings({
   };
 }
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -135,11 +135,11 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../modes/preclinical-4d/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const id = _package_json__rspack_import_0.name;
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -154,7 +154,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _initWorkflowSteps__rspack_import_1 = __webpack_require__("../../../modes/preclinical-4d/src/initWorkflowSteps.ts");
 /* import */ var _initToolGroups__rspack_import_2 = __webpack_require__("../../../modes/preclinical-4d/src/initToolGroups.tsx");
 /* import */ var _toolbarButtons__rspack_import_3 = __webpack_require__("../../../modes/preclinical-4d/src/toolbarButtons.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -350,7 +350,7 @@ const mode = {
   extensionDependencies
 };
 /* export default */ const __rspack_default_export = (mode);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -362,7 +362,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (initToolGroups),
   toolGroupIds: () => (toolGroupIds)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 const toolGroupIds = {
   default: 'dynamic4D-default',
   PT: 'dynamic4D-pt',
@@ -553,7 +553,7 @@ function initToolGroups({
   _initToolGroups(toolNames, Enums, toolGroupService, commandsManager, servicesManager);
 }
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -565,7 +565,7 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (initWorkflowSteps)
 });
 /* import */ var _getWorkflowSettings__rspack_import_0 = __webpack_require__("../../../modes/preclinical-4d/src/getWorkflowSettings.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 function initWorkflowSteps({
   servicesManager
@@ -579,7 +579,7 @@ function initWorkflowSteps({
   workflowStepsService.addWorkflowSteps(workflowSettings.steps);
   workflowStepsService.setActiveWorkflowStep(workflowSettings.steps[0].id);
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -592,7 +592,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _initToolGroups__rspack_import_0 = __webpack_require__("../../../modes/preclinical-4d/src/initToolGroups.tsx");
 /* import */ var i18next__rspack_import_1 = __webpack_require__("../../../node_modules/i18next/dist/esm/i18next.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 const setToolActiveToolbar = {
@@ -1035,7 +1035,7 @@ const toolbarButtons = [{
   }
 }];
 /* export default */ const __rspack_default_export = (toolbarButtons);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

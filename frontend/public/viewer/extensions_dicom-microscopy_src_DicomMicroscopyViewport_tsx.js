@@ -716,7 +716,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _utils_dicomWebClient__rspack_import_4 = __webpack_require__("../../../extensions/dicom-microscopy/src/utils/dicomWebClient.ts");
 /* import */ var dcmjs__rspack_import_5 = __webpack_require__("../../../node_modules/dcmjs/build/dcmjs.es.js");
 /* import */ var _ohif_core__rspack_import_6 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -1017,7 +1017,7 @@ DicomMicroscopyViewport.displayName = 'DicomMicroscopyViewport';
 var _c, _c2;
 $RefreshReg$(_c, "DicomMicroscopyViewport$React.memo");
 $RefreshReg$(_c2, "DicomMicroscopyViewport");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1040,7 +1040,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_ui_next__rspack_import_4 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _utils__rspack_import_5 = __webpack_require__("../../../extensions/dicom-microscopy/src/components/ViewportOverlay/utils.ts");
 /* import */ var _ohif_core__rspack_import_6 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -1145,7 +1145,7 @@ const itemGenerator = props => {
   }, content.value)));
 };
 /* export default */ const __rspack_default_export = (generateFromConfig);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1157,7 +1157,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (__rspack_default_export)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 const listComponentGenerator = props => {
   const {
     list,
@@ -1181,7 +1181,7 @@ const listComponentGenerator = props => {
   });
 };
 /* export default */ const __rspack_default_export = (listComponentGenerator);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -1201,7 +1201,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var moment__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(moment__rspack_import_0);
 /* import */ var _cornerstonejs_core__rspack_import_1 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _ohif_ui_next__rspack_import_2 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -1267,7 +1267,7 @@ function getCompression(imageId) {
   return 'Lossless / Uncompressed';
 }
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

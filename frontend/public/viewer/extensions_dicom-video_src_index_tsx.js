@@ -9,7 +9,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_1 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _ohif_i18n__rspack_import_2 = __webpack_require__("../../i18n/src/index.js");
 /* import */ var _cornerstonejs_core__rspack_import_3 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -127,7 +127,7 @@ function getSopClassHandlerModule(params) {
     getDisplaySetsFromSeries
   }];
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -140,12 +140,12 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/dicom-video/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const id = _package_json__rspack_import_0.name;
 const SOPClassHandlerId = `${id}.sopClassHandlerModule.dicom-video`;
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -158,7 +158,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 /* import */ var _getSopClassHandlerModule__rspack_import_0 = __webpack_require__("../../../extensions/dicom-video/src/getSopClassHandlerModule.js");
 /* import */ var _id__rspack_import_1 = __webpack_require__("../../../extensions/dicom-video/src/id.js");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -173,7 +173,7 @@ const dicomVideoExtension = {
   getSopClassHandlerModule: _getSopClassHandlerModule__rspack_import_0["default"]
 };
 /* export default */ const __rspack_default_export = (dicomVideoExtension);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

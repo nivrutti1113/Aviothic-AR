@@ -10,7 +10,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_1 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_1);
 /* import */ var _OHIFCornerstoneSRContentItem__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/components/OHIFCornerstoneSRContentItem.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
     for (var e = 1; e < arguments.length; e++) {
@@ -98,7 +98,7 @@ OHIFCornerstoneSRContainer.propTypes = {
 };
 var _c;
 $RefreshReg$(_c, "OHIFCornerstoneSRContainer");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -115,7 +115,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_1);
 /* import */ var _enums__rspack_import_2 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/enums.ts");
 /* import */ var _utils_formatContentItem__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/utils/formatContentItem.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -171,7 +171,7 @@ OHIFCornerstoneSRContentItem.propTypes = {
 
 var _c;
 $RefreshReg$(_c, "OHIFCornerstoneSRContentItem");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -191,7 +191,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_extension_cornerstone__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone/src/index.tsx");
 /* import */ var _ohif_ui_next__rspack_import_5 = __webpack_require__("../../ui-next/src/index.ts");
 /* import */ var _ohif_core_src_contextProviders_SystemProvider__rspack_import_6 = __webpack_require__("../../core/src/contextProviders/SystemProvider.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 function _extends() {
   return _extends = Object.assign ? Object.assign.bind() : function (n) {
@@ -460,7 +460,7 @@ async function _getViewportReferencedDisplaySetData(displaySet, measurementSelec
 /* export default */ const __rspack_default_export = (OHIFCornerstoneSRMeasurementViewport);
 var _c;
 $RefreshReg$(_c, "OHIFCornerstoneSRMeasurementViewport");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -477,7 +477,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_1_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_1);
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _OHIFCornerstoneSRContainer__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/components/OHIFCornerstoneSRContainer.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -508,7 +508,7 @@ OHIFCornerstoneSRTextViewport.propTypes = {
 /* export default */ const __rspack_default_export = (OHIFCornerstoneSRTextViewport);
 var _c;
 $RefreshReg$(_c, "OHIFCornerstoneSRTextViewport");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -526,7 +526,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_2 = __webpack_require__("../../core/src/index.ts");
 /* import */ var _OHIFCornerstoneSRMeasurementViewport__rspack_import_3 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/components/OHIFCornerstoneSRMeasurementViewport.tsx");
 /* import */ var _OHIFCornerstoneSRTextViewport__rspack_import_4 = __webpack_require__("../../../extensions/cornerstone-dicom-sr/src/components/OHIFCornerstoneSRTextViewport.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -558,7 +558,7 @@ OHIFCornerstoneSRViewport.propTypes = {
 /* export default */ const __rspack_default_export = (OHIFCornerstoneSRViewport);
 var _c;
 $RefreshReg$(_c, "OHIFCornerstoneSRViewport");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -571,7 +571,7 @@ __webpack_require__.d(__webpack_exports__, {
   formatContentItemValue: () => (formatContentItemValue)
 });
 /* import */ var _ohif_core__rspack_import_0 = __webpack_require__("../../core/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 /**
@@ -643,7 +643,7 @@ function formatContentItemValue(contentItem) {
   return fnFormat ? fnFormat(contentItem) : `[${ValueType} is not supported]`;
 }
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 

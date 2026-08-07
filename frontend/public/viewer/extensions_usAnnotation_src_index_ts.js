@@ -6,7 +6,7 @@ __webpack_require__.d(__webpack_exports__, {
   setShowPercentage: () => (setShowPercentage),
   showPercentage: () => (showPercentage)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 // Global state to control whether to show the percentage in the overlay
 let showPercentage = true;
 
@@ -17,7 +17,7 @@ let showPercentage = true;
 function setShowPercentage(value) {
   showPercentage = value;
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -33,7 +33,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _cornerstonejs_core__rspack_import_2 = __webpack_require__("../../../node_modules/@cornerstonejs/core/dist/esm/index.js");
 /* import */ var _getInstanceByImageId__rspack_import_3 = __webpack_require__("../../../extensions/usAnnotation/src/getInstanceByImageId.ts");
 /* import */ var _PleuraBlinePercentage__rspack_import_4 = __webpack_require__("../../../extensions/usAnnotation/src/PleuraBlinePercentage.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -385,7 +385,7 @@ function commandsModule({
   };
 }
 /* export default */ const __rspack_default_export = (commandsModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -396,7 +396,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (getInstanceByImageId)
 });
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 /**
  * Retrieves the DICOM instance associated with a specific imageId
  * @param services - The OHIF services object
@@ -408,7 +408,7 @@ function getInstanceByImageId(services, imageId) {
   const displaySet = activeDisplaySets.find(displaySet => displaySet?.imageIds?.includes(imageId));
   return displaySet?.instance;
 }
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -422,7 +422,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var react__rspack_import_0 = __webpack_require__("../../../node_modules/react/index.js");
 /* import */ var react__rspack_import_0_default = /*#__PURE__*/__webpack_require__.n(react__rspack_import_0);
 /* import */ var _panels_USAnnotationPanel__rspack_import_1 = __webpack_require__("../../../extensions/usAnnotation/src/panels/USAnnotationPanel.tsx");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -455,7 +455,7 @@ const getPanelModule = ({
   }];
 };
 /* export default */ const __rspack_default_export = (getPanelModule);
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -467,11 +467,11 @@ __webpack_require__.d(__webpack_exports__, {
   id: () => (id)
 });
 /* import */ var _package_json__rspack_import_0 = __webpack_require__("../../../extensions/usAnnotation/package.json");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 const id = _package_json__rspack_import_0.name;
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -488,7 +488,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _getPanelModule__rspack_import_1 = __webpack_require__("../../../extensions/usAnnotation/src/getPanelModule.tsx");
 /* import */ var _getCommandsModule__rspack_import_2 = __webpack_require__("../../../extensions/usAnnotation/src/getCommandsModule.ts");
 /* import */ var _PleuraBlinePercentage__rspack_import_3 = __webpack_require__("../../../extensions/usAnnotation/src/PleuraBlinePercentage.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 
 
 
@@ -519,7 +519,7 @@ __webpack_require__.d(__webpack_exports__, {
   getCommandsModule: _getCommandsModule__rspack_import_2["default"]
 });
 
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
@@ -537,7 +537,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* import */ var _ohif_core__rspack_import_3 = __webpack_require__("../../core/src/index.ts");
 /* import */ var react_i18next__rspack_import_4 = __webpack_require__("../../../node_modules/react-i18next/dist/es/index.js");
 /* import */ var _ohif_ui_next__rspack_import_5 = __webpack_require__("../../ui-next/src/index.ts");
-/* provided dependency */ var $ReactRefreshRuntime$ = 
+/* provided dependency */ var $ReactRefreshRuntime$ = { createSignatureFunctionForTransform: function() { return function(type) { return type; }; } };
 var _s = $RefreshSig$();
 
 
@@ -908,7 +908,7 @@ _s(USAnnotationPanel, "n8Y/s8EH0SmsrbvJ2RPDldixzgQ=", false, function () {
 _c = USAnnotationPanel;
 var _c;
 $RefreshReg$(_c, "USAnnotationPanel");
-function $RefreshSig$() { return $ReactRefreshRuntime$.createSignatureFunctionForTransform() }
+function $RefreshSig$() { return function(type) { return type; }; }
 function $RefreshReg$(type, id) { $ReactRefreshRuntime$.register(type, module.id + "_" + id) }
 Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.hot) });
 
